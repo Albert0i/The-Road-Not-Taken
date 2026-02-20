@@ -108,7 +108,7 @@ In case, no alternative found, try to run them with:
 - [Bottle](https://usebottles.com/)
 - [WinBoat](https://www.winboat.app/)
 
-Personally, I won't recommend using virtualization software like [virtual box](https://www.virtualbox.org/)! don't look back, we need to opt out... 
+Personally, I won't recommend using virtualization software like [virtual box](https://www.virtualbox.org/)! Don't look back, we are going to opt out... 
 
 
 #### II. Zorin laptop  
