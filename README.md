@@ -152,6 +152,12 @@ And both that morning equally lay       當天早上兩條路同樣被落葉覆�
 In leaves no step had trodden black.    沒有黑色的足跡沾染。
 Oh, I kept the first for another day!   啊，頭一條路留待改日再來！
 
+I shall be telling this with a sigh     很多很多年以後在某處，
+Somewhere ages and ages hence:          我會嘆息著將此事提起：
+Two roads diverged in a wood, and I—    森林中的路分岔成兩條，而我 –
+I took the one less traveled by,        我選了較少人走的那條路，
+And that has made all the difference.   於是再來的一切都迴然相異。
+
 譯文: https://doctork.pixnet.net/blog/posts/11406125902
 ```
 
