@@ -6,18 +6,24 @@
 
 
 #### Prologue 
-The day when tools you used for several decades no longer serve you but the cooperation. The day when intrusive AI comes in company with you on treading every flagstones. I shudder in sweat as if I were naked.... Hey! This is wrong, this is all wrong... 
+The day when tools you used for several decades no longer serve you but the cooperation. The day when intrusive AI comes in company with you on treading every flagstones. You just can't shake it off... I shudder in sweat as if I were naked.... Hey! This is wrong, this is *all* wrong... 
 
-In January of 2026, I evaluate three Linux distros: 
+In January of 2026, three Linux distros have been evaluated: 
 - [Linux Mint](https://linuxmint.com/)
 - [MX Linux](https://mxlinux.org/)
 - [Zorin OS](https://zorin.com/os/)
 
-I choose the last one not because the first two are not good. It's a sensibility issue not functionality. 
+The last one is chosen not because other two are bad. It's a sensibility issue, nothing to do with functionality. The free version of Zorin OS is bundled with lots of software. In case, your favourite one not is not present, try to find alternatives:   
 
-[Alternatives to Windows Apps](https://help.zorin.com/docs/apps-games/alternatives-to-windows-apps/)
+- [Alternatives to Windows Apps](https://help.zorin.com/docs/apps-games/alternatives-to-windows-apps/)
 
-[AlternativeTo.net](https://alternativeto.net/)
+- [AlternativeTo.net](https://alternativeto.net/)
+
+In case, there is no alternative, you can try: 
+
+- [Wine]()
+- [Bottle]()
+- [WinBoat]()
 
 
 ####
