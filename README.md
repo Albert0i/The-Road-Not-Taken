@@ -133,7 +133,7 @@ Personally, I won't recommend using virtualization software like [virtual box](h
 
 #### Epilogue
 ```
-[The Road Not Taken](https://doctork.pixnet.net/blog/posts/11406125902)
+The Road Not Taken
 By Robert Frost
 
 Two roads diverged in a yellow wood,    兩條路在黃葉林中分歧， 
@@ -151,6 +151,8 @@ Had worn them really about the same,    踩踏的程度其實相差無幾。
 And both that morning equally lay       當天早上兩條路同樣被落葉覆蓋，
 In leaves no step had trodden black.    沒有黑色的足跡沾染。
 Oh, I kept the first for another day!   啊，頭一條路留待改日再來！
+
+https://doctork.pixnet.net/blog/posts/11406125902
 ```
 
 
