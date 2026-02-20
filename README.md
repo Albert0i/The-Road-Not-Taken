@@ -152,7 +152,7 @@ And both that morning equally lay       當天早上兩條路同樣被落葉覆�
 In leaves no step had trodden black.    沒有黑色的足跡沾染。
 Oh, I kept the first for another day!   啊，頭一條路留待改日再來！
 
-https://doctork.pixnet.net/blog/posts/11406125902
+譯文: https://doctork.pixnet.net/blog/posts/11406125902
 ```
 
 
