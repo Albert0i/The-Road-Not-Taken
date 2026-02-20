@@ -15,18 +15,100 @@ In January of 2026, three Linux distros have been evaluated:
 - [MX Linux](https://mxlinux.org/)
 - [Zorin OS](https://zorin.com/os/)
 
-The last one is chosen not because other two are bad. It's a sensibility issue, nothing to do with functionality. The free version of Zorin OS is bundled with lots of software. In case, your favourite one is not present, try to find alternatives: 
+The last one is chosen not because other two are bad. It's a sensibility issue, nothing to do with functionality. 
+
+Zorin OS 18 bundles in its migration guide for Windows users:
+
+---
+
+🖥 Productivity & Office
+| Windows Software        | Linux Alternatives |
+|--------------------------|--------------------|
+| Microsoft Office (Word, Excel, PowerPoint) | LibreOffice, OnlyOffice, WPS Office |
+| Microsoft Access         | LibreOffice Base, Kexi |
+| Outlook                  | Thunderbird, Evolution |
+| OneNote                  | Joplin, Zim, Standard Notes |
+| Visio                    | Dia, yEd, LibreOffice Draw |
+
+---
+
+🎨 Graphics & Design
+| Windows Software        | Linux Alternatives |
+|--------------------------|--------------------|
+| Adobe Photoshop          | GIMP, Krita |
+| Adobe Illustrator        | Inkscape |
+| CorelDRAW                | Gravit Designer, Inkscape |
+| Paint.NET                | Pinta |
+| AutoCAD                  | FreeCAD, LibreCAD, BricsCAD (commercial) |
+
+---
+
+🎵 Media & Audio
+| Windows Software        | Linux Alternatives |
+|--------------------------|--------------------|
+| Windows Media Player     | VLC Media Player |
+| iTunes                   | Rhythmbox, Clementine |
+| Winamp                   | Audacious |
+| Adobe Audition           | Ardour, Audacity |
+
+---
+
+🎮 Games & Entertainment
+| Windows Software        | Linux Alternatives |
+|--------------------------|--------------------|
+| Steam (Windows)          | Steam (Linux, with Proton) |
+| DirectX                  | Vulkan, OpenGL |
+| Xbox Game Bar            | OBS Studio, SimpleScreenRecorder |
+
+---
+
+🌐 Internet & Communication
+| Windows Software        | Linux Alternatives |
+|--------------------------|--------------------|
+| Internet Explorer / Edge | Firefox, Chromium |
+| Skype                    | Skype (Linux), Jami |
+| Teams                    | Teams (Linux), Slack |
+| WhatsApp Desktop         | WhatsApp Web, Franz |
+| Outlook.com              | Thunderbird with add‑ons |
+
+---
+
+🛠 Utilities & System
+| Windows Software        | Linux Alternatives |
+|--------------------------|--------------------|
+| Notepad++                | Kate, Geany, VS Code |
+| WinRAR / WinZip          | File Roller, PeaZip |
+| CCleaner                 | BleachBit |
+| Windows Defender         | ClamAV, Sophos (Linux) |
+| Task Manager             | System Monitor (GNOME), KSysGuard |
+
+---
+
+💻 Development
+| Windows Software        | Linux Alternatives |
+|--------------------------|--------------------|
+| Visual Studio            | VS Code, Eclipse, JetBrains IDEs |
+| SQL Server Management Studio | DBeaver, pgAdmin, HeidiSQL |
+| PowerShell               | Bash, Zsh, Fish |
+| IIS                      | Apache, Nginx |
+| Putty                    | OpenSSH |
+
+---
+
+📌 Zorin OS 18 highlights these alternatives to make migration smoother, with many of them pre‑installed or available directly from the Zorin Software store.  
+
+In case, your favourite one is not present, try to find alternatives on: 
 
 - [Alternatives to Windows Apps](https://help.zorin.com/docs/apps-games/alternatives-to-windows-apps/)
 - [AlternativeTo.net](https://alternativeto.net/)
 
-In case, no alternative, try to run them with: 
+In case, no alternative found, try to run them with: 
 
 - [Wine](https://www.winehq.org/)
 - [Bottle](https://usebottles.com/)
 - [WinBoat](https://www.winboat.app/)
 
-Personally, I won't recommend using virtualization software like [virtual box](https://www.virtualbox.org/) because it drags you back and we need to opt out... 
+Personally, I won't recommend using virtualization software like [virtual box](https://www.virtualbox.org/)! don't look back, we need to opt out... 
 
 
 #### II. Zorin laptop  
