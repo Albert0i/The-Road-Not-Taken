@@ -6,8 +6,10 @@
 
 
 #### Prologue 
-The day when tools you used for several decades no longer serve you but the cooperation. The day when intrusive AI comes in company with you on treading every flagstones. You just can't shake it off... I shudder in sweat as if I were naked.... Hey! This is wrong, this is *all* wrong... 
+The day when tools you used for several decades no longer serve you but the cooperation. The day when intrusive AI comes in company with you while treading every flagstones. I just can't shake it off... I shudder in sweat as if I were naked.... Hey! This is wrong, this is *all* wrong... 
 
+
+#### I. The Dawn
 In January of 2026, three Linux distros have been evaluated: 
 - [Linux Mint](https://linuxmint.com/)
 - [MX Linux](https://mxlinux.org/)
@@ -16,35 +18,23 @@ In January of 2026, three Linux distros have been evaluated:
 The last one is chosen not because other two are bad. It's a sensibility issue, nothing to do with functionality. The free version of Zorin OS is bundled with lots of software. In case, your favourite one not is not present, try to find alternatives:   
 
 - [Alternatives to Windows Apps](https://help.zorin.com/docs/apps-games/alternatives-to-windows-apps/)
-
 - [AlternativeTo.net](https://alternativeto.net/)
 
 In case, there is no alternative, you can try: 
 
-- [Wine]()
-- [Bottle]()
-- [WinBoat]()
+- [Wine](https://www.winehq.org/)
+- [Bottle](https://usebottles.com/)
+- [WinBoat](https://www.winboat.app/)
+
+Personally, I won't recommend using virtualization software like [virtual box](https://www.virtualbox.org/) and it drags back... We need to opt out... 
 
 
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
-####
+#### II. Zorin laptop  
 
-#### Bibliography 
+#### III. Chromebook 
+
+
+#### IV. Bibliography 
 1. [Programming Windows 3.1, by Charles Petzold, Jan 1, 1992](https://archive.org/details/programming-windows-31-3rd-ed)
 
 
