@@ -136,21 +136,21 @@ Personally, I won't recommend using virtualization software like [virtual box](h
 The Road Not Taken
 By Robert Frost
 
-Two roads diverged in a yellow wood,      兩條路在黃葉林中分歧， 
-And sorry I could not travel both.              可嘆我無法兩者都挑。
-And be one traveler, long I stood              單身行路的我久久佇立，
-And looked down one as far as I could     向其中一條極目望去，
-To where it bent in the undergrowth;         直看到被林木掩住的轉角。
+Two roads diverged in a yellow wood,    兩條路在黃葉林中分歧， 
+And sorry I could not travel both.      可嘆我無法兩者都挑。
+And be one traveler, long I stood       單身行路的我久久佇立，
+And looked down one as far as I could   向其中一條極目望去，
+To where it bent in the undergrowth;    直看到被林木掩住的轉角。
  
-Then took the other, as just as fair,            然後我走了另一條路，一樣美麗，
-And having perhaps the better claim,        而且還或許更加合宜，
+Then took the other, as just as fair,   然後我走了另一條路，一樣美麗，
+And having perhaps the better claim,    而且還或許更加合宜，
 Because it was grassy and wanted wear;  因爲它青草萋萋看似乏人問津；
-Though as for that the passing there         雖説兩條路上行人來去，
-Had worn them really about the same,      踩踏的程度其實相差無幾。
+Though as for that the passing there    雖説兩條路上行人來去，
+Had worn them really about the same,    踩踏的程度其實相差無幾。
  
-And both that morning equally lay             當天早上兩條路同樣被落葉覆蓋，
-In leaves no step had trodden black.         沒有黑色的足跡沾染。
-Oh, I kept the first for another day!            啊，頭一條路留待改日再來！
+And both that morning equally lay       當天早上兩條路同樣被落葉覆蓋，
+In leaves no step had trodden black.    沒有黑色的足跡沾染。
+Oh, I kept the first for another day!   啊，頭一條路留待改日再來！
 ```
 
 
