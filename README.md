@@ -111,13 +111,19 @@ In case, no alternative found, try to run them with:
 Personally, I won't recommend using virtualization software like [virtual box](https://www.virtualbox.org/)! Don't look back, we are going to opt out... 
 
 
-#### II. Zorin laptop  
+#### II. Windows 11 
+![alt windows 11](img/Desktop%20(2026-02-01).JPG)
 
 
-#### III. Chromebook 
+#### III. Zorin laptop  
+![alt zorin os 18](img/Screenshot%20from%202026-02-15%2019-44-08.png)
 
 
-#### IV. Bibliography 
+#### IV. Chromebook 
+![alt chromebook](img/Chromebook%202026-02-19%203.23.43%20PM.png)
+
+
+#### V. Bibliography 
 1. []()
 2. []()
 3. []()
