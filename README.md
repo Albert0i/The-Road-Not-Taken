@@ -17,98 +17,18 @@ In January of 2026, three Linux distros have been evaluated:
 
 The last one is chosen not because other two are bad. It's a sensibility issue, nothing to do with functionality. 
 
-Zorin OS 18 bundles in its migration guide for Windows users:
-
----
-
-🖥 Productivity & Office
-| Windows Software        | Linux Alternatives |
-|--------------------------|--------------------|
-| Microsoft Office (Word, Excel, PowerPoint) | LibreOffice, OnlyOffice, WPS Office |
-| Microsoft Access         | LibreOffice Base, Kexi |
-| Outlook                  | Thunderbird, Evolution |
-| OneNote                  | Joplin, Zim, Standard Notes |
-| Visio                    | Dia, yEd, LibreOffice Draw |
-
----
-
-🎨 Graphics & Design
-| Windows Software        | Linux Alternatives |
-|--------------------------|--------------------|
-| Adobe Photoshop          | GIMP, Krita |
-| Adobe Illustrator        | Inkscape |
-| CorelDRAW                | Gravit Designer, Inkscape |
-| Paint.NET                | Pinta |
-| AutoCAD                  | FreeCAD, LibreCAD, BricsCAD (commercial) |
-
----
-
-🎵 Media & Audio
-| Windows Software        | Linux Alternatives |
-|--------------------------|--------------------|
-| Windows Media Player     | VLC Media Player |
-| iTunes                   | Rhythmbox, Clementine |
-| Winamp                   | Audacious |
-| Adobe Audition           | Ardour, Audacity |
-
----
-
-🎮 Games & Entertainment
-| Windows Software        | Linux Alternatives |
-|--------------------------|--------------------|
-| Steam (Windows)          | Steam (Linux, with Proton) |
-| DirectX                  | Vulkan, OpenGL |
-| Xbox Game Bar            | OBS Studio, SimpleScreenRecorder |
-
----
-
-🌐 Internet & Communication
-| Windows Software        | Linux Alternatives |
-|--------------------------|--------------------|
-| Internet Explorer / Edge | Firefox, Chromium |
-| Skype                    | Skype (Linux), Jami |
-| Teams                    | Teams (Linux), Slack |
-| WhatsApp Desktop         | WhatsApp Web, Franz |
-| Outlook.com              | Thunderbird with add‑ons |
-
----
-
-🛠 Utilities & System
-| Windows Software        | Linux Alternatives |
-|--------------------------|--------------------|
-| Notepad++                | Kate, Geany, VS Code |
-| WinRAR / WinZip          | File Roller, PeaZip |
-| CCleaner                 | BleachBit |
-| Windows Defender         | ClamAV, Sophos (Linux) |
-| Task Manager             | System Monitor (GNOME), KSysGuard |
-
----
-
-💻 Development
-| Windows Software        | Linux Alternatives |
-|--------------------------|--------------------|
-| Visual Studio            | VS Code, Eclipse, JetBrains IDEs |
-| SQL Server Management Studio | DBeaver, pgAdmin, HeidiSQL |
-| PowerShell               | Bash, Zsh, Fish |
-| IIS                      | Apache, Nginx |
-| Putty                    | OpenSSH |
-
----
-
-📌 Zorin OS 18 highlights these alternatives to make migration smoother, with many of them pre‑installed or available directly from the Zorin Software store.  
-
-In case, your favourite one is not present, try to find alternatives on: 
+Zorin OS comes with all the essential apps you need out of the box, so you can get working right away. Discover thousands of powerful apps from the built-in [Software store](https://help.zorin.com/docs/apps-games/install-apps/#software-store). 
 
 - [Alternatives to Windows Apps](https://help.zorin.com/docs/apps-games/alternatives-to-windows-apps/)
 - [AlternativeTo.net](https://alternativeto.net/)
 
-In case, no alternative found, try to run them with: 
+You can even run many Windows apps in Zorin OS with [Windows App Support](https://help.zorin.com/docs/apps-games/windows-app-support/).
 
 - [Wine](https://www.winehq.org/)
 - [Bottle](https://usebottles.com/)
 - [WinBoat](https://www.winboat.app/)
 
-Personally, I won't recommend using virtualization software like [virtual box](https://www.virtualbox.org/)! Don't look back, we are going to opt out... 
+Personally, I won't *recommend* using virtualization software like [virtual box](https://www.virtualbox.org/)! Keep opting out, and don’t look back.
 
 
 #### II. Windows 11 
