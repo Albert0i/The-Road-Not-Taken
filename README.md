@@ -15,12 +15,12 @@ In January of 2026, three Linux distros have been evaluated:
 - [MX Linux](https://mxlinux.org/)
 - [Zorin OS](https://zorin.com/os/)
 
-The last one is chosen not because other two are bad. It's a sensibility issue, nothing to do with functionality. The free version of Zorin OS is bundled with lots of software. In case, your favourite one not is not present, try to find alternatives:   
+The last one is chosen not because other two are bad. It's a sensibility issue, nothing to do with functionality. The free version of Zorin OS is bundled with lots of software. In case, your favourite one is not present, try to find alternatives: 
 
 - [Alternatives to Windows Apps](https://help.zorin.com/docs/apps-games/alternatives-to-windows-apps/)
 - [AlternativeTo.net](https://alternativeto.net/)
 
-In case, there is no alternative, you can try: 
+In case, no alternative, try to run them with: 
 
 - [Wine](https://www.winehq.org/)
 - [Bottle](https://usebottles.com/)
