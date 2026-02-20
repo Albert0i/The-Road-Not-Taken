@@ -20,9 +20,6 @@ The last one is chosen not because other two are bad. It's a sensibility issue, 
 - [Alternatives to Windows Apps](https://help.zorin.com/docs/apps-games/alternatives-to-windows-apps/)
 - [AlternativeTo.net](https://alternativeto.net/)
 
-- [flatpak](https://flatpak.org/)
-- [snapd](https://snapcraft.io/snapd)
-
 In case, no alternative, try to run them with: 
 
 - [Wine](https://www.winehq.org/)
