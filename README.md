@@ -15,6 +15,10 @@ In January of 2026, I evaluate three Linux distros:
 
 I choose the last one not because the first two are not good. It's a sensibility issue not functionality. 
 
+[Alternatives to Windows Apps](https://help.zorin.com/docs/apps-games/alternatives-to-windows-apps/)
+
+[AlternativeTo.net](https://alternativeto.net/)
+
 
 ####
 ####
