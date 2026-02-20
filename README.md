@@ -6,12 +6,14 @@
 
 
 #### Prologue 
+The day when tools you used for several decades no longer serve you but the cooperation. The day when intrusive AI comes in company with you on treading every flagstones. I shudder in sweat as if I were naked.... Hey! This is wrong, this is all wrong... 
 
+In January of 2026, I evaluate three Linux distros: 
+- [Linux Mint](https://linuxmint.com/)
+- [MX Linux](https://mxlinux.org/)
+- [Zorin OS](https://zorin.com/os/)
 
-####
-[Linux Mint](https://linuxmint.com/)
-[MX Linux](https://mxlinux.org/)
-[Zorin OS](https://zorin.com/os/)
+I choose the last one not because the first two are not good. It's a sensibility issue not functionality. 
 
 
 ####
