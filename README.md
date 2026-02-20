@@ -44,7 +44,7 @@ Personally, I won't *recommend* using virtualization software like [virtual box]
 
 
 #### V. Bibliography 
-1. []()
+1. [Switch Your Organization From Windows in 5 Steps](https://help.zorin.com/docs/getting-started/switch-your-organization-from-windows/)
 2. []()
 3. []()
 4. []()
