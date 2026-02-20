@@ -34,11 +34,16 @@ Personally, I won't recommend using virtualization software like [virtual box](h
 
 #### II. Zorin laptop  
 
+
 #### III. Chromebook 
 
 
 #### IV. Bibliography 
-1. [Programming Windows 3.1, by Charles Petzold, Jan 1, 1992](https://archive.org/details/programming-windows-31-3rd-ed)
+1. []()
+2. []()
+3. []()
+4. []()
+5. []()
 
 
 #### Epilogue
