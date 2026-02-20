@@ -20,13 +20,16 @@ The last one is chosen not because other two are bad. It's a sensibility issue, 
 - [Alternatives to Windows Apps](https://help.zorin.com/docs/apps-games/alternatives-to-windows-apps/)
 - [AlternativeTo.net](https://alternativeto.net/)
 
+- [flatpak](https://flatpak.org/)
+- [snapd](https://snapcraft.io/snapd)
+
 In case, no alternative, try to run them with: 
 
 - [Wine](https://www.winehq.org/)
 - [Bottle](https://usebottles.com/)
 - [WinBoat](https://www.winboat.app/)
 
-Personally, I won't recommend using virtualization software like [virtual box](https://www.virtualbox.org/) and it drags back... We need to opt out... 
+Personally, I won't recommend using virtualization software like [virtual box](https://www.virtualbox.org/) because it drags you back and we need to opt out... 
 
 
 #### II. Zorin laptop  
