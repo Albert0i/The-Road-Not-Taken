@@ -5,7 +5,7 @@ This expanded guide (approx. 2500 words) is designed to walk you through every s
 ---
 
 ## 🔎 Reference: ASUS F8Vr Specifications
-For full technical details, see the official specification listing: ASUS F8Vr specs [(mobilespecs.net in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fwww.mobilespecs.net%2Flaptop%2FASUS%2FAsus_F8Vr.html").  
+For full technical details, see the official specification listing: [ASUS F8Vr](https://villman.com/Product-Detail/Asus_F8vr).  
 
 Key highlights:
 - **CPU**: Intel Core 2 Duo (64‑bit capable)  
