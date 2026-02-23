@@ -1,4 +1,4 @@
-# Upgrading ASUS F8Vr with a 1 TB SSD and Installing Zorin OS Lite 64‑bit
+# Weekend Project Guide: Upgrading ASUS F8Vr with a 1 TB SSD and Installing Zorin OS Lite 64‑bit
 
 This expanded guide (approx. 2500 words) is designed to walk you through every step of transforming your **ASUS F8Vr** into a revived, modernized machine. By the end of this weekend project, you’ll have a laptop running **Zorin OS Lite 64‑bit** on a **1 TB SSD**, optimized for speed, stability, and usability.  
 
@@ -103,7 +103,6 @@ Follow prompts:
   - `/home` → remainder of SSD for personal files.
 
 ---
-
 ### Recommended Partition Layout
 | Mount Point | Size   | Filesystem | Purpose |
 |-------------|--------|------------|---------|
