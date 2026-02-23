@@ -102,6 +102,8 @@ Follow prompts:
   - `swap` → 2 GB (optional, since RAM is 4 GB).  
   - `/home` → remainder of SSD for personal files.
 
+---
+
 ### Recommended Partition Layout
 | Mount Point | Size   | Filesystem | Purpose |
 |-------------|--------|------------|---------|
