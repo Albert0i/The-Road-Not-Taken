@@ -4,7 +4,7 @@
 
 > "To be clear: Windows isn’t bad. I actually like it. But the direction of Windows 11 is."── [Builtbybel](https://github.com/builtbybel/Winslop)
 
-![alt Dilbert](img/Desktop%20(2026-02-01).JPG)
+![alt Dilbert](img/Dilbert.JPG)
 
 
 #### Prologue 
