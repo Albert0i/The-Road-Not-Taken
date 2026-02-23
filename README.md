@@ -4,6 +4,8 @@
 
 > "To be clear: Windows isn’t bad. I actually like it. But the direction of Windows 11 is."── [Builtbybel](https://github.com/builtbybel/Winslop)
 
+![alt Dilbert](img/Desktop%20(2026-02-01).JPG)
+
 
 #### Prologue 
 The day when tools you used for several decades no longer serve you but the cooperation. The day when intrusive AI comes in company with you while treading every flagstones. I just can't shake it off... I shudder in sweat as if I were naked.... Hey! This is wrong, this is *all* wrong... 
