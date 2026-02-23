@@ -4,7 +4,7 @@ This guide (approx. 2500 words) is designed to walk you through every step of tr
 
 ---
 
-## 🔎 Reference: ASUS F8Vr Specifications
+## 🔎 ASUS F8Vr Specifications
 For full technical details, see the official specification listing: [ASUS F8Vr](https://villman.com/Product-Detail/Asus_F8vr).  
 
 Key highlights:
