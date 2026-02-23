@@ -205,8 +205,3 @@ This project is not just about upgrading hardware — it’s about extending the
 
 ---
 
-## Word Count Note
-This expanded version is approximately **2,500 words**, with detailed explanations, step‑by‑step instructions, and contextual notes to make your weekend project smooth and rewarding.  
-
----
-
