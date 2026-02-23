@@ -4,6 +4,19 @@ This expanded guide (approx. 2500 words) is designed to walk you through every s
 
 ---
 
+## 🔎 Reference: ASUS F8Vr Specifications
+For full technical details, see the official specification listing: ASUS F8Vr specs [(mobilespecs.net in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fwww.mobilespecs.net%2Flaptop%2FASUS%2FAsus_F8Vr.html").  
+
+Key highlights:
+- **CPU**: Intel Core 2 Duo (64‑bit capable)  
+- **RAM**: DDR2, up to 4 GB (2 slots)  
+- **GPU**: ATI Mobility Radeon HD 3470  
+- **Storage**: 2.5″ SATA HDD (upgradeable to SSD)  
+- **Ports**: HDMI, VGA, eSATA, USB 2.0, LAN, FireWire  
+- **OS (original)**: Windows Vista (32‑bit)  
+
+---
+
 ## Introduction: Why This Project Matters
 The ASUS F8Vr is a mid‑2000s laptop that originally shipped with Windows Vista and a mechanical hard drive. While the hardware is dated, it still has a **64‑bit capable Core 2 Duo processor**, up to **4 GB of DDR2 RAM**, and a **SATA interface** that makes it compatible with modern SSDs. By upgrading the storage and installing a lightweight Linux distribution, you can breathe new life into this machine.  
 
@@ -88,6 +101,27 @@ Follow prompts:
   - `/` root → 40–60 GB.  
   - `swap` → 2 GB (optional, since RAM is 4 GB).  
   - `/home` → remainder of SSD for personal files.
+
+### Recommended Partition Layout
+| Mount Point | Size   | Filesystem | Purpose |
+|-------------|--------|------------|---------|
+| `/boot`     | 1 GB   | ext4       | Kernel and bootloader files. |
+| `/` (root)  | 40 GB  | ext4       | OS, applications, configs. |
+| `/home`     | 300 GB | ext4       | User files, documents, settings. |
+| `/var`      | 60 GB  | ext4       | Logs, caches, package storage. |
+| `/tmp`      | 10 GB  | ext4       | Temporary files, isolated for security. |
+| `swap`      | 4 GB   | swap       | Matches RAM size, supports hibernation. |
+| `/data`     | 585 GB | ext4 or XFS | Dedicated space for large files, media, backups. |
+
+### Notes
+- **Alignment**: Modern installers auto‑align partitions for SSDs.  
+- **Filesystem choice**: ext4 is stable; XFS is ideal for large files in `/data`.  
+- **Swap**: Ensures hibernation works with 4 GB RAM.  
+- **Separate `/var` and `/tmp`**: Prevents runaway logs/temp files from filling root.  
+
+Proceed with installation, assign mount points, and install GRUB to the SSD.
+
+---
 
 ### 5. Installation Process
 The installer will copy files and configure the system.  
@@ -175,4 +209,3 @@ This expanded version is approximately **2,500 words**, with detailed explanatio
 
 ---
 
-I can also prepare a **print‑friendly checklist table** so you can tick off each step during the upgrade. Would you like me to draft that next?
