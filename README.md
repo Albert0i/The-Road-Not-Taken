@@ -40,6 +40,60 @@ Personally, I won't *recommend* using virtualization software like [virtual box]
 #### III. Zorin laptop  
 ![alt zorin os 18](img/Screenshot%20from%202026-02-15%2019-44-08.png)
 
+**Use case 1**: [ConvertZ](https://www.azofreeware.com/2006/03/convertz-802.html)
+> 中文簡繁內碼轉換器 - ConvertZ，簡單易用而且功能強大的中文內碼轉換工具，支援 GBK、Big5、HZ、Shift-JIS、JIS、EUC-JP、Unicode Little Endian、Unicode Big Endian、及 UTF-8 編碼，讓您輕鬆的對純文字檔案、檔案/資料夾名稱、剪貼簿文字、及 MP3 ID3 標籤在上述編碼之間進行轉換。
+
+![alt ConvertZ](img/ConvertZ.JPG)
+
+1. [WineHQ](https://www.winehq.org/)
+
+2. [Bottles - Run Windows Software on Linux](https://usebottles.com/)
+
+**Use case 2**: [ASS2SRT](https://apps.microsoft.com/detail/9p6zjkkntck1?hl=en-US&gl=SA) 
+> A small tool designed specifically for Windows users to convert between ASS subtitles and SRT subtitles requires the installation of the. NET Desktop Runtime to function properly. This APP is available for free trial for 7 days. After that, you will need to pay to
+
+![alt ASS2SRT](img/ASS2SRT.JPG)
+
+**Use case 3**: [Garmin Express](https://www.garmin.com/en-US/software/express/windows/)
+> Use Garmin Express to update maps and software, sync with Garmin Connect and register your device. This desktop software notifies you when updates are available and helps you install them.
+
+**System Requirements**
+
+- Windows 10 or newer, Microsoft .NET 4.7.2 (included)
+- 1024 x 768 display, USB port and 1 GB RAM
+- High-speed internet access (not for use with dial-up, mobile or satellite connections)
+- May require up to 20 GB free disk space
+- For users running Windows 8 or older, please [download version 7 of Garmin Express for Windows](https://download.garmin.com/omt/express/GarminExpressWin7.exe).
+
+[WineHQ AppDB](https://appdb.winehq.org/objectManager.php?sClass=application&iId=17447)
+[Garmin Express](https://appdb.winehq.org/objectManager.php?sClass=version&iId=40213)
+
+Installation instructions
+```
+The installation is quite basic. Download the installer with the links provided, e.g. to /tmp. Then proceed to create a new prefix somewhere your user has write permissions to, e.g. in /opt/garmin/:
+
+mkdir -p /opt/garmin/ && cd /opt/garmin/
+export WINEPREFIX=/opt/garmin/
+wineboot -i
+Install the .NET Framework 4.7.2 in there. --force is needed to prevent winetricks from not completing installation because some of the dotnet verbs may be broken:
+
+winetricks --force dotnet472
+Now execute GarminExpress.exe in there.
+
+wine /tmp/GarminExpress.exe
+That's about it, really. I additionally went into the settings and disabled launch on "boot" to remove possible complications this may cause, if any.
+
+To simplify launching you can create a .desktop file and place it into /usr/share/applications/ to be able to launch it with your DE. Otherwise, export the wineprefix and launch:
+
+wine "/opt/garmin/drive_c/Program Files (x86)/Garmin/Express/express.exe"
+```
+
+**Use case 4**: [iTunes](https://www.apple.com/itunes/)
+> The latest entertainment apps now come installed with the latest macOS. Upgrade today to get your favorite music, movies, TV shows, and podcasts. You can join Apple Music and stream — or download and play offline — millions of songs, ad‑free.
+
+1. [WinBoat](https://www.winboat.app/)
+2. [Download Windows 11](https://www.microsoft.com/en-in/software-download/windows11)
+
 
 #### IV. Chromebook 
 ![alt chromebook](img/Chromebook%202026-02-19%203.23.43%20PM.png)
