@@ -133,3 +133,29 @@ Windows 11’s licensing system is strict: one license per computer, tied to har
 For everyday users, the choice is clear: run unactivated if necessary, but plan to purchase a license when possible. For organizations, Enterprise licensing provides flexibility and upgrade rights. Either way, understanding the rules helps you avoid surprises and stay compliant.
 
 ---
+
+## 🎁 Bonus: Licensing Windows 11 in Virtual Machines
+
+Virtualization is a powerful way to test, experiment, or run multiple operating systems on the same hardware. But when it comes to licensing, Microsoft treats virtual machines (VMs) as **separate computers**.
+
+### How Microsoft Sees It
+- **Retail/Home/Pro license** → Covers one physical device.  
+  - A VM created in VirtualBox, Hyper‑V, VMware, or similar software is recognized as a distinct hardware profile.  
+  - Even though the VM runs inside your licensed computer, activation servers treat it as a new machine.  
+  - Using the same product key in both host and guest violates the “one license, one device” rule.  
+
+- **OEM license** → Bound to the physical motherboard. It cannot be reused in a VM.  
+
+- **Enterprise/Volume license** → Designed for organizations. These agreements often allow multiple activations, including VMs, because they’re subscription‑based and cover multiple devices.  
+
+### Practical Implications
+- If you want to run Windows 11 in a VM alongside your host install, you’ll need a **separate license** for the VM.  
+- Developers and IT professionals often rely on **MSDN subscriptions** or **Enterprise agreements** for this flexibility.  
+- For personal use, you can install Windows 11 unactivated in a VM for testing, but personalization will be restricted and the watermark will appear.  
+
+---
+
+## 📌 Closing Thought
+Virtualization feels like it should fall under “one computer, one license,” but Microsoft’s rules draw the line at the hardware profile. Each VM is a new device in their eyes. For compliance, treat every VM as needing its own license — unless you’re covered by an enterprise subscription that explicitly allows multiple activations.
+
+---
