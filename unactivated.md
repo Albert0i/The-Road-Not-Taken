@@ -134,7 +134,7 @@ For everyday users, the choice is clear: run unactivated if necessary, but plan 
 
 ---
 
-## 🎁 Bonus: Licensing Windows 11 in Virtual Machines
+## Bonus: Licensing Windows 11 in Virtual Machines
 
 Virtualization is a powerful way to test, experiment, or run multiple operating systems on the same hardware. But when it comes to licensing, Microsoft treats virtual machines (VMs) as **separate computers**.
 
