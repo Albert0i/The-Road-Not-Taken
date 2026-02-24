@@ -1,4 +1,4 @@
-# Living with Unactivated Windows 11: Licensing, Features, and Compliance Realities
+![alt unactivated](img/unactivated.png)
 
 Microsoft Windows is the backbone of modern computing. With Windows 11, Microsoft continues its tradition of offering multiple editions, licensing models, and upgrade paths. But many users face the practical question: *what happens if I install Windows 11 without a product key?* This article explores that scenario in depth, covering installation behavior, lost features, licensing rules, edition comparisons, and the legal implications for both personal and corporate environments.
 
