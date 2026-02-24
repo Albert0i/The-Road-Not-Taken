@@ -8,7 +8,7 @@
 
 
 #### Prologue 
-The day when tools you used for several decades no longer serve you but the cooperation. The day when intrusive AI comes in company with you while treading every flagstones. I just can't shake it off... I shudder in sweat as if I were naked.... Hey! This is wrong, this is *all* wrong... 
+The day when tools you used for decades no longer serve you but the cooperation. The day when intrusive AI comes in company with you on treading every flagstones. I shudder in sweat as if I were naked... Shit! This is wrong, this is *all* wrong... 
 
 
 #### I. The Dawn
@@ -17,7 +17,7 @@ In January of 2026, three Linux distros have been evaluated:
 - [MX Linux](https://mxlinux.org/)
 - [Zorin OS](https://zorin.com/os/)
 
-The last one is chosen not because other two are bad. It's a sensibility issue, nothing to do with functionality. 
+The last one is chosen not because other two are not good. It's a sensibility issue, nothing to do with functionality. 
 
 Zorin OS comes with all the essential apps you need out of the box, so you can get working right away. Discover thousands of powerful apps from the built-in [Software store](https://help.zorin.com/docs/apps-games/install-apps/#software-store). 
 
