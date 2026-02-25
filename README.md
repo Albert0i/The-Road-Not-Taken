@@ -206,6 +206,8 @@ Cons: Still in beta, not rock solid. Multiple prerequisites and huge resource co
 
 
 #### IV. Chromebook 
+![alt chromebook-desktop](img/chromebook-desktop.png)
+
 ![alt chromebook](img/Chromebook%202026-02-19%203.23.43%20PM.png)
 
 Intel(R) Core(TM) m3-8100Y CPU @ 1.10GHz
