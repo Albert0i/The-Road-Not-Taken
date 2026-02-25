@@ -208,7 +208,9 @@ Cons: Still in beta, not rock solid. Multiple prerequisites and huge resource co
 #### IV. Chromebook 
 ![alt chromebook-desktop](img/chromebook-desktop.png)
 
-![alt chromebook](img/Chromebook%202026-02-19%203.23.43%20PM.png)
+![alt chromebook-linux-apps-1](img/chromebook-linux-apps-1.png)
+
+![alt chromebook-linux-apps-2](img/chromebook-linux-apps-2.png)
 
 Intel(R) Core(TM) m3-8100Y CPU @ 1.10GHz
 > The Intel Core m3-8100Y is an ultra-low-power, 8th-generation dual-core processor designed for thin-and-light laptops, 2-in-1s, and tablets. Operating at a base frequency of 1.10 GHz, it boasts a turbo boost up to 3.40 GHz. It is ideal for basic productivity tasks, with a very low 5W TDP, and features Intel UHD Graphics 615.
