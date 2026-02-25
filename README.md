@@ -210,38 +210,53 @@ Cons: Still in beta, not rock solid. Multiple prerequisites and huge resource co
 
 [pbpaste && pbcopy for Ubuntu Linux 20.04](https://gist.github.com/diegopacheco/75de31680b3eaeb8824e994b81889f82)
 
+Install the SQLite CLI
+```
 sudo apt install sqlite3
+```
 
+Install the Turso CLI
+```
 curl -sSfL https://get.tur.so/install.sh | bash
+```
 
+Install the jq
+```
 sudo apt install jq
+```
 
+Install the snapd
+```
 sudo apt-get install snapd
+```
 
-[Try MongoDB Tools Free](https://www.mongodb.com/try/download/shell)
+Install the [MongoDB Shell](https://www.mongodb.com/try/download/shell)
 
-Docker
+Install the Docker
 ``` 
 sudo apt-get update && sudo apt-get install -y apt-transport-https ca-certificates curl gnupg2 software-properties-common
+```
 
+Test with 
+```
 docker run hello-world
 ```
 
-Redis
+Test with Redis
 ```
 docker run --name redis -d -p 6379:6379 redis:8.4.0
 
 redis-cli 
 ```
 
-MariaDB
+Test with MariaDB
 ```
 docker run --name mariadb -d -p 3306:3306 -e MARIADB_ROOT_PASSWORD=123456 mariadb:11.7.2
 
 mysql -h 127.0.0.1 -u root -p
 ```
 
-[ollama](https://ollama.com/download/linux)
+Install the [ollama](https://ollama.com/download/linux)
 ```
 curl -fsSL https://ollama.com/install.sh | sh
 ```
@@ -257,8 +272,10 @@ systemctl status ollama
 sudo systemctl edit ollama.service
 ```
 
+```
 [Service]
 Environment="OLLAMA_HOST=0.0.0.0:11434"
+```
 
 ```
 sudo systemctl restart ollama
