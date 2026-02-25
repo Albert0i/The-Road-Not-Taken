@@ -1,5 +1,7 @@
 ### [The Road Not Taken](https://www.poetryfoundation.org/poems/44272/the-road-not-taken) <br />── A Quest for Desktop Replacements 
 
+> "Years of love have been forgot, In the hatred of a minute."── [Edgar Allan Poe](https://www.quora.com/What-does-Edgar-Allan-Poe-mean-in-his-famous-quote-Years-of-love-have-been-in-the-hatred-of-a-minute)
+
 > "In a world without walls and fences, who needs windows and gates?"── [Alain Ruellan](https://www.linkedin.com/posts/alain-ruellan-0b775018_in-a-world-without-walls-and-fences-who-activity-7118788566607908864-aYjh?trk=public_profile_share_view)
 
 > "To be clear: Windows isn’t bad. I actually like it. But the direction of Windows 11 is."── [Builtbybel](https://github.com/builtbybel/Winslop)
@@ -54,6 +56,10 @@ Personally, I won't *recommend* using virtualization software like [virtual box]
 
 ![alt ASS2SRT](img/ASS2SRT.JPG)
 
+SubShifter - Online SRT Subtitle Resync Tool
+https://subshifter.bitsnbites.eu/
+
+
 **Use case 3**: [Garmin Express](https://www.garmin.com/en-US/software/express/windows/)
 > Use Garmin Express to update maps and software, sync with Garmin Connect and register your device. This desktop software notifies you when updates are available and helps you install them.
 
@@ -93,6 +99,31 @@ wine "/opt/garmin/drive_c/Program Files (x86)/Garmin/Express/express.exe"
 
 1. [WinBoat](https://www.winboat.app/)
 2. [Download Windows 11](https://www.microsoft.com/en-in/software-download/windows11)
+3. [Download Windows 10 ISO files, save a copy before end of support](https://www.windowslatest.com/2025/08/08/download-windows-10-iso-version-22h2-before-end-of-support/)
+
+Wine for older software and simple program.
+
+Running a dual-boot system or linux with virtual box is a technical compromise solution, which are inconvenient for daily use, and so does WinBoat. Stress on integration instead of virtualization. 
+
+Windows subsystem for Linux running on a docker virtual machine. 
+
+Integration instead of emulation. Run a full-fledged Windows VM. 
+Not specifically innovative but a composite of multiple mature techniques. 
+
+Pros: 100% compability. Anything can be run on a VM and can be run on WinBoat in theory. 
+
+FreeRDP combine remote windows protocol. 
+
+Cons: Still in beta, not rock solid. Multiple prerequisites and huge resource consumption, less performant. No GPU acceleration pass-through for the time being. 
+
+**Caveat**: 
+
+1. It is illegal to use unactivated version of Windows;
+2. Microsoft does allow install and use unactivated version of Windows for evaluation and temporary use but not for day-to-day long term use;
+3. Use of unactivated version of Windows may incur lawsuit and punishment but not for home use. 
+
+- [Seamless Compatibility? The Truth behind WinBoat](https://youtu.be/ST-dteJZuI4)
+- [The End of Dual Boot: Run Windows Inside Linux Like Magic!](https://youtu.be/QwFxoDCXlM8)
 
 
 #### IV. Chromebook 
