@@ -291,23 +291,31 @@ curl -fsSL https://ollama.com/install.sh | sh
 > WARNING: Unable to detect NVIDIA/AMD GPU. Install lspci or lshw to automatically detect and install GPU dependencies.
 ```
 sudo apt update && sudo apt install pciutils lshw
+```
 
+Test with 
+```
 ollama run gemma3:1b 
+```
 
+To enable ollama API
+```
 systemctl status ollama
-
 sudo systemctl edit ollama.service
 ```
 
+Add the the following section
 ```
 [Service]
-Environment="OLLAMA_HOST=0.0.0.0:11434"
+Environment="OLLAMA_HOST=127.0.0.1:11434"
 ```
 
+Restart ollama service
 ```
 sudo systemctl restart ollama
 ```
 
+Test ollama API on browser 
 ```
 http://localhost:11434/api/tags
 http://localhost:11434/api/ps
@@ -316,6 +324,7 @@ http://localhost:11434/api/version
 https://docs.ollama.com/api/tags
 ```
 
+Install the nodemon
 ```
 npm install -g nodemon
 ```
@@ -339,6 +348,7 @@ alias pbpaste='xclip -selection clipboard -o'
 
 move `fortune | cowsay` to the end of `~./bashrc`
 
+Install the fortune and cowsay 
 ```
 apt-get install fortune cowsay 
 ```
@@ -359,10 +369,12 @@ sleep 1
 clear
 ```
 
-**libreOffice** 
-
+Install the libreOffice
+```
 sudo apt install libreoffice
+```
 
+Install the telnet and ftp
 ```
 sudo apt install telnet
 sudo apt install ftp
