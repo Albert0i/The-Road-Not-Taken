@@ -40,7 +40,7 @@ Personally, I won't *recommend* using virtualization software like [virtual box]
 
 ![alt 24H2](img/win-24h2.JPG)
 
-Besides these bundled by ASUS and those pre-installed by Microsoft, which occupies more than 40G, my software list is like so:: 
+Besides some bundled by ASUS and other pre-installed by Microsoft, the bare installation consumes more than 40G!  Following is my software list: 
 
 | **Application** | **Cross-platform** | **Alternative** |
 | ----------- | ----------- | ----------- |
@@ -74,36 +74,37 @@ Besides these bundled by ASUS and those pre-installed by Microsoft, which occupi
 | [WinSCP](https://winscp.net/eng/download.php) 6.3.5 | yes | --- |
 | [百度網盤](https://pan.baidu.com/disk/main) | yes | --- |
 
+Software occasionally used: 
 
 | **Application** | **Cross-platform** | **Alternative** |
 | ----------- | ----------- | ----------- |
 | [edge](https://www.microsoft.com/en-us/edge/download?form=MA13FJ) | yes | --- |
 | [HeidiSQL](https://www.heidisql.com/) | yes | --- |
 | [Paint](https://www.microsoft.com/en-us/windows/paint) | no | yes |
+| [ConvertZ](https://www.azofreeware.com/2006/03/convertz-802.html) | no | no |
+| [ASS2SRT](https://apps.microsoft.com/detail/9p6zjkkntck1?hl=en-US&gl=SA) | no | no |
 
 
 #### III. Zorin laptop  
 ![alt zorin os 18](img/Screenshot%20from%202026-02-15%2019-44-08.png)
 
-**Use case 1**: [ConvertZ](https://www.azofreeware.com/2006/03/convertz-802.html)
+**Edge Case One**: 
+1. [ConvertZ](https://www.azofreeware.com/2006/03/convertz-802.html)
 > 中文簡繁內碼轉換器 - ConvertZ，簡單易用而且功能強大的中文內碼轉換工具，支援 GBK、Big5、HZ、Shift-JIS、JIS、EUC-JP、Unicode Little Endian、Unicode Big Endian、及 UTF-8 編碼，讓您輕鬆的對純文字檔案、檔案/資料夾名稱、剪貼簿文字、及 MP3 ID3 標籤在上述編碼之間進行轉換。
 
 ![alt ConvertZ](img/ConvertZ.JPG)
+
+2. [ASS2SRT](https://apps.microsoft.com/detail/9p6zjkkntck1?hl=en-US&gl=SA) 
+> A small tool designed specifically for Windows users to convert between ASS subtitles and SRT subtitles requires the installation of the. NET Desktop Runtime to function properly. This APP is available for free trial for 7 days. After that, you will need to pay to
+
+![alt ASS2SRT](img/ASS2SRT.JPG)
 
 1. [WineHQ](https://www.winehq.org/)
 
 2. [Bottles - Run Windows Software on Linux](https://usebottles.com/)
 
-**Use case 2**: [ASS2SRT](https://apps.microsoft.com/detail/9p6zjkkntck1?hl=en-US&gl=SA) 
-> A small tool designed specifically for Windows users to convert between ASS subtitles and SRT subtitles requires the installation of the. NET Desktop Runtime to function properly. This APP is available for free trial for 7 days. After that, you will need to pay to
 
-![alt ASS2SRT](img/ASS2SRT.JPG)
-
-SubShifter - Online SRT Subtitle Resync Tool
-https://subshifter.bitsnbites.eu/
-
-
-**Use case 3**: [Garmin Express](https://www.garmin.com/en-US/software/express/windows/)
+**Edge case Two**: [Garmin Express](https://www.garmin.com/en-US/software/express/windows/)
 > Use Garmin Express to update maps and software, sync with Garmin Connect and register your device. This desktop software notifies you when updates are available and helps you install them.
 
 **System Requirements**
@@ -137,7 +138,7 @@ To simplify launching you can create a .desktop file and place it into /usr/shar
 wine "/opt/garmin/drive_c/Program Files (x86)/Garmin/Express/express.exe"
 ```
 
-**Use case 4**: [iTunes](https://www.apple.com/itunes/)
+**Edge Case Three**: [iTunes](https://www.apple.com/itunes/)
 > The latest entertainment apps now come installed with the latest macOS. Upgrade today to get your favorite music, movies, TV shows, and podcasts. You can join Apple Music and stream — or download and play offline — millions of songs, ad‑free.
 
 1. [WinBoat](https://www.winboat.app/)
