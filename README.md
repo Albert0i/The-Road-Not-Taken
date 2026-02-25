@@ -214,6 +214,8 @@ Cons: Still in beta, not rock solid. Multiple prerequisites and huge resource co
 
 ![alt chromebook-linux-apps-2](img/chromebook-linux-apps-2.png)
 
+![alt chromebook-lshw](img/chromebook-lshw.png)
+
 Intel(R) Core(TM) m3-8100Y CPU @ 1.10GHz
 > The Intel Core m3-8100Y is an ultra-low-power, 8th-generation dual-core processor designed for thin-and-light laptops, 2-in-1s, and tablets. Operating at a base frequency of 1.10 GHz, it boasts a turbo boost up to 3.40 GHz. It is ideal for basic productivity tasks, with a very low 5W TDP, and features Intel UHD Graphics 615.
 
@@ -458,6 +460,8 @@ mongodb-compass_1.48.2_amd64.deb
 peazip_10.7.0.LINUX.Qt6-1_amd64.deb
 Redis-Insight-linux-amd64.deb
 ```
+
+> Screenfetch is a Bash-based command-line tool for Debian that displays system information, such as OS version, kernel, uptime, and memory, alongside an ASCII distribution logo. It is easily installed via `sudo apt install screenfetch` and run by typing `screenfetch` in the terminal, making it ideal for sharing system specs.
 
 
 #### V. Bibliography 
