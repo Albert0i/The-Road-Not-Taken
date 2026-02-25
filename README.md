@@ -253,7 +253,6 @@ sudo apt update && sudo apt upgrade -y
 
 ##### Domestic
 [pbpaste && pbcopy for Ubuntu Linux 20.04](https://gist.github.com/diegopacheco/75de31680b3eaeb8824e994b81889f82)
-Install
 ```
 sudo apt-get install xclip -y
 ```
