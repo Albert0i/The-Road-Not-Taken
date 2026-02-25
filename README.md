@@ -402,6 +402,8 @@ Test with
 ollama run gemma3:1b 
 ```
 
+![alt chromebook-ollama](/img/chromebook-ollama.png)
+
 To enable ollama API
 ```
 systemctl status ollama
