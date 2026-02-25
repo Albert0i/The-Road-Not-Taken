@@ -100,6 +100,42 @@ wine "/opt/garmin/drive_c/Program Files (x86)/Garmin/Express/express.exe"
 1. [WinBoat](https://www.winboat.app/)
 2. [Download Windows 11](https://www.microsoft.com/en-in/software-download/windows11)
 3. [Download Windows 10 ISO files, save a copy before end of support](https://www.windowslatest.com/2025/08/08/download-windows-10-iso-version-22h2-before-end-of-support/)
+4. [iTunes 12.10.11 for Windows (Windows 64 bit)](https://support.apple.com/en-us/106372)
+
+[iTunes 12 for Windows - Technical Specifications](https://support.apple.com/en-us/112029)
+
+**Hardware**:
+
+- PC with a 1GHz Intel or AMD processor with support for SSE2 and 512MB of RAM
+
+- To play Standard Definition video from the iTunes Store, an Intel Pentium D or faster processor, 512MB of RAM, and a DirectX 9.0-compatible video card is required.
+
+- To play 720p HD video, an iTunes LP, or iTunes Extras, a 2.0GHz Intel Core 2 Duo or faster processor, 1GB of RAM, and an Intel GMA X3000, ATI Radeon X1300, or NVIDIA GeForce 6150 or better is required.
+
+- To play 1080p HD video, a 2.4GHz Intel Core 2 Duo or faster processor, 2GB of RAM, and an Intel GMA X4500HD; ATI Radeon HD 2400; NVIDIA GeForce 8300 GS or better is required.
+
+- Screen resolution of 1024x768 or greater; 1280x800 or greater is required to play an iTunes LP or iTunes Extras
+
+- 16-bit sound card and speakers
+
+- Internet connection to use Apple Music, the iTunes Store, and iTunes Extras
+
+- iTunes-compatible CD or DVD recorder to create audio CDs, MP3 CDs, or backup CDs or DVDs. Songs from the Apple Music catalog cannot be burned to a CD.
+
+**Software**:
+
+- Windows 7 or later
+
+- 64-bit editions of Windows require the iTunes 64-bit installer
+
+- 400MB of available disk space
+
+- Some third-party visualizers may no longer be compatible with this version of iTunes. Please contact the developer for an updated visualizer that is compatible with iTunes 12.1 or later
+
+- Apple Music, iTunes Store, and iTunes Match availability may vary by country
+
+- Apple Music trial requires sign-up and is available for new subscribers only. Plan automatically renews after trialor later
+
 
 Wine for older software and simple program.
 
