@@ -230,7 +230,21 @@ Key Specifications & Performance:
 
 > Crostini is the official method for running Linux applications directly on ChromeOS, offering a secure, containerized Debian-based environment. It enables developers and users to install IDEs, editors, and terminal tools, which integrate seamlessly into the Launcher and share files with the host system. It is supported on most modern Chromebooks via the settings menu.
 
-Recommended First Command
+> On Ubuntu, **Flatpak** and **Snapd** are two modern systems for installing applications, each with its own ecosystem.  
+
+> **Flatpak** was created by the open-source community to provide a universal way of packaging apps that run across different Linux distributions. It emphasizes sandboxing, meaning applications are isolated for better security, and it relies on shared “runtimes” to reduce duplication.  
+
+> **Snapd**, on the other hand, is Canonical’s system for managing **Snaps**, tightly integrated with Ubuntu. Snaps bundle all their dependencies, update automatically, and can roll back if something goes wrong. This makes them convenient, especially for Ubuntu users, though they’re heavier than Flatpaks.  
+
+> Flatpak is community-driven and cross-distro, while Snapd is Ubuntu’s native solution with automatic updates. Both aim to simplify Linux app installation, but they reflect different philosophies of packaging and distribution.  
+
+> Both **Flatpak** and **Snapd** can work on **Debian**, though they aren’t installed by default.
+
+- [Debian Quick Setup - Follow these simple steps to start using Flatpak](https://flatpak.org/setup/Debian)
+- [Install snap on Debian](https://snapcraft.io/docs/tutorials/install-the-daemon/debian/)
+- [apt-get command in Linux with Examples](https://www.geeksforgeeks.org/linux-unix/apt-get-command-in-linux-with-examples/)
+
+Recommended to run first
 ```
 sudo apt update && sudo apt upgrade -y
 ```
@@ -295,7 +309,7 @@ clear
 ```
 
 ##### Development
-Install the Docker
+Install Docker
 > To install Docker on a Chromebook, you must use the built-in Linux development environment (Crostini) and follow the standard Docker Engine installation steps for Debian Linux. Docker Desktop for Linux may not run correctly in the Crostini environment.
 
 **1. Update the apt package index and install necessary prerequisites**
@@ -344,6 +358,7 @@ docker run --name mariadb -d -p 3306:3306 -e MARIADB_ROOT_PASSWORD=123456 mariad
 mysql -h 127.0.0.1 -u root -p
 ```
 
+In case you may need: 
 ```
 sudo apt install default-mysql-client redis-tools
 ```
@@ -361,11 +376,6 @@ curl -sSfL https://get.tur.so/install.sh | bash
 Install jq
 ```
 sudo apt install jq
-```
-
-Install snapd
-```
-sudo apt-get install snapd
 ```
 
 Install the [MongoDB Shell](https://www.mongodb.com/try/download/shell)
@@ -434,6 +444,19 @@ Install the telnet and ftp
 ```
 sudo apt install telnet
 sudo apt install ftp
+```
+
+##### Miscellaneous
+```
+arc-linux-17.0.9-amd64.deb
+baidunetdisk_4.17.7_amd64.deb
+code_1.106.3-1764110892_amd64.deb
+heidisql_12.15.1.1_amd64.deb
+microsoft-edge-stable_145.0.3800.58-1_amd64.deb
+mongodb-mongosh_2.7.0_amd64.deb
+mongodb-compass_1.48.2_amd64.deb
+peazip_10.7.0.LINUX.Qt6-1_amd64.deb
+Redis-Insight-linux-amd64.deb
 ```
 
 
