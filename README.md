@@ -233,9 +233,36 @@ sudo apt-get install snapd
 Install the [MongoDB Shell](https://www.mongodb.com/try/download/shell)
 
 Install the Docker
-``` 
-sudo apt-get update && sudo apt-get install -y apt-transport-https ca-certificates curl gnupg2 software-properties-common
+> To install Docker on a Chromebook, you must use the built-in Linux development environment (Crostini) and follow the standard Docker Engine installation steps for Debian Linux. Docker Desktop for Linux may not run correctly in the Crostini environment.
+
+**1. Update the apt package index and install necessary prerequisites**
 ```
+sudo apt-get update
+sudo apt-get install apt-transport-https ca-certificates curl gnupg2 software-properties-common -y
+```
+
+**2. Add Docker's official GPG key**
+```
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+```
+
+**3. Set up the stable Docker repository for your architecture (usually amd64 or arm64, depending on your Chromebook's CPU)**:
+```
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian $(lsb_release -cs) stable"
+```
+
+**4. Install the latest version of Docker Engine and containerd**
+```
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io -y
+```
+
+**Add your user to the docker group to run Docker commands without sudo (this is highly recommended)**
+```
+sudo usermod -aG docker $USER
+```
+
+> Reboot the Linux container for the group changes to take effect. The easiest way is to type sudo reboot in the terminal or simply restart your Chromebook.
 
 Test with 
 ```
