@@ -54,25 +54,25 @@ Besides bundled on my ASUS laptop and Microsoft pre-installed packages, my list 
 | GnuWin32: sed-4.2.1 | yes | --- |
 | Google Chrome | yes | --- |
 | HandBrake 1.8.2 | yes | --- |
-| iTunes | yes |  |
-| MariaDB | no | yes |
-| Microsoft Visual Studio Code | no | yes |
-| MongoDB Compass | no | yes |
-| Mozilla Thunderbird | no | yes |
-| Node.js | no | yes |
+| iTunes | no | no |
+| MariaDB | yes | --- |
+| Microsoft Visual Studio Code | yes | --- |
+| MongoDB Compass | yes | --- |
+| Mozilla Thunderbird | yes | --- |
+| Node.js | yes | --- |
 | Notepad++ | no | yes |
-| NVM for Windows 1.2.2 | no | yes |
-| Ollama 0.13.5 | no | yes |
-| Open-Shell | no | yes |
-| Pea 10.0.0 | no | yes |
-| Putty release 0.81 | no | yes |
+| NVM for Windows 1.2.2 | yes | --- |
+| Ollama 0.13.5 | yes | --- |
+| Open-Shell | no | no |
+| Pea 10.0.0 | yes | --- |
+| Putty release 0.81 | yes | --- |
 | RealVNC Viewer 7.12.1 | no | yes |
-| Redis Insight 2.70.1 | no | yes |
+| Redis Insight 2.70.1 | yes | --- |
 | TightVNC | no | yes |
-| Transmission | no | yes |
-| VLC media player 4.0.6 | no | yes |
-| WinSCP 6.3.5 | no | yes |
-| 百度網盤 | no | yes |
+| Transmission | yes | --- |
+| VLC media player 4.0.6 | yes | --- |
+| WinSCP 6.3.5 | yes | --- |
+| 百度網盤 | yes | --- |
 
 
 #### III. Zorin laptop  
