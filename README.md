@@ -230,36 +230,76 @@ Key Specifications & Performance:
 
 > Crostini is the official method for running Linux applications directly on ChromeOS, offering a secure, containerized Debian-based environment. It enables developers and users to install IDEs, editors, and terminal tools, which integrate seamlessly into the Launcher and share files with the host system. It is supported on most modern Chromebooks via the settings menu.
 
+Recommended First Command
+```
+sudo apt update && sudo apt upgrade -y
+```
+
+##### Domestic
 [pbpaste && pbcopy for Ubuntu Linux 20.04](https://gist.github.com/diegopacheco/75de31680b3eaeb8824e994b81889f82)
-
-Install the SQLite CLI
+Install
 ```
-sudo apt install sqlite3
-```
-
-Install the Turso CLI
-```
-curl -sSfL https://get.tur.so/install.sh | bash
+sudo apt-get install xclip -y
 ```
 
-Install the jq
+Create Alias
 ```
-sudo apt install jq
-```
-
-Install the snapd
-```
-sudo apt-get install snapd
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
 ```
 
-Install the [MongoDB Shell](https://www.mongodb.com/try/download/shell)
+Try out
+```
+pbcopy < /proc/cpuinfo 
+pbpaste > tst.txt
+cat tst.txt 
+```
 
+`~./bash_aliases`
+```
+alias ll='ls -l'
+alias la='ls -al'
+alias l='ls -CF'
+alias cls='clear'
+alias ver='cat /etc/os-release'
+alias edit='nano'
+alias type='cat'
+alias systeminfo='lshw'
+alias ipconfig='ip a'
+alias size='sudo du -h --max-depth=1'
+
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
+```
+
+Install the fortune and cowsay 
+```
+apt-get install fortune cowsay 
+```
+Add `fortune | cowsay` at the end of `~./bashrc`
+
+`~./bash_logout`
+```
+# ~/.bash_logout: executed by bash(1) when login shell exits.
+
+# when leaving the console clear the screen to increase privacy
+
+if [ "$SHLVL" = 1 ]; then
+    [ -x /usr/bin/clear_console ] && /usr/bin/clear_console -q
+fi
+
+echo
+echo Goodbye $(whoami), have a nice day!
+sleep 1
+clear
+```
+
+##### Development
 Install the Docker
 > To install Docker on a Chromebook, you must use the built-in Linux development environment (Crostini) and follow the standard Docker Engine installation steps for Debian Linux. Docker Desktop for Linux may not run correctly in the Crostini environment.
 
 **1. Update the apt package index and install necessary prerequisites**
 ```
-sudo apt-get update
 sudo apt-get install apt-transport-https ca-certificates curl gnupg2 software-properties-common -y
 ```
 
@@ -275,7 +315,6 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debi
 
 **4. Install the latest version of Docker Engine and containerd**
 ```
-sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 ```
 
@@ -286,26 +325,69 @@ sudo usermod -aG docker $USER
 
 > Reboot the Linux container for the group changes to take effect. The easiest way is to type sudo reboot in the terminal or simply restart your Chromebook.
 
-Test with 
+Test installation with 
 ```
 docker run hello-world
 ```
 
-Test with Redis
+Run Redis
 ```
 docker run --name redis -d -p 6379:6379 redis:8.4.0
 
 redis-cli 
 ```
 
-Test with MariaDB
+Run MariaDB
 ```
 docker run --name mariadb -d -p 3306:3306 -e MARIADB_ROOT_PASSWORD=123456 mariadb:11.7.2
 
 mysql -h 127.0.0.1 -u root -p
 ```
 
-Install the [ollama](https://ollama.com/download/linux)
+```
+sudo apt install default-mysql-client redis-tools
+```
+
+Install SQLite CLI
+```
+sudo apt install sqlite3
+```
+
+Install Turso CLI
+```
+curl -sSfL https://get.tur.so/install.sh | bash
+```
+
+Install jq
+```
+sudo apt install jq
+```
+
+Install snapd
+```
+sudo apt-get install snapd
+```
+
+Install the [MongoDB Shell](https://www.mongodb.com/try/download/shell)
+
+
+Install NVM 
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
+```
+
+Install nodemon
+```
+npm install -g nodemon
+```
+
+##### Productivity
+Install libreOffice
+```
+sudo apt install libreoffice
+```
+
+Install [ollama](https://ollama.com/download/linux)
 ```
 curl -fsSL https://ollama.com/install.sh | sh
 ```
@@ -344,56 +426,6 @@ http://localhost:11434/api/ps
 http://localhost:11434/api/version
 
 https://docs.ollama.com/api/tags
-```
-
-Install the nodemon
-```
-npm install -g nodemon
-```
-
-`~./bash_aliases`
-```
-alias ll='ls -l'
-alias la='ls -al'
-alias l='ls -CF'
-alias cls='clear'
-alias ver='cat /etc/os-release'
-alias edit='nano'
-alias type='cat'
-alias systeminfo='lshw'
-alias ipconfig='ip a'
-alias size='sudo du -h --max-depth=1'
-
-alias pbcopy='xclip -selection clipboard'
-alias pbpaste='xclip -selection clipboard -o'
-```
-
-move `fortune | cowsay` to the end of `~./bashrc`
-
-Install the fortune and cowsay 
-```
-apt-get install fortune cowsay 
-```
-
-`~./bash_logout`
-```
-# ~/.bash_logout: executed by bash(1) when login shell exits.
-
-# when leaving the console clear the screen to increase privacy
-
-if [ "$SHLVL" = 1 ]; then
-    [ -x /usr/bin/clear_console ] && /usr/bin/clear_console -q
-fi
-
-echo
-echo Goodbye $(whoami), have a nice day!
-sleep 1
-clear
-```
-
-Install the libreOffice
-```
-sudo apt install libreoffice
 ```
 
 Install the telnet and ftp
