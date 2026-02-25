@@ -463,6 +463,8 @@ Redis-Insight-linux-amd64.deb
 
 > Screenfetch is a Bash-based command-line tool for Debian that displays system information, such as OS version, kernel, uptime, and memory, alongside an ASCII distribution logo. It is easily installed via `sudo apt install screenfetch` and run by typing `screenfetch` in the terminal, making it ideal for sharing system specs.
 
+[Winboat.app on Debian — Complete Installation Tutorial](https://youtu.be/Rqec-jmbQRs)
+
 
 #### V. Bibliography 
 1. [Switch Your Organization From Windows in 5 Steps](https://help.zorin.com/docs/getting-started/switch-your-organization-from-windows/)
