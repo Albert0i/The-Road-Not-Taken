@@ -40,7 +40,7 @@ Personally, I won't *recommend* using virtualization software like [virtual box]
 
 ![alt 24H2](img/win-24h2.JPG)
 
-Besides bundled on my ASUS laptop and Microsoft pre-installed packages, my list of applications is like so: 
+Besides these bundled by ASUS and those pre-installed by Microsoft, which occupies more than 40G, my software list is like so:: 
 
 | **Application** | **Cross-platform** | **Alternative** |
 | ----------- | ----------- | ----------- |
@@ -57,22 +57,28 @@ Besides bundled on my ASUS laptop and Microsoft pre-installed packages, my list 
 | iTunes | no | no |
 | MariaDB | yes | --- |
 | Microsoft Visual Studio Code | yes | --- |
-| MongoDB Compass | yes | --- |
-| Mozilla Thunderbird | yes | --- |
-| Node.js | yes | --- |
-| Notepad++ | no | yes |
-| NVM for Windows 1.2.2 | yes | --- |
-| Ollama 0.13.5 | yes | --- |
-| Open-Shell | no | no |
-| Pea 10.0.0 | yes | --- |
-| Putty release 0.81 | yes | --- |
-| RealVNC Viewer 7.12.1 | no | yes |
-| Redis Insight 2.70.1 | yes | --- |
-| TightVNC | no | yes |
-| Transmission | yes | --- |
-| VLC media player 4.0.6 | yes | --- |
-| WinSCP 6.3.5 | yes | --- |
-| 百度網盤 | yes | --- |
+| [MongoDB Compass](https://www.mongodb.com/products/tools/compass) | yes | --- |
+| [Mozilla Thunderbird](https://www.thunderbird.net/en-US/) | yes | --- |
+| [Node.js](https://nodejs.org/en) | yes | --- |
+| [Notepad++](https://notepad-plus-plus.org/downloads/) | no | yes |
+| [NVM for Windows](https://www.nvmnode.com/) 1.2.2 | yes | --- |
+| [Ollama](https://ollama.com/) 0.13.5 | yes | --- |
+| [Open-Shell](https://open-shell.github.io/Open-Shell-Menu/) | no | no |
+| [Pea](https://peazip.github.io/) 10.0.0 | yes | --- |
+| [Putty](https://putty.org/index.html) release 0.81 | yes | --- |
+| [RealVNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) 7.12.1 | no | yes |
+| [Redis Insight](https://redis.io/insight/) 2.70.1 | yes | --- |
+| [TightVNC](https://www.tightvnc.com/download.php) | no | yes |
+| [Transmission](https://transmissionbt.com/) | yes | --- |
+| [VLC media player](https://www.videolan.org/vlc/) 4.0.6 | yes | --- |
+| [WinSCP](https://winscp.net/eng/download.php) 6.3.5 | yes | --- |
+| [百度網盤](https://pan.baidu.com/disk/main) | yes | --- |
+
+
+| **Application** | **Cross-platform** | **Alternative** |
+| ----------- | ----------- | ----------- |
+| [HeidiSQL](https://www.heidisql.com/) | yes | --- |
+| [Paint](https://www.microsoft.com/en-us/windows/paint) | no | yes |
 
 
 #### III. Zorin laptop  
