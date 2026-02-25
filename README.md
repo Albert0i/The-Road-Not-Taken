@@ -208,6 +208,22 @@ Cons: Still in beta, not rock solid. Multiple prerequisites and huge resource co
 #### IV. Chromebook 
 ![alt chromebook](img/Chromebook%202026-02-19%203.23.43%20PM.png)
 
+Intel(R) Core(TM) m3-8100Y CPU @ 1.10GHz
+> The Intel Core m3-8100Y is an ultra-low-power, 8th-generation dual-core processor designed for thin-and-light laptops, 2-in-1s, and tablets. Operating at a base frequency of 1.10 GHz, it boasts a turbo boost up to 3.40 GHz. It is ideal for basic productivity tasks, with a very low 5W TDP, and features Intel UHD Graphics 615.
+
+Key Specifications & Performance:
+
+- Cores/Threads: 2 cores / 4 threads (Hyper-Threading).
+- Frequency: 1.10 GHz Base, 3.40 GHz Turbo.
+- Graphics: Integrated Intel® UHD Graphics 615.
+- TDP: 5W (extremely energy-efficient).
+- Cache: 4 MB Intel® Smart Cache.
+- Use Case: Ideal for light browsing, document editing, and mobility rather than heavy processing.
+
+> The m3-8100Y is often found in devices like the Microsoft Surface Go 2 and various ASUS Chromebooks. It offers decent performance for daily tasks but is not meant for gaming or intense video editing. 
+
+> Crostini is the official method for running Linux applications directly on ChromeOS, offering a secure, containerized Debian-based environment. It enables developers and users to install IDEs, editors, and terminal tools, which integrate seamlessly into the Launcher and share files with the host system. It is supported on most modern Chromebooks via the settings menu.
+
 [pbpaste && pbcopy for Ubuntu Linux 20.04](https://gist.github.com/diegopacheco/75de31680b3eaeb8824e994b81889f82)
 
 Install the SQLite CLI
@@ -379,22 +395,6 @@ Install the telnet and ftp
 sudo apt install telnet
 sudo apt install ftp
 ```
-
-Intel(R) Core(TM) m3-8100Y CPU @ 1.10GHz
-> The Intel Core m3-8100Y is an ultra-low-power, 8th-generation dual-core processor designed for thin-and-light laptops, 2-in-1s, and tablets. Operating at a base frequency of 1.10 GHz, it boasts a turbo boost up to 3.40 GHz. It is ideal for basic productivity tasks, with a very low 5W TDP, and features Intel UHD Graphics 615.
-
-Key Specifications & Performance:
-
-- Cores/Threads: 2 cores / 4 threads (Hyper-Threading).
-- Frequency: 1.10 GHz Base, 3.40 GHz Turbo.
-- Graphics: Integrated Intel® UHD Graphics 615.
-- TDP: 5W (extremely energy-efficient).
-- Cache: 4 MB Intel® Smart Cache.
-- Use Case: Ideal for light browsing, document editing, and mobility rather than heavy processing.
-
-> The m3-8100Y is often found in devices like the Microsoft Surface Go 2 and various ASUS Chromebooks. It offers decent performance for daily tasks but is not meant for gaming or intense video editing. 
-
-> Crostini is the official method for running Linux applications directly on ChromeOS, offering a secure, containerized Debian-based environment. It enables developers and users to install IDEs, editors, and terminal tools, which integrate seamlessly into the Launcher and share files with the host system. It is supported on most modern Chromebooks via the settings menu.
 
 
 #### V. Bibliography 
