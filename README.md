@@ -44,19 +44,19 @@ Besides these bundled by ASUS and those pre-installed by Microsoft, which occupi
 
 | **Application** | **Cross-platform** | **Alternative** |
 | ----------- | ----------- | ----------- |
-| Avast Free AntiVIrus | no | no |
-| Desktop Restore version 1.7.2.083 | no | no |
-| EaseUS Todo Backup Free 2025 | no | no |
-| FileZilla 3.68.1 | yes | --- |
-| FreeFileSync | yes | --- |
-| Git | yes | --- |
-| GnuWin32: Make-3.8.1 | yes | --- |
-| GnuWin32: sed-4.2.1 | yes | --- |
-| Google Chrome | yes | --- |
-| HandBrake 1.8.2 | yes | --- |
-| iTunes | no | no |
-| MariaDB | yes | --- |
-| Microsoft Visual Studio Code | yes | --- |
+| [Avast Free AntiVIrus](https://www.avast.com/free-antivirus-download#pc) | no | no |
+| [Desktop Restore](https://www.majorgeeks.com/files/details/desktop_restore.html) version 1.7.2.083 | no | no |
+| [EaseUS Todo Backup Free 2025](https://www.easeus.com/download/tbf-download.html?srsltid=AfmBOopjxoA-5S-s9NZHvRwlyVqlGJzmH-HHgeyzu8L7sf7iAfGGXsuM) | no | no |
+| [FileZilla](https://filezilla-project.org/) 3.68.1 | yes | --- |
+| [FreeFileSync](https://freefilesync.org/) | yes | --- |
+| [Git](https://git-scm.com/) | yes | --- |
+| [GnuWin32: Make](https://gnuwin32.sourceforge.net/packages/make.htm)-3.8.1 | yes | --- |
+| [GnuWin32: sed](https://gnuwin32.sourceforge.net/packages/sed.htm)-4.2.1 | yes | --- |
+| [Google Chrome](https://www.google.com/chrome/) | yes | --- |
+| [HandBrake](https://handbrake.fr/) 1.8.2 | yes | --- |
+| [iTunes](https://www.apple.com/itunes/) | no | no |
+| [MariaDB](https://mariadb.com/) | yes | --- |
+| [Microsoft Visual Studio Code](https://code.visualstudio.com/) | yes | --- |
 | [MongoDB Compass](https://www.mongodb.com/products/tools/compass) | yes | --- |
 | [Mozilla Thunderbird](https://www.thunderbird.net/en-US/) | yes | --- |
 | [Node.js](https://nodejs.org/en) | yes | --- |
