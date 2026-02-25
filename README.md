@@ -10,19 +10,20 @@
 
 
 #### Prologue 
-The day when tools you used for decades no longer serve you but the cooperation. The day when intrusive AI comes in company with you on treading every flagstones. I shudder in sweat as if I were naked... Shit! This is wrong, this is *all* wrong... 
+The day when tools you use for decades no longer serve you but the cooperation. The day when AI comes in company with you on treading every flagstones. I shudder in sweat as if I were naked... Oh! This is wrong, this is *ALL* wrong... 
 
 
-#### I. The Dawn
-In January of 2026, three Linux distros have been evaluated: 
+#### I. The Ignition
+In January of 2026, some Linux distros have been evaluated and they are: 
 - [Linux Mint](https://linuxmint.com/)
 - [MX Linux](https://mxlinux.org/)
 - [Zorin OS](https://zorin.com/os/)
 
 The last one is chosen not because other two are not good. It's a sensibility issue, nothing to do with functionality. 
 
-Zorin OS comes with all the essential apps you need out of the box, so you can get working right away. Discover thousands of powerful apps from the built-in [Software store](https://help.zorin.com/docs/apps-games/install-apps/#software-store). 
+> Zorin OS comes with all the essential apps you need out of the box, so you can get working right away. Discover thousands of powerful apps from the built-in [Software store](https://help.zorin.com/docs/apps-games/install-apps/#software-store). 
 
+More apps can be found in: 
 - [Alternatives to Windows Apps](https://help.zorin.com/docs/apps-games/alternatives-to-windows-apps/)
 - [AlternativeTo.net](https://alternativeto.net/)
 
@@ -32,7 +33,7 @@ You can even run many Windows apps in Zorin OS with [Windows App Support](https:
 - [Bottle](https://usebottles.com/)
 - [WinBoat](https://www.winboat.app/)
 
-Personally, I won't *recommend* using virtualization software like [virtual box](https://www.virtualbox.org/)! Keep opting out, and don’t look back.
+IMHO, I won't *recommend* running a dual boot system or running Linux plus virtualization software such as [virtual box](https://www.virtualbox.org/)! That would deviate from our goal. 
 
 
 #### II. My Windows 11 Laptop
@@ -88,7 +89,7 @@ Software occasionally used:
 #### III. Zorin laptop  
 ![alt zorin os 18](img/Screenshot%20from%202026-02-15%2019-44-08.png)
 
-**Edge Case One**: 
+**Edge Case 1**: 
 1. [ConvertZ](https://www.azofreeware.com/2006/03/convertz-802.html)
 > 中文簡繁內碼轉換器 - ConvertZ，簡單易用而且功能強大的中文內碼轉換工具，支援 GBK、Big5、HZ、Shift-JIS、JIS、EUC-JP、Unicode Little Endian、Unicode Big Endian、及 UTF-8 編碼，讓您輕鬆的對純文字檔案、檔案/資料夾名稱、剪貼簿文字、及 MP3 ID3 標籤在上述編碼之間進行轉換。
 
@@ -104,7 +105,7 @@ Software occasionally used:
 2. [Bottles - Run Windows Software on Linux](https://usebottles.com/)
 
 
-**Edge case Two**: [Garmin Express](https://www.garmin.com/en-US/software/express/windows/)
+**Edge case 2**: [Garmin Express](https://www.garmin.com/en-US/software/express/windows/)
 > Use Garmin Express to update maps and software, sync with Garmin Connect and register your device. This desktop software notifies you when updates are available and helps you install them.
 
 **System Requirements**
@@ -138,7 +139,7 @@ To simplify launching you can create a .desktop file and place it into /usr/shar
 wine "/opt/garmin/drive_c/Program Files (x86)/Garmin/Express/express.exe"
 ```
 
-**Edge Case Three**: [iTunes](https://www.apple.com/itunes/)
+**Edge Case 3**: [iTunes](https://www.apple.com/itunes/)
 > The latest entertainment apps now come installed with the latest macOS. Upgrade today to get your favorite music, movies, TV shows, and podcasts. You can join Apple Music and stream — or download and play offline — millions of songs, ad‑free.
 
 1. [WinBoat](https://www.winboat.app/)
