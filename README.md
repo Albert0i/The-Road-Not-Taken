@@ -35,8 +35,44 @@ You can even run many Windows apps in Zorin OS with [Windows App Support](https:
 Personally, I won't *recommend* using virtualization software like [virtual box](https://www.virtualbox.org/)! Keep opting out, and don’t look back.
 
 
-#### II. Windows 11 
+#### II. My Windows 11 Laptop
 ![alt windows 11](img/Desktop%20(2026-02-01).JPG)
+
+![alt 24H2](img/win-24h2.JPG)
+
+Besides bundled on my ASUS laptop and Microsoft pre-installed packages, my list of applications is like so: 
+
+| **Application** | **Cross-platform** | **Alternative** |
+| ----------- | ----------- | ----------- |
+| Avast Free AntiVIrus | no | no |
+| Desktop Restore version 1.7.2.083 | no | no |
+| EaseUS Todo Backup Free 2025 | no | no |
+| FileZilla 3.68.1 | yes | --- |
+| FreeFileSync | yes | --- |
+| Git | yes | --- |
+| GnuWin32: Make-3.8.1 | yes | --- |
+| GnuWin32: sed-4.2.1 | yes | --- |
+| Google Chrome | yes | --- |
+| HandBrake 1.8.2 | yes | --- |
+| iTunes | yes |  |
+| MariaDB | no | yes |
+| Microsoft Visual Studio Code | no | yes |
+| MongoDB Compass | no | yes |
+| Mozilla Thunderbird | no | yes |
+| Node.js | no | yes |
+| Notepad++ | no | yes |
+| NVM for Windows 1.2.2 | no | yes |
+| Ollama 0.13.5 | no | yes |
+| Open-Shell | no | yes |
+| Pea 10.0.0 | no | yes |
+| Putty release 0.81 | no | yes |
+| RealVNC Viewer 7.12.1 | no | yes |
+| Redis Insight 2.70.1 | no | yes |
+| TightVNC | no | yes |
+| Transmission | no | yes |
+| VLC media player 4.0.6 | no | yes |
+| WinSCP 6.3.5 | no | yes |
+| 百度網盤 | no | yes |
 
 
 #### III. Zorin laptop  
