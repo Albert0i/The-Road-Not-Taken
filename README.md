@@ -519,8 +519,8 @@ Redis-Insight-linux-amd64.deb
 4. [Winboat.app on Debian — Complete Installation Tutorial](https://youtu.be/Rqec-jmbQRs)
 5. [Run Windows Apps on Linux Mint 22.3 with WinBoat (Full Beginner Guide)](https://youtu.be/PqpHaxATY3E)
 6. [Windows Sucks. I'm Using DOS From Now On.](https://youtu.be/mwLIgdRj5bI)
-7. []()
-8. []()
+7. [I Tried Zorin OS as a Windows 11 User (It Wasn’t What I Expected)](https://youtu.be/qe_epHU_opo)
+8. [A Linux Distro Made For 99% of People](https://youtu.be/L5q36VojWk0)
 9. [The Book of Disquiet by Fernando Pessoa](https://dn720004.ca.archive.org/0/items/english-collections-1/Book%20of%20Disquiet%2C%20The%20-%20Fernando%20Pessoa.pdf)
 
 
