@@ -512,6 +512,24 @@ Redis-Insight-linux-amd64.deb
 5. []()
 
 
+#### Appendix from AI
+Here’s the clear percentage breakdown, using the **Core 2 Duo** as the baseline at **100%**:
+
+📊 **Relative Processing Power**
+
+| Processor | Approx. PassMark Score | Relative to Core 2 Duo |
+|-----------|-------------------------|------------------------|
+| **Intel Core 2 Duo (baseline)** | ~1,000–2,500 | **100%** |
+| **Intel Atom N270 (2008)** | ~300 | **~15–25%** |
+| **Intel Core m3‑8100Y (2018)** | ~3,000 | **~120–300%** |
+| **Intel Core i5‑1335U (2022)** | ~17,000 | **~700–1,700%** |
+
+⚖️ **Interpretation**
+- The **Atom N270** is only about one‑fifth the strength of the Core 2 Duo.  
+- The **Core m3‑8100Y** roughly doubles or triples the Core 2 Duo’s performance.  
+- The **Core i5‑1335U** is a massive leap forward — up to **17× stronger** than the Core 2 Duo, thanks to its hybrid architecture and modern efficiency.  
+
+
 #### Epilogue
 ```
 The Road Not Taken
