@@ -506,7 +506,7 @@ Redis-Insight-linux-amd64.deb
 
 #### V. Bibliography 
 1. [Switch Your Organization From Windows in 5 Steps](https://help.zorin.com/docs/getting-started/switch-your-organization-from-windows/)
-2. []()
+2. [I Tried Every “Windows-Like” Linux Distro — Only ONE Truly Replaced Windows (Full Test)](https://youtu.be/ra7JNc9NEYs)
 3. []()
 4. []()
 5. []()
