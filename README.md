@@ -10,11 +10,11 @@ The Book of Disquiet by Fernando Pessoa
 
 > "To be clear: Windows isn’t bad. I actually like it. But the direction of Windows 11 is."── [Builtbybel](https://github.com/builtbybel/Winslop)
 
-![alt Dilbert](img/Dilbert.JPG)
-
 
 #### Prologue 
-The day when tools you use for decades no longer serve you but the cooperation. The day when AI comes in company with you on treading every flagstones. I shudder in sweat as if I were naked... Oh! This is wrong, this is *ALL* wrong... 
+The day when tools you use for decades no longer serve you but the corporation. The day when AI accompanies with you on treading every flagstones. I shudder in sweat as if I were naked... Alas! This is wrong, this is *ALL* wrong... 
+
+![alt Dilbert](img/Dilbert.JPG)
 
 
 #### I. The Ignition
