@@ -512,7 +512,7 @@ Redis-Insight-linux-amd64.deb
 5. []()
 
 
-#### Appendix from AI
+#### VI. Appendix from AI
 Here’s the clear percentage breakdown, using the **Core 2 Duo** as the baseline at **100%**:
 
 📊 **Relative Processing Power**
