@@ -44,7 +44,7 @@ IMHO, I won't *recommend* running a dual boot system or running Linux plus virtu
 I have tried hard to inhibit it from updating but found it *rotten to the heart*, the update behaviour is triggered automatically on event base *and* on time base. It is hard coded in the kernel level, there is practically no way to stop it. Strategies I have used includes:  
 
 1. Continuously checking and stoping `Windows Update Service` mmanually, which makes me almost crazy;
-2. Turn-off WIFI connection, which makes my computer almost a brick;
+2. Turn off WIFI connection, which makes my computer almost a brick;
 3. Use `Parental controls` on router to block internet connection while computer and WIFI accidentally left on.
 
 Once the update is on the way, the `Shutdown` option becomes `Update and Shutdown` and you are trapped! The only way to escape is to open a `cmd` and type: 
@@ -78,7 +78,7 @@ Windows will indeed shut down immediately — but if there’s a **pending updat
 
 ---
 
-Without further/more ado, besides these bundled by **ASUS** and those pre-installed by **Microsoft**, the bare installation consumes more than 40G!  Following is my software list: 
+The next time when you turn on the computer, the war begins like a clockwork... Without further/more ado, besides these bundled by **ASUS** and those pre-installed by **Microsoft**, the bare installation consumes more than 40G! Following is my software list: 
 
 | **Application** | **Cross-platform** | **Alternative** |
 | ----------- | ----------- | ----------- |
