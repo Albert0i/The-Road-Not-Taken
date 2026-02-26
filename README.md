@@ -41,6 +41,43 @@ IMHO, I won't *recommend* running a dual boot system or running Linux plus virtu
 
 ![alt 24H2](img/win-24h2.JPG)
 
+I have tried hard to inhibit it from updating but found it *rotten to the heart*, the update behaviour is triggered automatically on event base *and* on time base. It is hard coded in the kernel level, there is practically no way to stop it. Strategies I have used includes:  
+
+1. Continuously checking and stoping `Windows Update Service` mmanually, which makes me almost crazy; 
+2. Turn-off WIFI connection, which makes my computer almost a brick; 
+3. Use `Parental controls` on router to block internet connection while computer and WIFI accidentally left on. 
+
+Once the update is on the way, the `Shutdown` option becomes `Update and Shutdown` and you are trapped! The only way to escape is to open a `cmd` and type: 
+```
+shutdown -s -t 0
+```
+
+As soon as you run this command, Windows will begin shutting down right away — no countdown, no waiting period. It’s the fastest way to trigger a shutdown from the command line. But there is a catch... 
+
+---
+**Caveat from AI**
+
+When you run a shutdown command like:  
+
+```bash
+shutdown -s -t 0
+```  
+
+Windows will indeed shut down immediately — but if there’s a **pending update**, things change a bit.  
+
+**🔍 How Pending Updates Affect Shutdown**
+- **Normal shutdown**: If no updates are pending, the system powers off right away.
+- **Pending updates**: When Windows has already staged updates (downloaded and ready to install), the shutdown options in the Start menu change to **“Update and Shutdown”** or **“Update and Restart.”**
+- **Command-line shutdown**: Using `shutdown -s -t 0` bypasses the Start menu, but if updates are already staged, Windows may still apply them during shutdown. *In other words, you can’t always escape — the OS treats shutdown as an opportunity to finish the update process*.
+- **Force shutdown**: If you use `shutdown /s /f /t 0` (with `/f` to force-close apps), you can sometimes skip the update cycle, but this risks leaving updates half-applied, which can cause issues.
+
+⚖️ **Bottom Line**
+- The command works, but pending updates can *override* it.
+- Windows prioritizes completing updates once they’re staged, so even command-line shutdowns may *trigger* them.
+- The *only* way to truly avoid it is to pause or disable updates before they reach the “pending install” stage.
+
+---
+
 Besides some bundled by ASUS and other pre-installed by Microsoft, the bare installation consumes more than 40G!  Following is my software list: 
 
 | **Application** | **Cross-platform** | **Alternative** |
@@ -189,7 +226,7 @@ Running a dual-boot system or linux with virtual box is a technical compromise s
 Windows subsystem for Linux running on a docker virtual machine. 
 
 Integration instead of emulation. Run a full-fledged Windows VM. 
-Not specifically innovative but a composite of multiple mature techniques. 
+Not specifically innovative but a clever composite of multiple mature techniques. 
 
 Pros: 100% compability. Anything can be run on a VM and can be run on WinBoat in theory. 
 
@@ -461,6 +498,8 @@ Redis-Insight-linux-amd64.deb
 ```
 
 > Screenfetch is a Bash-based command-line tool for Debian that displays system information, such as OS version, kernel, uptime, and memory, alongside an ASCII distribution logo. It is easily installed via `sudo apt install screenfetch` and run by typing `screenfetch` in the terminal, making it ideal for sharing system specs.
+
+![alt chromebook-screenfetch](img/chromebook-screenfetch.png)
 
 [Winboat.app on Debian — Complete Installation Tutorial](https://youtu.be/Rqec-jmbQRs)
 
