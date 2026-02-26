@@ -524,11 +524,6 @@ Here’s the clear percentage breakdown, using the **Core 2 Duo** as the baselin
 | **Intel Core m3‑8100Y (2018)** | ~3,000 | **~120–300%** |
 | **Intel Core i5‑1335U (2022)** | ~17,000 | **~700–1,700%** |
 
-⚖️ **Interpretation**
-- The **Atom N270** is only about one‑fifth the strength of the Core 2 Duo.  
-- The **Core m3‑8100Y** roughly doubles or triples the Core 2 Duo’s performance.  
-- The **Core i5‑1335U** is a massive leap forward — up to **17× stronger** than the Core 2 Duo, thanks to its hybrid architecture and modern efficiency.  
-
 
 #### Epilogue
 ```
@@ -561,4 +556,4 @@ And that has made all the difference.   於是再來的一切都迴然相異。
 ```
 
 
-### EOF (2026/xx/xx)
+### EOF (2026/04/01)
