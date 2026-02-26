@@ -43,11 +43,11 @@ IMHO, I won't *recommend* running a dual boot system or running Linux plus virtu
 
 I have tried hard to inhibit it from updating but found it *rotten to the heart*, the update behaviour is triggered automatically on event base *and* on time base. It is hard coded in the kernel level, there is practically no way to stop it, let alone to remove it. Strategies I have used includes:  
 
-1. Continuously checking and stoping `Windows Update Service` mmanually, which makes me almost crazy;
-2. Turn off WIFI connection, which makes my computer almost a brick;
-3. Use `Parental controls` on router to block internet connection while computer and WIFI accidentally left on.
+1. Continuously checking and stoping `Windows Update Service` manually, which makes me almost delirious;
+2. Turn off WIFI connection completely, which makes my computer almost a brick;
+3. Use `Parental controls` on router to block internet connection while WIFI accidentally left on.
 
-Once the update is on the way, the `Shutdown` option becomes `Update and Shutdown` and you are trapped! The only way to escape is to open a `cmd` and type: 
+Once the update is on its way, the `Shutdown` option becomes `Update and Shutdown` and you are trapped! The only way to escape is to open a `cmd` and type: 
 ```
 shutdown -s -t 0
 ```
