@@ -9,7 +9,7 @@ accept slavery. Our faint-hearted love of freedom – which, if we had
 it, we would all reject, unable to get used to it – is proof of how
 ingrained our slavery is."<br />
 "A escravatura é a lei da vida, e não há outra lei, porque esta tem de cumprir-se, sem revolta possível nem refúgio que achar. Uns nascem escravos, outros tornam-se escravos, e a outros a escravidão é dada. O amor cobarde que todos temos à liberdade — que, se a tivéssemos, estranharíamos, por nova, repudiando-a — é o verdadeiro sinal do peso da nossa escravidão."<br />
-[The Book of Disquiet by Fernando Pessoa](https://dn720004.ca.archive.org/0/items/english-collections-1/Book%20of%20Disquiet%2C%20The%20-%20Fernando%20Pessoa.pdf)
+── [The Book of Disquiet by Fernando Pessoa](https://dn720004.ca.archive.org/0/items/english-collections-1/Book%20of%20Disquiet%2C%20The%20-%20Fernando%20Pessoa.pdf)
 
 > "In a world without walls and fences, who needs windows and gates?"── [Alain Ruellan](https://www.linkedin.com/posts/alain-ruellan-0b775018_in-a-world-without-walls-and-fences-who-activity-7118788566607908864-aYjh?trk=public_profile_share_view)
 
