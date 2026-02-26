@@ -519,7 +519,7 @@ Here’s the clear percentage breakdown, using the **Core 2 Duo** as the baselin
 
 | Processor | Approx. PassMark Score | Relative to Core 2 Duo |
 |-----------|-------------------------|------------------------|
-| **Intel Core 2 Duo (baseline)** | ~1,000–2,500 | **100%** |
+| **Intel Core 2 Duo (2006)** | ~1,000–2,500 | **100%** |
 | **Intel Atom N270 (2008)** | ~300 | **~15–25%** |
 | **Intel Core m3‑8100Y (2018)** | ~3,000 | **~120–300%** |
 | **Intel Core i5‑1335U (2022)** | ~17,000 | **~700–1,700%** |
