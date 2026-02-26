@@ -513,7 +513,8 @@ Redis-Insight-linux-amd64.deb
 2. [I Tried Every “Windows-Like” Linux Distro — Only ONE Truly Replaced Windows (Full Test)](https://youtu.be/ra7JNc9NEYs)
 3. [Run Windows Apps on Linux (Wine Explained for Beginners)](https://youtu.be/gKKW3qZ-NZw)
 4. [Winboat.app on Debian — Complete Installation Tutorial](https://youtu.be/Rqec-jmbQRs)
-9. [The Book of Disquiet by Fernando Pessoa](https://dn720004.ca.archive.org/0/items/english-collections-1/Book%20of%20Disquiet%2C%20The%20-%20Fernando%20Pessoa.pdf)
+5. [Run Windows Apps on Linux Mint 22.3 with WinBoat (Full Beginner Guide)](https://youtu.be/PqpHaxATY3E)
+6. [The Book of Disquiet by Fernando Pessoa](https://dn720004.ca.archive.org/0/items/english-collections-1/Book%20of%20Disquiet%2C%20The%20-%20Fernando%20Pessoa.pdf)
 
 
 #### VI. Appendix from AI
