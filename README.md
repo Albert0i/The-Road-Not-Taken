@@ -2,8 +2,8 @@
 
 > "Years of love have been forgot, In the hatred of a minute."── [Edgar Allan Poe](https://www.quora.com/What-does-Edgar-Allan-Poe-mean-in-his-famous-quote-Years-of-love-have-been-in-the-hatred-of-a-minute)
 
-> "Each face, even if seen just yesterday, is di erent today, because today isn’t yesterday. Each day is the day it is, and there was never another one like it in the world. "
-"Cada rosto, ainda que seja o de quem vimos ontem, e outro hoje, pois que hoje nao e ontem. Cada dia e o dia que e, e nunca houve outro igual no mundo."
+> "Each face, even if seen just yesterday, is different today, because today isn’t yesterday. Each day is the day it is, and there was never another one like it in the world. "
+"Cada rosto, ainda que seja o de quem vimos ontem, é outro hoje, pois que hoje não é ontem. Cada dia é o dia que é, e nunca houve outro igual no mundo."
 The Book of Disquiet by Fernando Pessoa
 
 > "In a world without walls and fences, who needs windows and gates?"── [Alain Ruellan](https://www.linkedin.com/posts/alain-ruellan-0b775018_in-a-world-without-walls-and-fences-who-activity-7118788566607908864-aYjh?trk=public_profile_share_view)
