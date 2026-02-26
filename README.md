@@ -36,7 +36,7 @@ You can even run many Windows apps in Zorin OS with [Windows App Support](https:
 IMHO, I won't *recommend* running a dual boot system or running Linux plus virtualization software such as [virtual box](https://www.virtualbox.org/)! That would deviate from our goal. 
 
 
-#### II. Windows 11 Laptop
+#### II. Windows 11 Predicament
 ![alt windows 11](img/Desktop%20(2026-02-01).JPG)
 
 ![alt 24H2](img/win-24h2.JPG)
@@ -123,7 +123,7 @@ Software occasionally used:
 | [ASS2SRT](https://apps.microsoft.com/detail/9p6zjkkntck1?hl=en-US&gl=SA) | no | no |
 
 
-#### III. Zorin Laptop
+#### III. Zorin
 ![alt zorin os 18](img/Screenshot%20from%202026-02-15%2019-44-08.png)
 
 **Edge Case 1**: 
