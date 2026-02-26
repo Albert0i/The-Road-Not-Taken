@@ -43,9 +43,9 @@ IMHO, I won't *recommend* running a dual boot system or running Linux plus virtu
 
 I have tried hard to inhibit it from updating but found it *rotten to the heart*, the update behaviour is triggered automatically on event base *and* on time base. It is hard coded in the kernel level, there is practically no way to stop it. Strategies I have used includes:  
 
-1. Continuously checking and stoping `Windows Update Service` mmanually, which makes me almost crazy; 
-2. Turn-off WIFI connection, which makes my computer almost a brick; 
-3. Use `Parental controls` on router to block internet connection while computer and WIFI accidentally left on. 
+1. Continuously checking and stoping `Windows Update Service` mmanually, which makes me almost crazy;
+2. Turn-off WIFI connection, which makes my computer almost a brick;
+3. Use `Parental controls` on router to block internet connection while computer and WIFI accidentally left on.
 
 Once the update is on the way, the `Shutdown` option becomes `Update and Shutdown` and you are trapped! The only way to escape is to open a `cmd` and type: 
 ```
@@ -73,12 +73,12 @@ Windows will indeed shut down immediately — but if there’s a **pending updat
 
 ⚖️ **Bottom Line**
 - The command works, but pending updates can *override* it.
-- Windows prioritizes completing updates once they’re staged, so even command-line shutdowns may *trigger* them.
+- Windows *prioritizes* completing updates once they’re staged, so even command-line shutdowns may *trigger* them.
 - The *only* way to truly avoid it is to pause or disable updates before they reach the “pending install” stage.
 
 ---
 
-Besides some bundled by ASUS and other pre-installed by Microsoft, the bare installation consumes more than 40G!  Following is my software list: 
+Without further/more ado, besides these bundled by **ASUS** and those pre-installed by **Microsoft**, the bare installation consumes more than 40G!  Following is my software list: 
 
 | **Application** | **Cross-platform** | **Alternative** |
 | ----------- | ----------- | ----------- |
