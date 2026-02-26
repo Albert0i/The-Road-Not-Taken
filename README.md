@@ -41,7 +41,7 @@ IMHO, I won't *recommend* running a dual boot system or running Linux plus virtu
 
 ![alt 24H2](img/win-24h2.JPG)
 
-I have tried hard to inhibit it from updating but found it *rotten to the heart*, the update behaviour is triggered automatically on event base *and* on time base. It is hard coded in the kernel level, there is practically no way to stop it let alone to remove it. Strategies I have used includes:  
+I have tried hard to inhibit it from updating but found it *rotten to the heart*, the update behaviour is triggered automatically on event base *and* on time base. It is hard coded in the kernel level, there is practically no way to stop it, let alone to remove it. Strategies I have used includes:  
 
 1. Continuously checking and stoping `Windows Update Service` mmanually, which makes me almost crazy;
 2. Turn off WIFI connection, which makes my computer almost a brick;
