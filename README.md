@@ -18,12 +18,13 @@ The day when tools you use for decades no longer serve you but the corporation. 
 
 
 #### I. The Ignition
-In January of 2026, some Linux distros have been evaluated and they are: 
+In January of 2026, multiple Linux distros have been tested, which includes: 
 - [Linux Mint](https://linuxmint.com/)
 - [MX Linux](https://mxlinux.org/)
 - [Zorin OS](https://zorin.com/os/)
+- ... 
 
-The last one is chosen not because other two are not good. It's a sensibility issue, nothing to do with functionality. 
+The third one is chosen not because the first two are not good. It's a sensibility issue, nothing to do with functionality. 
 
 > Zorin OS comes with all the essential apps you need out of the box, so you can get working right away. Discover thousands of powerful apps from the built-in [Software store](https://help.zorin.com/docs/apps-games/install-apps/#software-store). 
 
