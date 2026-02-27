@@ -193,11 +193,16 @@ wine /tmp/GarminExpress.exe
 
 That's about it, really. I additionally went into the settings and disabled launch on "boot" to remove possible complications this may cause, if any.
 
-To simplify launching you can create a .desktop file and place it into /usr/share/applications/ to be able to launch it with your DE. Otherwise, export the wineprefix and launch:
+To simplify launching you can create a .desktop file and place it into `/usr/share/applications/` to be able to launch it with your DE. Otherwise, export the wineprefix and launch:
 
 ```
 wine "/opt/garmin/drive_c/Program Files (x86)/Garmin/Express/express.exe"
 ```
+
+**Remember to mount the device!**
+
+All tested Garmin devices present themselves as mass storage media to Linux, so their file system is browsable. If the issue arises that your device is not detected, check if it's mounted read-write. Not all distributions are configured to auto-mount such media.
+
 
 ##### **Edge Case 3**: [iTunes](https://www.apple.com/itunes/)
 > The latest entertainment apps now come installed with the latest macOS. Upgrade today to get your favorite music, movies, TV shows, and podcasts. You can join Apple Music and stream — or download and play offline — millions of songs, ad‑free.
