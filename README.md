@@ -56,7 +56,7 @@ I have tried hard to inhibit it from updating but in vain... I found it *rotten 
 ![alt Windows-Update-Service](img/Windows-Update-Service.JPG)
 
 Strategies I employ includes: 
-1. Continuously checking and stoping `Windows Update Service`* manually*, which makes me almost delirious;
+1. Continuously checking and stoping `Windows Update Service`*manually*, which makes me almost delirious;
 2. Turn off WIFI connection *completely*, which makes my computer almost a brick;
 3. Use `Parental controls` on router to block internet connection if WIFI is accidentally left on.
 
