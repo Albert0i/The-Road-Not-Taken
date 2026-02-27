@@ -19,7 +19,7 @@ The day when tools you use for decades no longer serve you but the corporation. 
 
 ![alt Dilbert](img/Dilbert.JPG)
 
-As an inveterate writer, it is my responsibility to pen down 
+As an inveterate writer, it is my responsibility to pen down whirlpool and turbulence of the year. This is not about uninstalling and installing software, this is about the change of rudder and rigging, the change of course of mind and life.  
 
 
 #### I. The Ignition
