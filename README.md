@@ -91,7 +91,9 @@ Windows will indeed shut down immediately — but if there’s a **pending updat
 
 ---
 
-The next day, when you turn on the computer, the war continues like clockwork. Good luck. Without further/more ado, besides these bundled by **ASUS** and those pre-installed by **Microsoft**, the bare installation consumes more than 40G! Following is my software list: 
+The next day, when you turn on the computer, the war continues like clockwork. Good luck! 
+
+Without further ado, let's talk about the softwares, besides these bundled by **ASUS** and those pre-installed by **Microsoft**, which consumes more than 40G, Following is the list: 
 
 | **Application** | **Cross-platform** | **Alternative** |
 | ----------- | ----------- | ----------- |
