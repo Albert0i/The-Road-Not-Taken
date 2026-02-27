@@ -107,7 +107,7 @@ Without further ado, let's talk about the softwares, besides these bundled by **
 | [GnuWin32: sed](https://gnuwin32.sourceforge.net/packages/sed.htm)-4.2.1 | yes | --- |
 | [Google Chrome](https://www.google.com/chrome/) | yes | --- |
 | [HandBrake](https://handbrake.fr/) 1.8.2 | yes | --- |
-| [iTunes](https://www.apple.com/itunes/) | no | no |
+| [iTunes](https://www.apple.com/itunes/) 12.10.11 | no | no |
 | [MariaDB](https://mariadb.com/)  11.7.2 | yes | --- |
 | [Microsoft Visual Studio Code](https://code.visualstudio.com/) | yes | --- |
 | [MongoDB Compass](https://www.mongodb.com/products/tools/compass) | yes | --- |
