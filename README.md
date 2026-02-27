@@ -108,7 +108,7 @@ Without further ado, let's talk about the softwares, besides these bundled by **
 | [Google Chrome](https://www.google.com/chrome/) | yes | --- |
 | [HandBrake](https://handbrake.fr/) 1.8.2 | yes | --- |
 | [iTunes](https://www.apple.com/itunes/) | no | no |
-| [MariaDB](https://mariadb.com/) | yes | --- |
+| [MariaDB](https://mariadb.com/)  11.7.2 | yes | --- |
 | [Microsoft Visual Studio Code](https://code.visualstudio.com/) | yes | --- |
 | [MongoDB Compass](https://www.mongodb.com/products/tools/compass) | yes | --- |
 | [Mozilla Thunderbird](https://www.thunderbird.net/en-US/) | yes | --- |
@@ -120,6 +120,7 @@ Without further ado, let's talk about the softwares, besides these bundled by **
 | [Pea](https://peazip.github.io/) 10.0.0 | yes | --- |
 | [Putty](https://putty.org/index.html) release 0.81 | yes | --- |
 | [RealVNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) 7.12.1 | no | yes |
+| [Redis](https://github.com/zkteco-home/redis-windows) 8.4.0 | yes | --- |
 | [Redis Insight](https://redis.io/insight/) 2.70.1 | yes | --- |
 | [TightVNC](https://www.tightvnc.com/download.php) | no | yes |
 | [Transmission](https://transmissionbt.com/) | yes | --- |
