@@ -98,7 +98,7 @@ Without further ado, let's talk about the softwares, besides these bundled by **
 | **Application** | **Cross-platform** | **Alternative** |
 | ----------- | ----------- | ----------- |
 | [Avast Free AntiVIrus](https://www.avast.com/free-antivirus-download#pc) | no | no |
-| [Desktop Restore](https://www.majorgeeks.com/files/details/desktop_restore.html) version 1.7.2.083 | no | no |
+| [Desktop Restore](https://www.majorgeeks.com/files/details/desktop_restore.html) 1.7.2.083 | no | no |
 | [EaseUS Todo Backup Free 2025](https://www.easeus.com/download/tbf-download.html?srsltid=AfmBOopjxoA-5S-s9NZHvRwlyVqlGJzmH-HHgeyzu8L7sf7iAfGGXsuM) | no | no |
 | [FileZilla](https://filezilla-project.org/) 3.68.1 | yes | --- |
 | [FreeFileSync](https://freefilesync.org/) | yes | --- |
