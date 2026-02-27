@@ -172,23 +172,30 @@ Software occasionally used:
 [WineHQ AppDB](https://appdb.winehq.org/objectManager.php?sClass=application&iId=17447)
 [Garmin Express](https://appdb.winehq.org/objectManager.php?sClass=version&iId=40213)
 
-Installation instructions
-```
-The installation is quite basic. Download the installer with the links provided, e.g. to /tmp. Then proceed to create a new prefix somewhere your user has write permissions to, e.g. in /opt/garmin/:
+**Installation instructions**
 
+The installation is quite basic. Download the installer with the links provided, e.g. to /tmp. Then proceed to create a new prefix somewhere your user has write permissions to, e.g. in `/opt/garmin/`:
+```
 mkdir -p /opt/garmin/ && cd /opt/garmin/
 export WINEPREFIX=/opt/garmin/
 wineboot -i
-Install the .NET Framework 4.7.2 in there. --force is needed to prevent winetricks from not completing installation because some of the dotnet verbs may be broken:
+```
 
+Install the `.NET Framework 4.7.2` in there. --force is needed to prevent winetricks from not completing installation because some of the dotnet verbs may be broken:
+```
 winetricks --force dotnet472
-Now execute GarminExpress.exe in there.
+```
 
+Now execute GarminExpress.exe in there.
+```
 wine /tmp/GarminExpress.exe
+```
+
 That's about it, really. I additionally went into the settings and disabled launch on "boot" to remove possible complications this may cause, if any.
 
 To simplify launching you can create a .desktop file and place it into /usr/share/applications/ to be able to launch it with your DE. Otherwise, export the wineprefix and launch:
 
+```
 wine "/opt/garmin/drive_c/Program Files (x86)/Garmin/Express/express.exe"
 ```
 
