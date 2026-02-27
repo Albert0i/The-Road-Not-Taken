@@ -9,8 +9,6 @@ ingrained our slavery is."<br />
 "A escravatura é a lei da vida, e não há outra lei, porque esta tem de cumprir-se, sem revolta possível nem refúgio que achar. Uns nascem escravos, outros tornam-se escravos, e a outros a escravidão é dada. O amor cobarde que todos temos à liberdade — que, se a tivéssemos, estranharíamos, por nova, repudiando-a — é o verdadeiro sinal do peso da nossa escravidão."<br />
 ── [The Book of Disquiet by Fernando Pessoa](https://dn720004.ca.archive.org/0/items/english-collections-1/Book%20of%20Disquiet%2C%20The%20-%20Fernando%20Pessoa.pdf)
 
-> "Years of love have been forgot, In the hatred of a minute."── [Edgar Allan Poe](https://www.quora.com/What-does-Edgar-Allan-Poe-mean-in-his-famous-quote-Years-of-love-have-been-in-the-hatred-of-a-minute)
-
 > "In a world without walls and fences, who needs windows and gates?"── [Alain Ruellan](https://www.linkedin.com/posts/alain-ruellan-0b775018_in-a-world-without-walls-and-fences-who-activity-7118788566607908864-aYjh?trk=public_profile_share_view)
 
 > "To be clear: Windows isn’t bad. I actually like it. But the direction of Windows 11 is."── [Builtbybel](https://github.com/builtbybel/Winslop)
@@ -20,6 +18,8 @@ ingrained our slavery is."<br />
 The day when tools you use for decades no longer serve you but the corporation. The day when AI accompanies with you on treading every flagstones. I shudder in sweat as if I were naked... Alas! This is wrong, this is *ALL* wrong... 
 
 ![alt Dilbert](img/Dilbert.JPG)
+
+As an inveterate writer, it is my responsibility to pen down 
 
 
 #### I. The Ignition
@@ -51,7 +51,7 @@ IMHO, I won't *recommend* running a dual boot system or running Linux plus virtu
 
 ![alt 24H2](img/win-24h2.JPG)
 
-I have tried hard to inhibit it from updating but found it *rotten to the heart*, the update behaviour is triggered automatically on event base *and* on time base. It is hard coded in kernel level, there is practically no way to stop it, let alone to remove it. 
+I have tried hard to inhibit it from updating but in vain... I found it *rotten to the heart*, the update behaviour is triggered automatically on event base *and* on time base. It is hard coded in kernel level, there is practically no way to stop it, let alone to remove it. 
 
 ![alt Windows-Update-Service](img/Windows-Update-Service.JPG)
 
@@ -91,7 +91,7 @@ Windows will indeed shut down immediately — but if there’s a **pending updat
 
 ---
 
-The next time when you turn on the computer, the war begins like a clockwork... Without further/more ado, besides these bundled by **ASUS** and those pre-installed by **Microsoft**, the bare installation consumes more than 40G! Following is my software list: 
+The next day, when you turn on the computer, the war continues like clockwork. Good luck. Without further/more ado, besides these bundled by **ASUS** and those pre-installed by **Microsoft**, the bare installation consumes more than 40G! Following is my software list: 
 
 | **Application** | **Cross-platform** | **Alternative** |
 | ----------- | ----------- | ----------- |
