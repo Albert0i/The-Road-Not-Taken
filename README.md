@@ -176,7 +176,10 @@ Software occasionally used:
 
 The installation is quite basic. Download the installer with the links provided, e.g. to /tmp. Then proceed to create a new prefix somewhere your user has write permissions to, e.g. in `/opt/garmin/`:
 ```
-mkdir -p /opt/garmin/ && cd /opt/garmin/
+sudo mkdir -p /opt/garmin/ 
+cd /opt/garmin/
+sudo chown alberto:alberto garmin 
+cd garmin
 export WINEPREFIX=/opt/garmin/
 wineboot -i
 ```
@@ -185,11 +188,19 @@ Install the `.NET Framework 4.7.2` in there. --force is needed to prevent winetr
 ```
 winetricks --force dotnet472
 ```
+![alt dotnet4.0]()
+![alt dotnet4.5]()
+![alt dotnet4.6.1]()
+![alt dotnet4.6.2]()
+![alt dotnet4.7.2]()
+
 
 Now execute GarminExpress.exe in there.
 ```
-wine /tmp/GarminExpress.exe
+wine ./GarminExpress.exe
 ```
+> ["This application could not be started" error when running a .NET Framework application](https://learn.microsoft.com/en-us/dotnet/framework/install/application-not-started?version=v2.0.50727&processName=LegacyApplicationsUninstaller.exe&platform=0009&osver=5&isServer=0&shimver=4.0.30319.0)
+s
 
 That's about it, really. I additionally went into the settings and disabled launch on "boot" to remove possible complications this may cause, if any.
 
