@@ -142,7 +142,7 @@ Software occasionally used:
 #### III. Zorin
 ![alt zorin os 18](img/Screenshot%20from%202026-02-15%2019-44-08.png)
 
-##### **Edge Case 1**: 
+##### **Edge Case 1**:  Interesting tidbits
 1. [ConvertZ](https://www.azofreeware.com/2006/03/convertz-802.html)
 > 中文簡繁內碼轉換器 - ConvertZ，簡單易用而且功能強大的中文內碼轉換工具，支援 GBK、Big5、HZ、Shift-JIS、JIS、EUC-JP、Unicode Little Endian、Unicode Big Endian、及 UTF-8 編碼，讓您輕鬆的對純文字檔案、檔案/資料夾名稱、剪貼簿文字、及 MP3 ID3 標籤在上述編碼之間進行轉換。
 
