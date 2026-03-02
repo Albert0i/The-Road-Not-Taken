@@ -205,24 +205,31 @@ From `4`, `4.5`, `4.6.1`, `4.6.2` to `4.7.2`, version by version, answering scre
 ![alt dotnet 4.7.2](img/dotnet4.7.2.png)
 
 Finally, install GarminExpress by: 
+
 ```
 wine ./"GarminExpress-7-16-3.exe"
+
 ```
 ![alt Garmin-Express-launch](img/Garmin-Express-launch.png)
 
 Plug in your device and check mount status: 
+
 ![alt Garmin-Express-mount](img/Garmin-Express-mount.png)
 
 Just let GarminExpress search your device: 
+
 ![alt Garmin-Express-search](img/Garmin-Express-search.png)
 
 As you can see, my device is found. Press `Add Device`: 
+
 ![alt ZorinOS-garmin-main](img/ZorinOS-garmin-main.png)
 
 Sign in online account by pressing `Sign In`:
+
 ![alt ZorinOS-garmin-connect](img/ZorinOS-garmin-connect.png)
 
 Fill in `email` and `password`:
+
 ![alt ZorinOS-garmin-signin](img/ZorinOS-garmin-signin.png)
 
 Much to my disapointment! I can't input anything into the two boxes neither by typing nor copy-and-paste... which leaves me with tremendous sorry and sadness... 
@@ -237,7 +244,7 @@ wine "/home/alberto/garmin/drive_c/Program Files (x86)/Garmin/Express/express.ex
 In some case, this error may appear: 
 > ["This application could not be started" error when running a .NET Framework application](https://learn.microsoft.com/en-us/dotnet/framework/install/application-not-started?version=v2.0.50727&processName=LegacyApplicationsUninstaller.exe&platform=0009&osver=5&isServer=0&shimver=4.0.30319.0)
 
-I have to use GarminExpress on Windows 10 for the time being... 
+The result is: I got stranded and have to use GarminExpress on Windows 10 for the time being... 
 
 
 ##### **Edge Case 3**: [iTunes](https://www.apple.com/itunes/)
