@@ -142,6 +142,10 @@ Software occasionally used:
 #### III. Zorin
 ![alt zorin os 18](img/Screenshot%20from%202026-02-15%2019-44-08.png)
 
+1. [WineHQ](https://www.winehq.org/)
+2. [Bottles - Run Windows Software on Linux](https://usebottles.com/)
+3. [WinBoat](https://www.winboat.app/)
+
 ##### **Edge Case 1**:  Interesting tidbits
 1. [ConvertZ](https://www.azofreeware.com/2006/03/convertz-802.html)
 > 中文簡繁內碼轉換器 - ConvertZ，簡單易用而且功能強大的中文內碼轉換工具，支援 GBK、Big5、HZ、Shift-JIS、JIS、EUC-JP、Unicode Little Endian、Unicode Big Endian、及 UTF-8 編碼，讓您輕鬆的對純文字檔案、檔案/資料夾名稱、剪貼簿文字、及 MP3 ID3 標籤在上述編碼之間進行轉換。
@@ -152,10 +156,6 @@ Software occasionally used:
 > A small tool designed specifically for Windows users to convert between ASS subtitles and SRT subtitles requires the installation of the. NET Desktop Runtime to function properly. This APP is available for free trial for 7 days. After that, you will need to pay to
 
 ![alt ASS2SRT](img/ASS2SRT.JPG)
-
-1. [WineHQ](https://www.winehq.org/)
-
-2. [Bottles - Run Windows Software on Linux](https://usebottles.com/)
 
 ##### **Edge case 2**: [Garmin Express](https://www.garmin.com/en-US/software/express/windows/)
 > Use Garmin Express to update maps and software, sync with Garmin Connect and register your device. This desktop software notifies you when updates are available and helps you install them.
@@ -245,11 +245,9 @@ In some case, this error may appear:
 
 The result is: I got stranded and have to use GarminExpress on Windows 10 for the time being... 
 
-
 ##### **Edge Case 3**: [iTunes](https://www.apple.com/itunes/)
 > The latest entertainment apps now come installed with the latest macOS. Upgrade today to get your favorite music, movies, TV shows, and podcasts. You can join Apple Music and stream — or download and play offline — millions of songs, ad‑free.
 
-1. [WinBoat](https://www.winboat.app/)
 2. [Download Windows 11](https://www.microsoft.com/en-in/software-download/windows11)
 3. [Download Windows 10 ISO files, save a copy before end of support](https://www.windowslatest.com/2025/08/08/download-windows-10-iso-version-22h2-before-end-of-support/)
 4. [iTunes 12.10.11 for Windows (Windows 64 bit)](https://support.apple.com/en-us/106372)
