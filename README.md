@@ -206,7 +206,7 @@ Install execute GarminExpress.exe:
 wine ./"GarminExpress-7-16-3.exe"
 ```
 
-Now execute GarminExpress.exe in there.
+Now execute express.exe in there.
 ```
 export WINEPREFIX=/home/alberto/garmin
 wine "/home/alberto/garmin/drive_c/Program Files (x86)/Garmin/Express/express.exe"
