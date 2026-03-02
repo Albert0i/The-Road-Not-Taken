@@ -157,7 +157,6 @@ Software occasionally used:
 
 2. [Bottles - Run Windows Software on Linux](https://usebottles.com/)
 
-
 ##### **Edge case 2**: [Garmin Express](https://www.garmin.com/en-US/software/express/windows/)
 > Use Garmin Express to update maps and software, sync with Garmin Connect and register your device. This desktop software notifies you when updates are available and helps you install them.
 
@@ -169,50 +168,52 @@ Software occasionally used:
 - May require up to 20 GB free disk space
 - For users running Windows 8 or older, please [download version 7 of Garmin Express for Windows](https://download.garmin.com/omt/express/GarminExpressWin7.exe).
 
-[WineHQ AppDB](https://appdb.winehq.org/objectManager.php?sClass=application&iId=17447)
-[Garmin Express](https://appdb.winehq.org/objectManager.php?sClass=version&iId=40213)
-
-**Installation instructions**
-
-The installation is quite basic. Download the installer with the links provided, e.g. to /tmp. Then proceed to create a new prefix somewhere your user has write permissions to, e.g. in `/opt/garmin/`:
+Following steps depicted in [WineHQ AppDB](https://appdb.winehq.org/objectManager.php?sClass=version&iId=40213) and use version [7.16.3](https://garmin-express.en.uptodown.com/windows/download/92818424), *not* the latest one from official website. I slightly modify the scripts, upgrade to [Wine](https://www.winehq.org/) 11: 
 ```
-sudo mkdir -p /opt/garmin/ 
-cd /opt/garmin/
-sudo chown alberto:alberto garmin 
-cd garmin
-export WINEPREFIX=/opt/garmin/
+sudo apt update && sudo apt full-upgrade
+sudo apt install zorin-windows-app-support
+
+wine --version 
+```
+
+Install [winetricks](https://github.com/Winetricks/winetricks): 
+```
+sudo apt install winetricks
+sudo winetricks --self-update
+```
+
+Prepare installation folder: 
+```
+mkdir garmin
+cd garmin 
+
+export WINEPREFIX=/home/alberto/garmin
+env | grep WINE
+```
+
+Initialize Wine environment: 
+```
 wineboot -i
 ```
 
-Install the `.NET Framework 4.7.2` in there. --force is needed to prevent winetricks from not completing installation because some of the dotnet verbs may be broken:
+Install the `.NET Framework 4.7.2`: 
 ```
 winetricks --force dotnet472
 ```
-![alt dotnet4.0]()
-![alt dotnet4.5]()
-![alt dotnet4.6.1]()
-![alt dotnet4.6.2]()
-![alt dotnet4.7.2]()
 
+Install execute GarminExpress.exe: 
+```
+wine ./"GarminExpress-7-16-3.exe"
+```
 
 Now execute GarminExpress.exe in there.
 ```
-wine ./GarminExpress.exe
+export WINEPREFIX=/home/alberto/garmin
+wine "/home/alberto/garmin/drive_c/Program Files (x86)/Garmin/Express/express.exe"
 ```
+
+On some case error would appear: 
 > ["This application could not be started" error when running a .NET Framework application](https://learn.microsoft.com/en-us/dotnet/framework/install/application-not-started?version=v2.0.50727&processName=LegacyApplicationsUninstaller.exe&platform=0009&osver=5&isServer=0&shimver=4.0.30319.0)
-s
-
-That's about it, really. I additionally went into the settings and disabled launch on "boot" to remove possible complications this may cause, if any.
-
-To simplify launching you can create a .desktop file and place it into `/usr/share/applications/` to be able to launch it with your DE. Otherwise, export the wineprefix and launch:
-
-```
-wine "/opt/garmin/drive_c/Program Files (x86)/Garmin/Express/express.exe"
-```
-
-**Remember to mount the device!**
-
-All tested Garmin devices present themselves as mass storage media to Linux, so their file system is browsable. If the issue arises that your device is not detected, check if it's mounted read-write. Not all distributions are configured to auto-mount such media.
 
 
 ##### **Edge Case 3**: [iTunes](https://www.apple.com/itunes/)
