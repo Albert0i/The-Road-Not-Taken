@@ -208,7 +208,6 @@ Finally, install GarminExpress by:
 
 ```
 wine ./"GarminExpress-7-16-3.exe"
-
 ```
 ![alt Garmin-Express-launch](img/Garmin-Express-launch.png)
 
