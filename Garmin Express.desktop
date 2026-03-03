@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Garmin Express
+Exec=env "WINEPREFIX=/home/alberto/garmin" wine "C:\\\\Program Files (x86)\\\\Garmin\\\\Express\\\\express.exe" ""
+Type=Application
+StartupNotify=true
+Icon=AEB1_express.0
+StartupWMClass=express.exe
