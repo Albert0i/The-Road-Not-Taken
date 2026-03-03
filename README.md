@@ -355,7 +355,7 @@ A few moments later...
 
 **Pros**: 
 
-100% compability. Anything can be run on a VM and can be run on WinBoat in theory. 
+100% compability. Anything can be run on a VM can be run on WinBoat, in theory. 
 
 **Cons**: 
 
