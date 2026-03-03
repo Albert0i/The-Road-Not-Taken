@@ -315,11 +315,11 @@ See also:
 
 - Apple Music trial requires sign-up and is available for new subscribers only. Plan automatically renews after trialor later
 
+First and foremost, WinBoat has nothing to do with Wine! IMHO, Wine works for older software and simpler program. Winboat is not specifically innovative but a clever composite of multiple mature techniques. It *integrate* your favourite Windows application with Linux, just *like* magic. Under the hook, it runs a full-fledged Windows virtual machine. 
 
-Wine for older software and simple program.
+As a developer, running a dual-boot system or linux with virtual boxed Windows is a technical compromise solution, which are inconvenient for daily use. Winboat makes you *feel* as if they works together. 
 
-Running a dual-boot system or linux with virtual box is a technical compromise solution, which are inconvenient for daily use, and so does WinBoat. Stress on integration instead of virtualization. 
-
+and so does 
 Windows subsystem for Linux running on a docker virtual machine. 
 
 Integration instead of emulation. Run a full-fledged Windows VM. 
