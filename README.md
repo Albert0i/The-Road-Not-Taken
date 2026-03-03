@@ -272,7 +272,7 @@ The result is: I got stranded and have to use GarminExpress on Windows 10 for th
 
 See also: 
 
-- [Wine 11.0 review - How to run Windows apps in Linux tutorial - January 2026 - 628508fe](Wine 11.0 review - How to run Windows apps in Linux tutorial - January 2026 - 628508fe)
+- [Wine 11.0 review - How to run Windows apps in Linux tutorial - January 2026 - 628508fe](https://youtu.be/b6_zgHtlhUw)
 
 ##### **Edge Case 3**: [iTunes](https://www.apple.com/itunes/)
 > The latest entertainment apps now come installed with the latest macOS. Upgrade today to get your favorite music, movies, TV shows, and podcasts. You can join Apple Music and stream — or download and play offline — millions of songs, ad‑free.
