@@ -323,9 +323,9 @@ First and foremost, WinBoat has nothing to do with Wine! IMHO, Wine works for ol
 
 As a developer, running a dual-boot system or linux with virtual boxed Windows is a technical compromise solution, which are inconvenient for daily use but WinBoat makes you *feel* as if they works together. 
 
-As of this writing, WinBoat is still 0.9 beta. Download `winboat-0.9.0-amd64.deb` from [here](https://winboat.app/) and intall it. Winboat has many prerequisite you have to install one by one. When you launch WinBoat, it will tell you which components you missed. 
+As of this writing, WinBoat is still 0.9 beta. Download `winboat-0.9.0-amd64.deb` from [here](https://winboat.app/) and intall it. WinBoat has many prerequisite you have to install one by one. When you launch WinBoat, it will tell you which components you missed. 
 
-Creating a virtual machine in Winboat is similar to virtual box: you have to choose which version of Windows, how many cores, RAM and disk dedicated to it. The great advantage is if you do not have the .iso on hand, WinBoat will download it from the internet. 
+Creating a virtual machine in WinBoat is similar to virtual box: you have to choose which version of Windows, how many cores, RAM and disk dedicated to it. The great advantage is if you do not have the .iso on hand, WinBoat will download it from the internet. 
 
 ![alt winboar-error](img/ZorinOS-winboar-error.png)
 
