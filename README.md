@@ -161,7 +161,7 @@ Select `sys-wine-11.0` in `Runner` and `Windows XP` in `Windows Version` like so
 
 ![alt bottles-compability](img/ZorinOS-bottles-compability.png)
 
-Press `Analyse...` and browse to the .exe file and run the analyse. It shows details info of the .exe, then press `Add and Launch`, that's it. If it is working properly, you can add it to the library for easy access.
+Press `Analyse...` and browse to the .exe file and run the analyse. It shows details info of the .exe, then press `Add and Launch`. If it is working properly, you can add it to the library for easy access.
 
 ![alt bottles-library](img/ZorinOS-bottles-library.png)
 
