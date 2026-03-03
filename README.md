@@ -47,7 +47,7 @@ IMHO, I won't *recommend* running a dual boot system or running Linux plus virtu
 
 
 #### II. Windows 11 Predicament
-![alt windows 11](img/Desktop%20(2026-02-01).JPG)
+![alt windows 11](img/Desktop%20(2026-02-28).JPG)
 
 ![alt 24H2](img/win-24h2.JPG)
 
@@ -371,6 +371,8 @@ See also:
 
 - [Seamless Compatibility? The Truth behind WinBoat](https://youtu.be/ST-dteJZuI4)
 - [The End of Dual Boot: Run Windows Inside Linux Like Magic!](https://youtu.be/QwFxoDCXlM8)
+
+IMHO, WinBoat trades resource for compability, it's a temporary solution if you have deeply rooted Windows application. 
 
 
 #### IV. Chromebook
