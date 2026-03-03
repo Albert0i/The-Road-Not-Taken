@@ -183,6 +183,8 @@ Press `Analyse...` and browse to the .exe file and run the analyse. It shows det
 - May require up to 20 GB free disk space
 - For users running Windows 8 or older, please [download version 7 of Garmin Express for Windows](https://download.garmin.com/omt/express/GarminExpressWin7.exe).
 
+---
+
 Following steps depicted in [WineHQ AppDB](https://appdb.winehq.org/objectManager.php?sClass=version&iId=40213) and use version [7.16.3](https://garmin-express.en.uptodown.com/windows/download/92818424), *not* the latest one from official website. I slightly modify the scripts, upgrade to [Wine](https://www.winehq.org/) 11: 
 ```
 sudo apt update && sudo apt full-upgrade
@@ -315,27 +317,57 @@ See also:
 
 - Apple Music trial requires sign-up and is available for new subscribers only. Plan automatically renews after trialor later
 
+---
+
 First and foremost, WinBoat has nothing to do with Wine! IMHO, Wine works for older software and simpler program. Winboat is not specifically innovative but a clever composite of multiple mature techniques. It *integrate* your favourite Windows application with Linux, just *like* magic. Under the hook, it runs a full-fledged Windows virtual machine. 
 
-As a developer, running a dual-boot system or linux with virtual boxed Windows is a technical compromise solution, which are inconvenient for daily use. Winboat makes you *feel* as if they works together. 
+As a developer, running a dual-boot system or linux with virtual boxed Windows is a technical compromise solution, which are inconvenient for daily use but WinBoat makes you *feel* as if they works together. 
 
-and so does 
-Windows subsystem for Linux running on a docker virtual machine. 
+As of this writing, WinBoat is still 0.9 beta. Download `winboat-0.9.0-amd64.deb` from [here](https://winboat.app/) and intall it. Winboat has many prerequisite you have to install one by one. When you launch WinBoat, it will tell you which components you missed. 
 
-Integration instead of emulation. Run a full-fledged Windows VM. 
-Not specifically innovative but a clever composite of multiple mature techniques. 
+Creating a virtual machine in Winboat is similar to virtual box: you have to choose which version of Windows, how many cores, RAM and disk dedicated to it. The great advantage is if you do not have the .iso on hand, WinBoat will download it from the internet. 
 
-Pros: 100% compability. Anything can be run on a VM and can be run on WinBoat in theory. 
+![alt winboar-error](img/ZorinOS-winboar-error.png)
 
-FreeRDP combine remote windows protocol. 
+This complains that `permission denied` in `docker-compose -d`. 
 
-Cons: Still in beta, not rock solid. Multiple prerequisites and huge resource consumption, less performant. No GPU acceleration pass-through for the time being. 
+> When Docker and Docker Compose are installed via **Snap**, they run inside a sandbox with strict confinement rules. That sandbox prevents them from accessing certain directories in your home folder (like `~/.winboat/`) and from communicating properly with the Docker daemon socket. This is why you see **“permission denied”** errors when trying to run WinBoat.  
 
-**Caveat**: 
+Follow this [guide](winboat.md) to remove and re-install Docker if you come across this error. I met this because I use built-in **Software Manager** of Zorin OS to install Docker in the first place. 
+
+After that, things go smooth... 
+
+![alt winboat-download-win10](img/ZorinOS-winboat-download-win10.png)
+
+A few moments later... 
+
+![alt winboat-finish](img/ZorinOS-winboat-finish.png)
+
+![alt winboat-win10pro](img/ZorinOS-winboat-win10pro.png)
+
+![alt winboat-home](img/ZorinOS-winboat-home.png)
+
+![alt winboat-apps](img/ZorinOS-winboat-apps.png)
+
+![alt winboat-configuration](img/ZorinOS-winboat-configuration.png)
+
+![alt winboat-about](img/ZorinOS-winboat-about.png)
+
+**Pros**: 
+
+100% compability. Anything can be run on a VM and can be run on WinBoat in theory. 
+
+**Cons**: 
+
+Still in beta, not rock solid. Multiple prerequisites and huge resource consumption, less performant. No GPU acceleration pass-through for the time being. 
+
+**License Caveat**: 
 
 1. It is illegal to use unactivated version of Windows;
 2. Microsoft does allow install and use unactivated version of Windows for evaluation and temporary use but not for day-to-day long term use;
 3. Use of unactivated version of Windows may incur lawsuit and punishment but not for home use. 
+
+See also: 
 
 - [Seamless Compatibility? The Truth behind WinBoat](https://youtu.be/ST-dteJZuI4)
 - [The End of Dual Boot: Run Windows Inside Linux Like Magic!](https://youtu.be/QwFxoDCXlM8)
