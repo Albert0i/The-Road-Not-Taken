@@ -150,12 +150,27 @@ Software occasionally used:
 1. [ConvertZ](https://www.azofreeware.com/2006/03/convertz-802.html)
 > 中文簡繁內碼轉換器 - ConvertZ，簡單易用而且功能強大的中文內碼轉換工具，支援 GBK、Big5、HZ、Shift-JIS、JIS、EUC-JP、Unicode Little Endian、Unicode Big Endian、及 UTF-8 編碼，讓您輕鬆的對純文字檔案、檔案/資料夾名稱、剪貼簿文字、及 MP3 ID3 標籤在上述編碼之間進行轉換。
 
-![alt ConvertZ](img/ConvertZ.JPG)
-
 2. [ASS2SRT](https://apps.microsoft.com/detail/9p6zjkkntck1?hl=en-US&gl=SA) 
 > A small tool designed specifically for Windows users to convert between ASS subtitles and SRT subtitles requires the installation of the. NET Desktop Runtime to function properly. This APP is available for free trial for 7 days. After that, you will need to pay to
 
-![alt ASS2SRT](img/ASS2SRT.JPG)
+To begin with, open and create a `Windows XP` bottle like so: 
+![alt bottles-Windows-XP](img/ZorinOS-bottles-Windows-XP.png)
+
+Select `sys-wine-11.0` in `Runner` and `Windows XP` in `Windows Version` like so: 
+![alt bottles-runner](img/ZorinOS-bottles-runner.png)
+
+![alt bottles-compability](img/ZorinOS-bottles-compability.png)
+
+Press `Analyse...` and browse to the .exe file and run the analyse. It shows details info of the .exe, then press `Add and Launch`, that's it. If it is working properly, you can add it to the library for easy access.
+
+![alt bottles-library](img/ZorinOS-bottles-library.png)
+
+*Easy peasy, lemon squeezy.*
+
+**Bonus**
+
+[SubShifter - Online SRT Subtitle Resync Tool](https://subshifter.bitsnbites.eu/)
+> These tools shift all the time stamps of a movie subtitle file. They can be used for synchronizing the subtitles to a movie when there is a slight offset between the two (this can be the case when the subtitles and the movie come from two different sources), or when there is a time scale difference (for instance if the movie and the subtitle file have different frame rates).
 
 ##### **Edge case 2**: [Garmin Express](https://www.garmin.com/en-US/software/express/windows/)
 > Use Garmin Express to update maps and software, sync with Garmin Connect and register your device. This desktop software notifies you when updates are available and helps you install them.
@@ -233,6 +248,16 @@ Fill in `email` and `password`:
 
 Much to my disapointment! I can't input anything into the two boxes neither by typing nor copy-and-paste... which leaves me with tremendous sorry and sadness... 
 
+The `Garmin Express.desktop` short cut is like so: 
+```
+[Desktop Entry]
+Name=Garmin Express
+Exec=env "WINEPREFIX=/home/alberto/garmin" wine "C:\\\\Program Files (x86)\\\\Garmin\\\\Express\\\\express.exe" ""
+Type=Application
+StartupNotify=true
+Icon=AEB1_express.0
+StartupWMClass=express.exe
+```
 
 BTW, to execute express.exe using CLI like so: 
 ```
@@ -245,7 +270,9 @@ In some case, this error may appear:
 
 The result is: I got stranded and have to use GarminExpress on Windows 10 for the time being... 
 
-[Wine 11.0 review - How to run Windows apps in Linux tutorial - January 2026 - 628508fe](Wine 11.0 review - How to run Windows apps in Linux tutorial - January 2026 - 628508fe)
+See also: 
+
+- [Wine 11.0 review - How to run Windows apps in Linux tutorial - January 2026 - 628508fe](Wine 11.0 review - How to run Windows apps in Linux tutorial - January 2026 - 628508fe)
 
 ##### **Edge Case 3**: [iTunes](https://www.apple.com/itunes/)
 > The latest entertainment apps now come installed with the latest macOS. Upgrade today to get your favorite music, movies, TV shows, and podcasts. You can join Apple Music and stream — or download and play offline — millions of songs, ad‑free.
