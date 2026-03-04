@@ -371,7 +371,7 @@ Adjust to `4 Cores` and `16G memory`:
 
 **Pros**: 
 
-100% compability. Anything can be run on a VM can be run on WinBoat, in theory. 
+100% compability. Anything can be run on a virtual machine runs on WinBoat, in theory. 
 
 **Cons**: 
 
@@ -387,26 +387,24 @@ See also:
 
 - [Seamless Compatibility? The Truth behind WinBoat](https://youtu.be/ST-dteJZuI4)
 - [The End of Dual Boot: Run Windows Inside Linux Like Magic!](https://youtu.be/QwFxoDCXlM8)
-
-As a developer, running a dual-boot system or linux with virtual boxed Windows is a technical compromise solution, which are inconvenient for daily use but WinBoat makes you *feel* as if they works together. WinBoat trades resource for compability, it's a temporary solution if you have deeply rooted Windows application. 
+- [Tiny 11 25H2 (v11) - Too Fast to be true!](https://youtu.be/NOTurC9yw8c)
 
 My observation is: 
-- Use Tiny11 25H2 to cut down resource consumption;
-- Do not buy license key from untrusted source;
-- Unactiviated Windows works perfectly well in terms of functionality;
-- [Microslop](https://microslop.com/) won't charge home user for unactiviated Windows; 
-- WinBoat supports one version of Windows at a time; 
+- WinBoat only supports one version of Windows at a time; 
 - No USB passthrough for the time being. 
 
 The resource: 
+
 1. [Download Tiny11 25H2 2311](https://www.techspot.com/downloads/7578-tiny11.html#dw_description)
 2. [Download Windows 11](https://www.microsoft.com/en-in/software-download/windows11)
 3. [Download Windows 10 ISO files, save a copy before end of support](https://www.windowslatest.com/2025/08/08/download-windows-10-iso-version-22h2-before-end-of-support/)
 4. [iTunes 12.10.11 for Windows (Windows 64 bit)](https://support.apple.com/en-us/106372)
 
 
-##### **Edge Case 4**:
-[Virtual Box](https://www.virtualbox.org/wiki/Linux_Downloads)
+##### **The Last Resort**: [Virtual Box](https://www.virtualbox.org/wiki/Linux_Downloads)
+As a developer, running a dual-boot system or linux with Virtualized Windows is a technical compromised solution, which is inconvenient for daily use. WinBoat makes you *feel* as if they were one, it trades resource for compability, is more ideal for temporary solution if one has deeply rooted Windows application. 
+
+To cut it short, both GarminExpress and iTunes needs USB passthrough on hsot system. 
 
 
 #### IV. Chromebook
