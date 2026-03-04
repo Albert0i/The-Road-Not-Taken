@@ -404,7 +404,7 @@ The resource:
 ##### **The Last Resort**: [Virtual Box](https://www.virtualbox.org/wiki/Linux_Downloads)
 As a developer, running a dual-boot system or linux with Virtualized Windows is a technical compromised solution, which is inconvenient for daily use. WinBoat makes you *feel* as if they were one, it trades resource for compability, is more ideal for temporary solution if one has deeply rooted Windows application. 
 
-**To cut it short, both GarminExpress and iTunes needs USB passthrough on hsot system**. 
+**To cut it short, both GarminExpress and iTunes need USB passthrough from the host system.**
 
 
 
