@@ -366,13 +366,13 @@ See also:
 
 As a developer, running a dual-boot system or linux with virtual boxed Windows is a technical compromise solution, which are inconvenient for daily use but WinBoat makes you *feel* as if they works together. WinBoat trades resource for compability, it's a temporary solution if you have deeply rooted Windows application. 
 
-The result: 
+My observation is: 
 - Use Tiny11 25H2 to cut down resource consumption;
 - Do not buy license key from untrusted source;
-- Unactiviated Windows works find in terms of functionality;
-- Microslop won't charge home user for unactiviated Windows; 
-- Only one version of Windows can't be chosen;
-- No USB Passthrough for the time being. 
+- Unactiviated Windows works perfectly well in terms of functionality;
+- [Microslop](https://microslop.com/) won't charge home user for unactiviated Windows; 
+- WinBoat supports one version of Windows at a time; 
+- No USB passthrough for the time being. 
 
 The resource: 
 1. [Download Tiny11 25H2 2311](https://www.techspot.com/downloads/7578-tiny11.html#dw_description)
