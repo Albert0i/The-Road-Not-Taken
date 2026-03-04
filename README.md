@@ -329,21 +329,25 @@ Follow this [guide](winboat.md) to remove and re-install Docker if you come acro
 
 After that, things go smooth... 
 
-![alt winboat-download-win10](img/ZorinOS-winboat-download-win10.png)
-
-A few moments later... 
-
-![alt winboat-finish](img/ZorinOS-winboat-finish.png)
-
-![alt winboat-win10pro](img/ZorinOS-winboat-win10pro.png)
-
-![alt winboat-home](img/ZorinOS-winboat-home.png)
-
+![alt winboat-welcome](img/ZorinOS-winboat-welcome.png)
+![alt winboat-license-agreement](img/ZorinOS-winboat-license-agreement.png)
+![alt winboat-pre-requsite](img/ZorinOS-winboat-pre-requsite.png)
+![alt winboat-install-location](img/ZorinOS-winboat-install-location.png)
+![alt winboat-configure-windows](img/ZorinOS-winboat-configure-windows.png)
+![alt winboat-user-configuration](img/ZorinOS-winboat-user-configuration.png)
+![alt winboat-hardware-configuration](img/ZorinOS-winboat-hardware-configuration.png)
+![alt winboat-home-folder-sharing](img/ZorinOS-winboat-home-folder-sharing.png)
+![alt winboat-review](img/ZorinOS-winboat-review.png)
+![alt winboat-installation-finish](img/ZorinOS-winboat-installation-finish.png)
+![alt winboat-extracting-iso](img/ZorinOS-winboat-extracting-iso.png)
+![alt winboat-installing-win11](img/ZorinOS-winboat-installing-win11.png)
+![alt winboat-installation-finish](img/ZorinOS-winboat-installation-finish.png)
+![alt winboat-win11-first-open](img/ZorinOS-winboat-win11-first-open.png)
+![alt winboat-custom-windows](img/ZorinOS-winboat-custom-windows.png)
 ![alt winboat-apps](img/ZorinOS-winboat-apps.png)
-
 ![alt winboat-configuration](img/ZorinOS-winboat-configuration.png)
-
-![alt winboat-about](img/ZorinOS-winboat-about.png)
+![alt ZorinOS-winboat-about](img/ZorinOS-winboat-about.png)
+![alt winboat-windows11-pro](img/ZorinOS-winboat-windows11-pro.png)
 
 **Pros**: 
 
