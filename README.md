@@ -182,7 +182,6 @@ Press `Analyse...` and browse to the .exe file and run the analyse. It shows det
 - High-speed internet access (not for use with dial-up, mobile or satellite connections)
 - May require up to 20 GB free disk space
 - For users running Windows 8 or older, please [download version 7 of Garmin Express for Windows](https://download.garmin.com/omt/express/GarminExpressWin7.exe).
-
 ---
 
 Following steps depicted in [WineHQ AppDB](https://appdb.winehq.org/objectManager.php?sClass=version&iId=40213) and use version [7.16.3](https://garmin-express.en.uptodown.com/windows/download/92818424), *not* the latest one from official website. I slightly modify the scripts, upgrade to [Wine](https://www.winehq.org/) 11: 
@@ -279,11 +278,6 @@ See also:
 ##### **Edge Case 3**: [iTunes](https://www.apple.com/itunes/)
 > The latest entertainment apps now come installed with the latest macOS. Upgrade today to get your favorite music, movies, TV shows, and podcasts. You can join Apple Music and stream — or download and play offline — millions of songs, ad‑free.
 
-1. [Download Tiny11 25H2 2311](https://www.techspot.com/downloads/7578-tiny11.html#dw_description)
-2. [Download Windows 11](https://www.microsoft.com/en-in/software-download/windows11)
-3. [Download Windows 10 ISO files, save a copy before end of support](https://www.windowslatest.com/2025/08/08/download-windows-10-iso-version-22h2-before-end-of-support/)
-4. [iTunes 12.10.11 for Windows (Windows 64 bit)](https://support.apple.com/en-us/106372)
-
 [iTunes 12 for Windows - Technical Specifications](https://support.apple.com/en-us/112029)
 
 **Hardware**:
@@ -317,14 +311,13 @@ See also:
 - Apple Music, iTunes Store, and iTunes Match availability may vary by country
 
 - Apple Music trial requires sign-up and is available for new subscribers only. Plan automatically renews after trialor later
-
 ---
 
 First and foremost, WinBoat has nothing to do with Wine! IMHO, Wine works for older software and simpler program. Winboat is not specifically innovative but a clever composite of multiple mature techniques. It *integrate* your favourite Windows application with Linux, just *like* magic. Under the hook, it runs a full-fledged Windows virtual machine. 
 
 As of this writing, WinBoat is still 0.9 beta. Download `winboat-0.9.0-amd64.deb` from [here](https://winboat.app/) and intall it. WinBoat has many prerequisite you have to install one by one. When you launch WinBoat, it will tell you which components you missed. 
 
-Creating a virtual machine in WinBoat is similar to using virtual Box: you have to choose which version of Windows, how many cores, RAM and disk dedicated to it. The great advantage is if you do not have the .iso on hand, WinBoat will download it from the internet. 
+Creating a virtual machine in WinBoat is similar to using Virtual Box: you have to choose which version of Windows, how many cores, RAM and disk dedicated to it. The great advantage is if you do not have the .iso on hand, WinBoat will download it from the internet. 
 
 ![alt winboar-error](img/ZorinOS-winboar-error.png)
 
@@ -380,6 +373,12 @@ The result:
 - Microslop won't charge home user for unactiviated Windows; 
 - Only one version of Windows can't be chosen;
 - No USB Passthrough for the time being. 
+
+The resource: 
+1. [Download Tiny11 25H2 2311](https://www.techspot.com/downloads/7578-tiny11.html#dw_description)
+2. [Download Windows 11](https://www.microsoft.com/en-in/software-download/windows11)
+3. [Download Windows 10 ISO files, save a copy before end of support](https://www.windowslatest.com/2025/08/08/download-windows-10-iso-version-22h2-before-end-of-support/)
+4. [iTunes 12.10.11 for Windows (Windows 64 bit)](https://support.apple.com/en-us/106372)
 
 
 ##### **Edge Case 4**:
