@@ -43,7 +43,7 @@ You can even run many Windows apps in Zorin OS with [Windows App Support](https:
 - [Bottle](https://usebottles.com/)
 - [WinBoat](https://www.winboat.app/)
 
-IMHO, I won't *recommend* running a dual boot system or running Linux plus virtualization software such as [virtual box](https://www.virtualbox.org/)! That would deviate from our goal. 
+IMHO, I won't *recommend* running a dual boot system or running Linux plus virtualization software such as [virtual Box](https://www.virtualbox.org/)! That would deviate from our goal. 
 
 
 #### II. Windows 11 Predicament
@@ -279,6 +279,7 @@ See also:
 ##### **Edge Case 3**: [iTunes](https://www.apple.com/itunes/)
 > The latest entertainment apps now come installed with the latest macOS. Upgrade today to get your favorite music, movies, TV shows, and podcasts. You can join Apple Music and stream — or download and play offline — millions of songs, ad‑free.
 
+1. [Download Tiny11 25H2 2311](https://www.techspot.com/downloads/7578-tiny11.html#dw_description)
 2. [Download Windows 11](https://www.microsoft.com/en-in/software-download/windows11)
 3. [Download Windows 10 ISO files, save a copy before end of support](https://www.windowslatest.com/2025/08/08/download-windows-10-iso-version-22h2-before-end-of-support/)
 4. [iTunes 12.10.11 for Windows (Windows 64 bit)](https://support.apple.com/en-us/106372)
@@ -321,11 +322,9 @@ See also:
 
 First and foremost, WinBoat has nothing to do with Wine! IMHO, Wine works for older software and simpler program. Winboat is not specifically innovative but a clever composite of multiple mature techniques. It *integrate* your favourite Windows application with Linux, just *like* magic. Under the hook, it runs a full-fledged Windows virtual machine. 
 
-As a developer, running a dual-boot system or linux with virtual boxed Windows is a technical compromise solution, which are inconvenient for daily use but WinBoat makes you *feel* as if they works together. 
-
 As of this writing, WinBoat is still 0.9 beta. Download `winboat-0.9.0-amd64.deb` from [here](https://winboat.app/) and intall it. WinBoat has many prerequisite you have to install one by one. When you launch WinBoat, it will tell you which components you missed. 
 
-Creating a virtual machine in WinBoat is similar to virtual box: you have to choose which version of Windows, how many cores, RAM and disk dedicated to it. The great advantage is if you do not have the .iso on hand, WinBoat will download it from the internet. 
+Creating a virtual machine in WinBoat is similar to using virtual Box: you have to choose which version of Windows, how many cores, RAM and disk dedicated to it. The great advantage is if you do not have the .iso on hand, WinBoat will download it from the internet. 
 
 ![alt winboar-error](img/ZorinOS-winboar-error.png)
 
@@ -372,7 +371,19 @@ See also:
 - [Seamless Compatibility? The Truth behind WinBoat](https://youtu.be/ST-dteJZuI4)
 - [The End of Dual Boot: Run Windows Inside Linux Like Magic!](https://youtu.be/QwFxoDCXlM8)
 
-IMHO, WinBoat trades resource for compability, it's a temporary solution if you have deeply rooted Windows application. 
+As a developer, running a dual-boot system or linux with virtual boxed Windows is a technical compromise solution, which are inconvenient for daily use but WinBoat makes you *feel* as if they works together. WinBoat trades resource for compability, it's a temporary solution if you have deeply rooted Windows application. 
+
+The result: 
+- Use Tiny11 25H2 to cut down resource consumption;
+- Do not buy license key from untrusted source;
+- Unactiviated Windows works find in terms of functionality;
+- Microslop won't charge home user for unactiviated Windows; 
+- Only one version of Windows can't be chosen;
+- No USB Passthrough for the time being. 
+
+
+##### **Edge Case 4**:
+[Virtual Box](https://www.virtualbox.org/wiki/Linux_Downloads)
 
 
 #### IV. Chromebook
