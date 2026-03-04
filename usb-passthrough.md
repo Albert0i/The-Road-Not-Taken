@@ -46,7 +46,7 @@ To enable USB passthrough:
 
 ---
 
-## 4. Adding a USB Filter (Detailed Steps)
+## 4. Adding a [USB Filter](usb-filter.md) (Detailed Steps)
 
 A USB filter ensures the iPhone is automatically handed to the VM whenever it’s running:
 
