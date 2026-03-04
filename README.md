@@ -139,7 +139,7 @@ Software occasionally used:
 | [ASS2SRT](https://apps.microsoft.com/detail/9p6zjkkntck1?hl=en-US&gl=SA) | no | no |
 
 
-#### III. Zorin
+#### III. Zorin OS
 ![alt zorin os 18](img/Screenshot%20from%202026-02-15%2019-44-08.png)
 
 1. [WineHQ](https://www.winehq.org/)
