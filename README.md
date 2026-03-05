@@ -252,6 +252,9 @@ Fill in `email` and `password`:
 > “It is only with the heart that one can see rightly; what is essential is invisible to the eye.”<br />
 ─ Antoine de Saint-Exupery, The Little Prince
 
+> “Hurrah for Karamazov!”<br />
+― Fyodor Dostoyevsky, The Brothers Karamazov
+
 Much to my disapointment! I can't input anything into the two boxes neither by typing nor copy-and-paste... which leaves me with tremendous sorry and sadness... 
 
 The `Garmin Express.desktop` short cut is like so: 
