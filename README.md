@@ -22,7 +22,7 @@ The day when tools you use for decades no longer serve you but the corporation. 
 As an inveterate writer, it is my responsibility to pen down whirlpool and turbulence of this year. This is not about uninstalling and installing software, this is about the change of rudder and rigging, the change of course of mind and life, which may incur frustration and ecstasy. 
 
 
-#### I. The Ignition
+#### I. Ignite and Ignition
 In January of 2026, multiple Linux distros have been tested, which includes: 
 - [Linux Mint](https://linuxmint.com/)
 - [MX Linux](https://mxlinux.org/)
@@ -46,7 +46,7 @@ You can even run many Windows apps in Zorin OS with [Windows App Support](https:
 IMHO, I won't *recommend* running a dual boot system or running Linux plus virtualization software such as [virtual Box](https://www.virtualbox.org/)! That would deviate from our goal. 
 
 
-#### II. Windows 11 Predicament
+#### II. The Predicament of Windows 11
 ![alt windows 11](img/Desktop%20(2026-02-28).JPG)
 
 ![alt 24H2](img/win-24h2.JPG)
@@ -139,7 +139,7 @@ Software occasionally used:
 | [ASS2SRT](https://apps.microsoft.com/detail/9p6zjkkntck1?hl=en-US&gl=SA) | no | no |
 
 
-#### III. Zorin OS
+#### III. Where Zorin OS shines
 ![alt zorin os 18](img/Screenshot%20from%202026-02-15%2019-44-08.png)
 
 1. [WineHQ](https://www.winehq.org/)
@@ -407,9 +407,10 @@ As a developer, running a dual-boot system or linux with Virtualized Windows is 
 **To cut it short, both GarminExpress and iTunes need USB passthrough from the host system.**
 
 
+![alt ZorinOS-screenfetch](img/ZorinOS-screenfetch.png)
 
 
-#### IV. Chromebook
+#### IV. The Feather of Chromebook
 ![alt chromebook-desktop](img/chromebook-desktop.png)
 
 ![alt chromebook-linux-apps-1](img/chromebook-linux-apps-1.png)
@@ -669,7 +670,10 @@ Redis-Insight-linux-amd64.deb
 [Winboat.app on Debian — Complete Installation Tutorial](https://youtu.be/Rqec-jmbQRs)
 
 
-#### V. Bibliography 
+#### IV. The Taste of Vintage
+
+
+#### VI. Bibliography 
 1. [Switch Your Organization From Windows in 5 Steps](https://help.zorin.com/docs/getting-started/switch-your-organization-from-windows/)
 2. [I Tried Every “Windows-Like” Linux Distro — Only ONE Truly Replaced Windows (Full Test)](https://youtu.be/ra7JNc9NEYs)
 3. [Run Windows Apps on Linux (Wine Explained for Beginners)](https://youtu.be/gKKW3qZ-NZw)
