@@ -27,7 +27,6 @@ In January of 2026, multiple Linux distros have been tested, which includes:
 - [Linux Mint](https://linuxmint.com/)
 - [MX Linux](https://mxlinux.org/)
 - [Zorin OS](https://zorin.com/os/)
-- ... 
 
 The third one is chosen not because the first two are not good. It's a matter of sense and sensibility, not to do with functionality and logicality. 
 
@@ -152,6 +151,9 @@ Software occasionally used:
 
 2. [ASS2SRT](https://apps.microsoft.com/detail/9p6zjkkntck1?hl=en-US&gl=SA) 
 > A small tool designed specifically for Windows users to convert between ASS subtitles and SRT subtitles requires the installation of the. NET Desktop Runtime to function properly. This APP is available for free trial for 7 days. After that, you will need to pay to
+
+3. [WinMD5Free](https://www.winmd5.com/?rid=winmd5)
+> WinMD5Free is a tiny and fast utility to compute MD5 hash value for files. It works with Microsoft Windows 98, 2000, XP, Vista, and Windows 7/8/10/11.
 
 To begin with, open and create a `Windows XP` bottle like so: 
 ![alt bottles-Windows-XP](img/ZorinOS-bottles-Windows-XP.png)
