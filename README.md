@@ -249,6 +249,9 @@ Fill in `email` and `password`:
 
 ![alt ZorinOS-garmin-signin](img/ZorinOS-garmin-signin.png)
 
+> “It is only with the heart that one can see rightly; what is essential is invisible to the eye.”<br />
+─ Antoine de Saint-Exupery, The Little Prince
+
 Much to my disapointment! I can't input anything into the two boxes neither by typing nor copy-and-paste... which leaves me with tremendous sorry and sadness... 
 
 The `Garmin Express.desktop` short cut is like so: 
