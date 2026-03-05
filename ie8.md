@@ -53,5 +53,6 @@ wine "C:\Program Files\Internet Explorer\iexplore.exe"
 
 You then need to turn down all security options (Tools -> Internet Options -> Security)
 
+[Winetricks](https://gitlab.winehq.org/wine/wine/-/wikis/Winetricks)
 
 ---
