@@ -165,7 +165,13 @@ Select `sys-wine-11.0` in `Runner` and `Windows XP` in `Windows Version` like so
 
 Press `Analyse...` and browse to the .exe file and run the analyse. It shows details info of the .exe, then press `Add and Launch`. If it is working properly, you can add it to the library for easy access.
 
-![alt bottles-library](img/ZorinOS-bottles-library.png)
+![alt bottles-library-2](img/ZorinOS-bottles-library-2.png)
+
+![alt bottles-convertz](img/ZorinOS-bottles-convertz.png)
+
+![alt bottles-ass2srt](img/ZorinOS-bottles-ass2srt.png)
+
+![alt bottles-winmd5free](img/ZorinOS-bottles-winmd5free.png)
 
 *Easy peasy, lemon squeezy.*
 
@@ -213,6 +219,7 @@ Initialize Wine environment:
 ```
 wineboot -i
 ```
+![alt winboot-i-error](img/winboot-i-error.png)
 
 Install the `.NET Framework 4.7.2`: 
 ```
@@ -248,12 +255,6 @@ Sign in online account by pressing `Sign In`:
 Fill in `email` and `password`:
 
 ![alt ZorinOS-garmin-signin](img/ZorinOS-garmin-signin.png)
-
-> “It is only with the heart that one can see rightly; what is essential is invisible to the eye.”<br />
-─ Antoine de Saint-Exupery, The Little Prince
-
-> “Hurrah for Karamazov!”<br />
-― Fyodor Dostoyevsky, The Brothers Karamazov
 
 Much to my disapointment! I can't input anything into the two boxes neither by typing nor copy-and-paste... which leaves me with tremendous sorry and sadness... 
 
@@ -376,6 +377,10 @@ Adjust to `4 Cores` and `16G memory`:
 ![alt ZorinOS-winboat-about](img/ZorinOS-winboat-about.png)
 
 ![alt winboat-windows11-pro](img/ZorinOS-winboat-windows11-pro.png)
+
+![alt ZorinOS-winboat-tiny11](img/ZorinOS-winboat-tiny11.png)
+
+![alt ZorinOS-winboat-docker](img/ZorinOS-winboat-docker.png)
 
 **Pros**: 
 
@@ -678,7 +683,7 @@ Redis-Insight-linux-amd64.deb
 [Winboat.app on Debian — Complete Installation Tutorial](https://youtu.be/Rqec-jmbQRs)
 
 
-#### IV. The Taste of Vintage
+#### IV. The Touch of Vintage
 
 
 #### VI. Bibliography 
@@ -735,6 +740,12 @@ And that has made all the difference.   於是再來的一切都迴然相異。
 
 譯文: https://doctork.pixnet.net/blog/posts/11406125902
 ```
+
+> “It is only with the heart that one can see rightly; what is essential is invisible to the eye.”<br />
+─ Antoine de Saint-Exupery, The Little Prince
+
+> “Hurrah for Karamazov!”<br />
+― Fyodor Dostoyevsky, The Brothers Karamazov
 
 
 ### EOF (2026/04/01)
