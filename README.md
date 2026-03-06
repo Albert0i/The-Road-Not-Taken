@@ -376,8 +376,10 @@ Adjust to `4 Cores` and `16G memory`:
 
 ![alt ZorinOS-winboat-about](img/ZorinOS-winboat-about.png)
 
+Unactivated: 
 ![alt winboat-windows11-pro](img/ZorinOS-winboat-windows11-pro.png)
 
+After installation of GarminExpress, iTunes and [OpenShell](https://open-shell.github.io/Open-Shell-Menu/): 
 ![alt ZorinOS-winboat-tiny11](img/ZorinOS-winboat-tiny11.png)
 
 ![alt ZorinOS-winboat-docker](img/ZorinOS-winboat-docker.png)
