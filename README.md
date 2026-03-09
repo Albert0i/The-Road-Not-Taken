@@ -701,7 +701,7 @@ Redis-Insight-linux-amd64.deb
 [Winboat.app on Debian — Complete Installation Tutorial](https://youtu.be/Rqec-jmbQRs)
 
 
-#### IV. The Touch of Vintage
+#### V. The Touch of Vintage
 I happen to have a [ASUS F8Vr](https://villman.com/Product-Detail/Asus_F8vr) notebook which is still in good condition. The machine was manufactured on June of 2008 and purchased on March of 2009. 
 
 ![alt F8Vr-date-manufactured](img/F8Vr-date-manufactured.jpeg)
@@ -796,7 +796,7 @@ See also:
 2. [Create or Resize Swap file/Partition](https://forum.zorin.com/t/create-or-resize-swap-file-partition/28878)
 
 
-#### V. Chinese input method on Zorin OS
+#### VI. Chinese input method on Zorin OS
 ![alt install-input-method](img/install-input-method.png)
 
 ![alt manage-installed-languages](img/manage-installed-languages.png)
@@ -810,7 +810,7 @@ See also:
 ![alt add-input-source](img/add-input-source.png)
 
 
-#### VI. Conclusion
+#### VII. Conclusion
 To be honest, I am a big fan of Microsoft. My graduate project was a **RTF Editor**, a tool to edit and build Windows Help File, written in C, compiled using Visual C++ 1.0, ran on Windows 3.1. 
 
 ![alt RTF-editor-main](img/RTF-editor-main.JPG)
@@ -820,7 +820,7 @@ To be honest, I am a big fan of Microsoft. My graduate project was a **RTF Edito
 > “When a relationship comes to an end, we have to clearly decide whether to continue tolerating *or* simply go away...Endings are not failures; they are transitions. Each one asks us to choose: do we carry the weight of what no longer serves us? or do we honor the experience and step forward lighter? To tolerate without purpose is to remain bound, to walk away with clarity is to redeem ourselves. In that choice lies our strength, and in that strength lies the beginning of something new.” ── by copilot
 
 
-#### VII. Bibliography 
+#### VIII. Bibliography 
 1. [Switch Your Organization From Windows in 5 Steps](https://help.zorin.com/docs/getting-started/switch-your-organization-from-windows/)
 2. [I Tried Every “Windows-Like” Linux Distro — Only ONE Truly Replaced Windows (Full Test)](https://youtu.be/ra7JNc9NEYs)
 3. [Run Windows Apps on Linux (Wine Explained for Beginners)](https://youtu.be/gKKW3qZ-NZw)
@@ -832,7 +832,7 @@ To be honest, I am a big fan of Microsoft. My graduate project was a **RTF Edito
 9. [The Book of Disquiet by Fernando Pessoa](https://dn720004.ca.archive.org/0/items/english-collections-1/Book%20of%20Disquiet%2C%20The%20-%20Fernando%20Pessoa.pdf)
 
 
-#### VIII. Appendix from AI
+#### IX. Appendix from AI
 Here’s the clear percentage breakdown, using the **Core 2 Duo** as the baseline at **100%**:
 
 📊 **Relative Processing Power**
