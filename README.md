@@ -738,6 +738,10 @@ A 128G partition was created to make room for Zorin OS and everything seems fine
 
 ![alt F8Vr-first-screen](img/F8Vr-first-screen.jpeg)
 
+I deliberately choose a wallpaper for reminiscence. 
+
+
+
 
 #### V. Chinese input method on Zorin OS
 
