@@ -818,6 +818,8 @@ To be honest, I am a big fan of Microsoft. My graduate project was a **RTF Edito
 
 [Windows 3.1 SDK](https://archive.org/details/bitsavers_microsoftwindows3.1SDK1992PC302110492ProgrammersRe_14016743) and [Programming Windows 3.1, by Petzold, Charles, 1992](https://archive.org/details/programming-windows-31-3rd-ed) are important reference at that time. 
 
+> “When a relationship comes to an end, we have to clearly decide whether to continue tolerating *or* simply go on our own...Endings are not just closures; they are crossroads. Choosing to walk away with clarity allows us to honor what was, while opening space for what may come next. To linger in tolerance without direction is to remain bound, but to step forward with intention is to reclaim our path.”
+
 
 #### VII. Bibliography 
 1. [Switch Your Organization From Windows in 5 Steps](https://help.zorin.com/docs/getting-started/switch-your-organization-from-windows/)
