@@ -720,6 +720,7 @@ With the staunch belief that good design enhances the consumer experience, ASUS 
 
 The machine has [64 bits](https://www.productindetail.com/pn/asus-f8vr-4p014c) capability, which was weird, but fails to boot into Windows XP, which is not. 
 
+##### Weekend project
 ![alt F8Vr-booting](img/F8Vr-booting.jpeg)
 
 I use Zorin OS [Live USB](https://en.wikipedia.org/wiki/Live_USB) to have a full test of the machine, screen, keyboard, speaker, WIFI, Bluetooth, everything seems fine. 
