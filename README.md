@@ -809,7 +809,7 @@ See also:
 ![alt add-input-source](img/add-input-source.png)
 
 
-#### VI. Summary
+#### VI. Conclusion
 To be honest, I am a big fan of Microsoft. My graduate project was a **RTF Editor**, a tool to edit and build Windows Help File, written in C, compiled using Visual C++ 1.0, ran on Windows 3.1. 
 
 ![alt RTF-editor-main](img/RTF-editor-main.JPG)
@@ -833,7 +833,7 @@ To be honest, I am a big fan of Microsoft. My graduate project was a **RTF Edito
 9. [The Book of Disquiet by Fernando Pessoa](https://dn720004.ca.archive.org/0/items/english-collections-1/Book%20of%20Disquiet%2C%20The%20-%20Fernando%20Pessoa.pdf)
 
 
-#### VI. Appendix from AI
+#### VIII. Appendix from AI
 Here’s the clear percentage breakdown, using the **Core 2 Duo** as the baseline at **100%**:
 
 📊 **Relative Processing Power**
@@ -875,12 +875,6 @@ And that has made all the difference.   於是再來的一切都迴然相異。
 
 譯文: https://doctork.pixnet.net/blog/posts/11406125902
 ```
-
-> “It is only with the heart that one can see rightly; what is essential is invisible to the eye.”<br />
-─ Antoine de Saint-Exupery, The Little Prince
-
-> “Hurrah for Karamazov!”<br />
-― Fyodor Dostoyevsky, The Brothers Karamazov
 
 
 ### EOF (2026/04/01)
