@@ -420,7 +420,7 @@ As a developer, running a dual-boot system or linux with Virtualized Windows is 
 
 **To cut it short, both GarminExpress and iTunes need USB passthrough from the host system.**
 
-To resume our experiment, I install latest version `7.2.6` of Virtual Box and extension pack. Use `tiny11_25H2_jffeb9.iso` to setup Windows 11: 4 Cores, 8G RAM, 64G disk, NAT network, shared folder and so and so... 
+To resume our experiment, I install latest version `7.2.6` of Virtual Box and extension pack. Use `tiny11_25H2_jffeb9.iso` to setup Windows 11: 4 Cores, 8G RAM, 64G disk, NAT network, shared folder, so and so... 
 
 ![alt A-Few-Moments-Later](img/A-Few-Moments-Later.png)
 
