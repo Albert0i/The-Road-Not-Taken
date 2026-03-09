@@ -706,7 +706,7 @@ I happen to have a [ASUS F8Vr](https://villman.com/Product-Detail/Asus_F8vr) not
 
 ![alt F8Vr-date-manufactured](img/F8Vr-date-manufactured.jpeg)
 
-It was pre-installed with [Windows Vista](https://en.wikipedia.org/wiki/Windows_Vista) Home Premium Edition and re-installed with [Windows XP](https://en.wikipedia.org/wiki/Windows_XP) Pro and was abandoned on 2014/2015 because of adoption of [Windows 10](https://en.wikipedia.org/wiki/Windows_10). Is was left untouched on garage and ready for [Electronic waste](https://en.wikipedia.org/wiki/Electronic_waste) until the year of 2026. 
+It was pre-installed with [Windows Vista](https://en.wikipedia.org/wiki/Windows_Vista) Home Premium Edition and re-installed with [Windows XP](https://en.wikipedia.org/wiki/Windows_XP) Pro and was abandoned on 2014/2015 because of [Windows 10](https://en.wikipedia.org/wiki/Windows_10). Is was left untouched on garage and ready for [Electronic waste](https://en.wikipedia.org/wiki/Electronic_waste) until the year of 2026. 
 
 ![alt F8Vr-spec-left](img/F8Vr-spec-left.jpeg)
 
