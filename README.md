@@ -741,22 +741,28 @@ A 128G partition was created to make room for Zorin OS and everything seems fine
 I deliberately choose a wallpaper for reminiscence. 
 
 ##### GPU fix 
-
+> Try to launch Brave browser with disabled hardware acceleration
 ```
 brave-browser --disable-gpu
 ```
 
 Turn off 
+```
 Settings > System > Use graphics acceleration when available  
+```
 
 ![alt turnoff-graphic-acceleration](img/ZorinOS-turnoff-graphic-acceleration.jpg)
 
+I manually added the `--disable-gpu` to every shortcut of [Brave Browser](https://brave.com/). 
+
 See also: 
 
-[Zorin OS 18 freezes/crashes when opening web browsers brave and chrome](https://forum.zorin.com/t/zorin-os-18-freezes-crashes-when-opening-web-browsers-brave-and-chrome/53065)
+1. [Zorin OS 18 freezes/crashes when opening web browsers brave and chrome](https://forum.zorin.com/t/zorin-os-18-freezes-crashes-when-opening-web-browsers-brave-and-chrome/53065)
 
 ##### Swap fix 
+> By default, Zorin OS creates a Swap File (usually 2gigs) not a Swap Partition.
 
+As far as I can see, there is no swap file and whatsoever created in my machine... A 4G swap is manually added: 
 ```
 sudo swapoff -a
 sudo rm /swapfile
@@ -771,20 +777,20 @@ sudo swapon /swapfile
 swapon --show
 ```
 
-Make the swap file permanent.
+To make the swap file permanent.
 ```
 sudo nano /etc/fstab
 ```
 
+Add the following line at the end of the file:
 ```
 /swapfile none swap sw 0 0
 ```
 
 See also: 
 
-[Swap partition too small](https://forum.zorin.com/t/swap-partition-too-small/31730)
-
-[Create or Resize Swap file/Partition](https://forum.zorin.com/t/create-or-resize-swap-file-partition/28878)
+1. [Swap partition too small](https://forum.zorin.com/t/swap-partition-too-small/31730)
+2. [Create or Resize Swap file/Partition](https://forum.zorin.com/t/create-or-resize-swap-file-partition/28878)
 
 
 #### V. Chinese input method on Zorin OS
