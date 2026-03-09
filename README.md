@@ -794,6 +794,17 @@ See also:
 
 
 #### V. Chinese input method on Zorin OS
+![alt install-input-method](img/install-input-method.png)
+
+![alt manage-installed-languages](img/manage-installed-languages.png)
+
+![alt installed-language-1](img/installed-language-1.png)
+
+![alt installed-language-2](img/installed-language-2.png)
+
+![alt installed-language-3](img/installed-language-3.png)
+
+![alt add-input-source](img/add-input-source.png)
 
 
 #### VI. Summary
