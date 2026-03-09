@@ -704,10 +704,10 @@ Redis-Insight-linux-amd64.deb
 #### IV. The Touch of Vintage
 [ASUS F8Vr](https://villman.com/Product-Detail/Asus_F8vr)
 
-> **Product Description**
+> **Product Description**<br />
 Intel Core 2 Duo Processor P8400 2.26GHz, 2GB DDR2 Memory, 320GB HDD, ATI Radeon HD3470 256MB VGA, DL DVD+/-RW, 1.3MP Camera, 802.11a/b/g/N WiFi, Bluetooth, HDMI port, 8-in-1 Card Reader, Microsoft Windows Vista Home Premium
 
-> **Revolutionary Infusion technology**
+> **Revolutionary Infusion technology**<br />
 With the staunch belief that good design enhances the consumer experience, ASUS launches the F8 notebook series with the revolutionary Infusion technology. An all round mobile computing workhorse based on the latest platform with advanced graphics solutions, the F8 is sophisticated inside-out with robustness, state-of-the-art computing technologies and unique aesthetics.
 
 ![alt F8Vr-date-manufactured](img/F8Vr-date-manufactured.jpeg)
