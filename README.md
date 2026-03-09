@@ -726,6 +726,8 @@ I use Zorin OS [Live USB](https://en.wikipedia.org/wiki/Live_USB) to have a full
 
 Again, I happen to have a 1T SSD detached from a desktop computer and left in my drawer unattended. A whole weekend was spent to remove the disk, backup whatever the data and install the SSD. 
 
+![alt F8Vr-back](img/F8Vr-back.jpeg)
+
 ![alt F8Vr-tray-with-mount](img/F8Vr-tray-with-mount.jpeg)
 
 ![alt F8Vr-tray-empty](img/F8Vr-tray-empty.jpeg)
