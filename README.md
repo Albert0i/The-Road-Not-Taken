@@ -701,10 +701,13 @@ Redis-Insight-linux-amd64.deb
 [Winboat.app on Debian — Complete Installation Tutorial](https://youtu.be/Rqec-jmbQRs)
 
 
-#### IV. The Touch of Vintage
+#### IV. Chinese input method on Zorin OS
 
+#### V. The Touch of Vintage
 
-#### VI. Bibliography 
+#### VI. Summary 
+
+#### VII. Bibliography 
 1. [Switch Your Organization From Windows in 5 Steps](https://help.zorin.com/docs/getting-started/switch-your-organization-from-windows/)
 2. [I Tried Every “Windows-Like” Linux Distro — Only ONE Truly Replaced Windows (Full Test)](https://youtu.be/ra7JNc9NEYs)
 3. [Run Windows Apps on Linux (Wine Explained for Beginners)](https://youtu.be/gKKW3qZ-NZw)
