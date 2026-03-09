@@ -23,7 +23,7 @@ As an inveterate writer, it is my responsibility to pen down whirlpool and turbu
 
 
 #### I. Ignite and Ignition
-In January of 2026, multiple Linux distros have been tested, which includes: 
+In January of 2026, three Linux distros have been tested, which includes: 
 - [Linux Mint](https://linuxmint.com/)
 - [MX Linux](https://mxlinux.org/)
 - [Zorin OS](https://zorin.com/os/)
@@ -415,11 +415,25 @@ The resource:
 3. [Download Windows 10 ISO files, save a copy before end of support](https://www.windowslatest.com/2025/08/08/download-windows-10-iso-version-22h2-before-end-of-support/)
 4. [iTunes 12.10.11 for Windows (Windows 64 bit)](https://support.apple.com/en-us/106372)
 
-
-##### **The Last Resort**: [Virtual Box](https://www.virtualbox.org/wiki/Linux_Downloads)
+##### **Edge Case 3 (Cont.)**: [Virtual Box](https://www.virtualbox.org/wiki/Linux_Downloads)
 As a developer, running a dual-boot system or linux with Virtualized Windows is a technical compromised solution, which is inconvenient for daily use. WinBoat makes you *feel* as if they were one, it trades resource for compability, is more ideal for temporary solution if one has deeply rooted Windows application. 
 
 **To cut it short, both GarminExpress and iTunes need USB passthrough from the host system.**
+
+To continue with our experiment, I install latest version `7.2.6` of Virtual Box and extension pack. Use `tiny11_25H2_jffeb9.iso` to setup Windows 11: 4 Cores, 8G RAM, 64G disk, NAT network, shared folder and so and so... 
+
+![alt A-Few-Moments-Later](img/A-Few-Moments-Later.png)
+
+Plug in your device, open a terminal and type `lsusb`: 
+
+![alt ZorinOS-lsusb](img/ZorinOS-lsusb.png)
+
+If the USB device is present, in the `Setting` of virtual machine, switch to `Expert` mode, add `USB Filter` which is not *strictly* necessary but would simplify subsequent operations. 
+
+In the virtual machine menu, check to see if it is connected to the Windows 11. Run iTunes on Windows 11, `Sign In` to your Apple Account and wait for a while... Sometimes you need to un-plug and plug the device several times until the device present on iTunes. After that, you can proceed to backup your device: 
+
+![alt virtualbox-itune-backup](img/ZorinOS-virtualbox-itune-backup.png)
+
 
 
 ![alt ZorinOS-screenfetch](img/ZorinOS-screenfetch.png)
