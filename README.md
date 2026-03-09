@@ -706,7 +706,7 @@ I happen to have a [ASUS F8Vr](https://villman.com/Product-Detail/Asus_F8vr) not
 
 ![alt F8Vr-date-manufactured](img/F8Vr-date-manufactured.jpeg)
 
-It was pre-installed with [Windows Vista](https://en.wikipedia.org/wiki/Windows_Vista) Home Premium Edition and re-installed with [Windows XP](https://en.wikipedia.org/wiki/Windows_XP) and abandoned on 2014/2015 because of adoption of [Windows 10](https://en.wikipedia.org/wiki/Windows_10). Is was left untouched on garage and ready for [Electronic waste](https://en.wikipedia.org/wiki/Electronic_waste) until the year of 2026. 
+It was pre-installed with [Windows Vista](https://en.wikipedia.org/wiki/Windows_Vista) Home Premium Edition and re-installed with [Windows XP](https://en.wikipedia.org/wiki/Windows_XP) Pro and was abandoned on 2014/2015 because of adoption of [Windows 10](https://en.wikipedia.org/wiki/Windows_10). Is was left untouched on garage and ready for [Electronic waste](https://en.wikipedia.org/wiki/Electronic_waste) until the year of 2026. 
 
 ![alt F8Vr-spec-left](img/F8Vr-spec-left.jpeg)
 
@@ -718,7 +718,11 @@ Intel Core 2 Duo Processor P8400 2.26GHz, 3GB DDR2 Memory, 250GB HDD, ATI Radeon
 > **Revolutionary Infusion technology**<br />
 With the staunch belief that good design enhances the consumer experience, ASUS launches the F8 notebook series with the revolutionary Infusion technology. An all round mobile computing workhorse based on the latest platform with advanced graphics solutions, the F8 is sophisticated inside-out with robustness, state-of-the-art computing technologies and unique aesthetics.
 
+The machine has [64 bits](https://www.productindetail.com/pn/asus-f8vr-4p014c) capability, which was weird, but fails to boot into Windows XP, which is not. 
 
+![alt F8Vr-booting](img/F8Vr-booting.jpeg)
+
+I use Zorin OS [Live USB](https://en.wikipedia.org/wiki/Live_USB) to have a full test of the machine, screen, keyboard, speaker, WIFI,bluetooth, everything seems fine. 
 
 
 #### V. Chinese input method on Zorin OS
