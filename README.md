@@ -812,6 +812,8 @@ Select `Chinese (traditional)` and `English`:
 Open **Settings**, select `Keyboard`, press `Add Input Source`, add `Chinese (Cangjie5)` and `Chinese (Quick Classic)`: 
 ![alt add-input-source](img/add-input-source.png)
 
+Use [Win]+[Space] to switch from English to Chinese. 
+
 
 #### VII. Conclusion
 To be honest, I am a big fan of Microsoft. My graduate project was a **RTF Editor**, a tool to edit and build Windows Help File, written in C, compiled using Visual C++ 1.0, ran on Windows 3.1. 
