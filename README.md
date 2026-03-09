@@ -430,11 +430,11 @@ Plug in your device, open a terminal and type `lsusb`:
 
 If the USB device is present, in the `Setting` of virtual machine, switch to `Expert` mode, add `USB Filter` which is not *strictly* necessary but would simplify subsequent operations. 
 
-![alt virtualbox-itune-backup](img/ZorinOS-virtualbox-itune-backup.png)
+![alt virtualbox-add-usbfilter](img/ZorinOS-virtualbox-add-usbfilter.png)
 
 In the virtual machine menu, check to see if it is connected to the Windows 11. Run iTunes on Windows 11, `Sign In` to your Apple Account and wait for a while... Sometimes you need to un-plug and plug the device several times until the device present on iTunes. After that, you can proceed to backup your device: 
 
-![alt virtualbox-add-usbfilter](img/ZorinOS-virtualbox-add-usbfilter.png)
+![alt virtualbox-itune-backup](img/ZorinOS-virtualbox-itune-backup.png)
 
 ![alt ZorinOS-screenfetch](img/ZorinOS-screenfetch.png)
 
