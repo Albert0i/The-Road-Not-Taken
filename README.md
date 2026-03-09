@@ -816,6 +816,8 @@ To be honest, I am a big fan of Microsoft. My graduate project was a **RTF Edito
 
 ![alt RTF-editor-about](img/RTF-editor-about.JPG)
 
+[Windows 3.1 SDK](https://archive.org/details/bitsavers_microsoftwindows3.1SDK1992PC302110492ProgrammersRe_14016743) and [Programming Windows 3.1, by Petzold, Charles, 1992](https://archive.org/details/programming-windows-31-3rd-ed) are important reference at that time. 
+
 
 #### VII. Bibliography 
 1. [Switch Your Organization From Windows in 5 Steps](https://help.zorin.com/docs/getting-started/switch-your-organization-from-windows/)
