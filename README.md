@@ -706,7 +706,7 @@ I happen to have a [ASUS F8Vr](https://villman.com/Product-Detail/Asus_F8vr) not
 
 ![alt F8Vr-date-manufactured](img/F8Vr-date-manufactured.jpeg)
 
-It was pre-installed with [Windows Vista](https://en.wikipedia.org/wiki/Windows_Vista) Home Premium Edition and re-installed with [Windows XP](https://en.wikipedia.org/wiki/Windows_XP) Pro and was abandoned on 2014/2015 because of [Windows 10](https://en.wikipedia.org/wiki/Windows_10). Is was left untouched on garage and ready for [Electronic waste](https://en.wikipedia.org/wiki/Electronic_waste) until the year of 2026. 
+It was pre-installed with [Windows Vista](https://en.wikipedia.org/wiki/Windows_Vista) Home Premium Edition and re-installed with [Windows XP](https://en.wikipedia.org/wiki/Windows_XP) Pro and was abandoned on 2014/2015 because of [Windows 10](https://en.wikipedia.org/wiki/Windows_10). It was left untouched on garage and ready for [Electronic waste](https://en.wikipedia.org/wiki/Electronic_waste) until the year of 2026. 
 
 > “Since the license remains valid, its practical purpose is to let you reinstall Windows Vista Home Premium on your notebook whenever you choose.”── by copilot
 
