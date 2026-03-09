@@ -416,11 +416,11 @@ The resource:
 4. [iTunes 12.10.11 for Windows (Windows 64 bit)](https://support.apple.com/en-us/106372)
 
 ##### **Edge Case 3 (Cont.)**: [Virtual Box](https://www.virtualbox.org/wiki/Linux_Downloads)
-As a developer, running a dual-boot system or linux with Virtualized Windows is a technical compromised solution, which is inconvenient for daily use. WinBoat makes you *feel* as if they were one, it trades resource for compability, is more ideal for temporary solution if one has deeply rooted Windows application. 
+As a developer, running a dual-boot system or linux with Virtualized Windows is a technical compromise, which is inconvenient for daily use. WinBoat makes you *feel* as if they were one, it trades resource for compability, is more ideal for temporary solution if one has deeply *rooted* Windows application. 
 
 **To cut it short, both GarminExpress and iTunes depend on USB passthrough from the host system.**
 
-To resume our experiment, I install latest version `7.2.6` of Virtual Box and extension pack. Use `tiny11_25H2_jffeb9.iso` to setup Windows 11: 4 Cores, 8G RAM, 64G disk, NAT network and shared folder... So on and so forth. 
+To resume our experiment, I install latest version `7.2.6` of Virtual Box and extension pack. Use `tiny11_25H2_jffeb9.iso` to setup Windows 11: 4 Cores, 8G RAM, 64G disk, NAT network and shared folder... 
 
 ![alt A-Few-Moments-Later](img/A-Few-Moments-Later.png)
 
@@ -428,7 +428,7 @@ Plug in your device, open a terminal and type `lsusb`:
 
 ![alt ZorinOS-lsusb](img/ZorinOS-lsusb.png)
 
-If the USB device is present, in the `Setting` of virtual machine, switch to `Expert` mode, add `USB Filter` which is not *strictly* necessary but would simplify subsequent operations. 
+If the USB device is present, in the `Settings` of virtual machine, switch to `Expert` mode, add `USB Filter` which is not *strictly* necessary but would simplify subsequent operations. 
 
 ![alt virtualbox-add-usbfilter](img/ZorinOS-virtualbox-add-usbfilter.png)
 
