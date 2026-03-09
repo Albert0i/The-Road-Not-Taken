@@ -736,6 +736,7 @@ Again, I happen to have a 1T SSD detached from a desktop computer and left in my
 
 A 128G partition was created to make room for Zorin OS and everything seems fine. 
 
+![alt F8Vr-first-screen](img/F8Vr-first-screen.jpeg)
 
 
 #### V. Chinese input method on Zorin OS
