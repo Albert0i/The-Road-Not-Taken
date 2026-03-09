@@ -418,7 +418,7 @@ The resource:
 ##### **Edge Case 3 (Cont.)**: [Virtual Box](https://www.virtualbox.org/wiki/Linux_Downloads)
 As a developer, running a dual-boot system or linux with Virtualized Windows is a technical compromised solution, which is inconvenient for daily use. WinBoat makes you *feel* as if they were one, it trades resource for compability, is more ideal for temporary solution if one has deeply rooted Windows application. 
 
-**To cut it short, both GarminExpress and iTunes need USB passthrough from the host system.**
+**To cut it short, both GarminExpress and iTunes depend on USB passthrough from the host system.**
 
 To resume our experiment, I install latest version `7.2.6` of Virtual Box and extension pack. Use `tiny11_25H2_jffeb9.iso` to setup Windows 11: 4 Cores, 8G RAM, 64G disk, NAT network and shared folder... So on and so forth. 
 
@@ -432,9 +432,11 @@ If the USB device is present, in the `Setting` of virtual machine, switch to `Ex
 
 ![alt virtualbox-add-usbfilter](img/ZorinOS-virtualbox-add-usbfilter.png)
 
-In the virtual machine menu, check to see if it is connected to the Windows 11. Run iTunes on Windows 11, `Sign In` to your Apple Account and wait for a while... Sometimes you need to un-plug and plug the device several times until the device present on iTunes. After that, you can proceed to backup your device: 
+In the virtual machine menu, check to see if it is connected to the Windows 11. Run iTunes on Windows 11, `Sign In` to your Apple Account and wait for a while... Sometimes you need to un-plug and plug the device several times until the device presents on iTunes. After that, you can proceed to backup your device: 
 
 ![alt virtualbox-itune-backup](img/ZorinOS-virtualbox-itune-backup.png)
+
+This pretty much concludes our journey on running `.exe` files on Linux. The best part of Zorin OS is to have [Windows App Support](https://help.zorin.com/docs/apps-games/windows-app-support/), many stand-alone `.exe` file can be run without any problem. 
 
 ![alt ZorinOS-screenfetch](img/ZorinOS-screenfetch.png)
 
