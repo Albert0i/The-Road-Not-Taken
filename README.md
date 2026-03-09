@@ -741,7 +741,6 @@ A 128G partition was created to make room for Zorin OS and everything seems fine
 I deliberately choose a wallpaper for reminiscence. 
 
 ##### GPU fix 
-[Zorin OS 18 freezes/crashes when opening web browsers brave and chrome](https://forum.zorin.com/t/zorin-os-18-freezes-crashes-when-opening-web-browsers-brave-and-chrome/53065)
 
 ```
 brave-browser --disable-gpu
@@ -752,10 +751,11 @@ Settings > System > Use graphics acceleration when available
 
 ![alt turnoff-graphic-acceleration](img/ZorinOS-turnoff-graphic-acceleration.jpg)
 
-##### Swap fix 
-[Swap partition too small](https://forum.zorin.com/t/swap-partition-too-small/31730)
+See also: 
 
-[Create or Resize Swap file/Partition](https://forum.zorin.com/t/create-or-resize-swap-file-partition/28878)
+[Zorin OS 18 freezes/crashes when opening web browsers brave and chrome](https://forum.zorin.com/t/zorin-os-18-freezes-crashes-when-opening-web-browsers-brave-and-chrome/53065)
+
+##### Swap fix 
 
 ```
 sudo swapoff -a
@@ -779,6 +779,12 @@ sudo nano /etc/fstab
 ```
 /swapfile none swap sw 0 0
 ```
+
+See also: 
+
+[Swap partition too small](https://forum.zorin.com/t/swap-partition-too-small/31730)
+
+[Create or Resize Swap file/Partition](https://forum.zorin.com/t/create-or-resize-swap-file-partition/28878)
 
 
 #### V. Chinese input method on Zorin OS
