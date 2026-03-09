@@ -810,7 +810,7 @@ See also:
 
 
 #### VI. Summary
-To be honest, I am a big fan of Microsoft. My graduate project was a **RTF Editor**, a tool to edit and build Windows Help File, written in C and compiled using Visual C++ 1.0, ran on Windows 3.1. 
+To be honest, I am a big fan of Microsoft. My graduate project was a **RTF Editor**, a tool to edit and build Windows Help File, written in C, compiled using Visual C++ 1.0, ran on Windows 3.1. 
 
 ![alt RTF-editor-main](img/RTF-editor-main.JPG)
 
