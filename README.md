@@ -717,6 +717,7 @@ Intel Core 2 Duo Processor P8400 2.26GHz, 3GB DDR2 Memory, 250GB HDD, ATI Radeon
 
 > **Revolutionary Infusion technology**<br />
 With the staunch belief that good design enhances the consumer experience, ASUS launches the F8 notebook series with the revolutionary Infusion technology. An all round mobile computing workhorse based on the latest platform with advanced graphics solutions, the F8 is sophisticated inside-out with robustness, state-of-the-art computing technologies and unique aesthetics.
+
 > 秉持著「優秀設計提升用戶體驗」的堅定信念，華碩推出搭載革命性Infusion技術的F8筆電系列。 F8是一款基於最新平台、配備先進圖形解決方案的全能型行動運算利器，從內到外都展現出精湛的工藝，兼具卓越的耐用性、尖端的計算技術和獨特的美學設計。(google translate)
 
 The machine has [64 bits](https://www.productindetail.com/pn/asus-f8vr-4p014c) capability, which was weird, but fails to boot into Windows XP, which is not. 
