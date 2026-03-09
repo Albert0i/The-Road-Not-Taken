@@ -702,7 +702,7 @@ Redis-Insight-linux-amd64.deb
 
 
 #### V. The Touch of Vintage
-I happen to have a [ASUS F8Vr](https://villman.com/Product-Detail/Asus_F8vr) notebook which is still in good condition. The machine was manufactured on June of 2008 and purchased on March of 2009. 
+I happen to have a [ASUS F8Vr](https://villman.com/Product-Detail/Asus_F8vr) notebook which is still in good condition. It was built in June 2008 and likely purchased in late 2008, with proof of use by spring 2009.
 
 ![alt F8Vr-date-manufactured](img/F8Vr-date-manufactured.jpeg)
 
