@@ -22,7 +22,7 @@ The day when tools you use for decades no longer serve you but the corporation. 
 As an inveterate writer, it is my responsibility to pen down whirlpool and turbulence of this year. This is not about uninstalling and installing software, this is about the change of rudder and rigging, the change of course of mind and life, which may incur frustration and ecstasy. 
 
 
-#### I. Ignite and Ignition
+#### I. The Ignition
 In January of 2026, three Linux distros have been tested, which includes: 
 - [Linux Mint](https://linuxmint.com/)
 - [MX Linux](https://mxlinux.org/)
