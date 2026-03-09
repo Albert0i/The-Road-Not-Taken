@@ -722,7 +722,20 @@ The machine has [64 bits](https://www.productindetail.com/pn/asus-f8vr-4p014c) c
 
 ![alt F8Vr-booting](img/F8Vr-booting.jpeg)
 
-I use Zorin OS [Live USB](https://en.wikipedia.org/wiki/Live_USB) to have a full test of the machine, screen, keyboard, speaker, WIFI,bluetooth, everything seems fine. 
+I use Zorin OS [Live USB](https://en.wikipedia.org/wiki/Live_USB) to have a full test of the machine, screen, keyboard, speaker, WIFI, Bluetooth, everything seems fine. 
+
+Again, I happen to have a 1T SSD detached from a desktop computer and left in my drawer unattended. A whole weekend was spent to remove the disk, backup whatever the data and install the SSD. 
+
+![alt F8Vr-tray-with-mount](img/F8Vr-tray-with-mount.jpeg)
+
+![alt F8Vr-tray-empty](img/F8Vr-tray-empty.jpeg)
+
+![alt F8Vr-disk-old](img/F8Vr-disk-old.jpeg)
+
+![altF8Vr-disk-new](img/F8Vr-disk-new.jpeg)
+
+A 128G partition was created to make room for Zorin OS and everything seems fine. 
+
 
 
 #### V. Chinese input method on Zorin OS
