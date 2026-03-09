@@ -797,16 +797,19 @@ See also:
 
 
 #### VI. Chinese input method on Zorin OS
+Open **Software** and type `cangjie` to search, install `Cangjie`, `Cangjie Input Methods` and `Quick`: 
 ![alt install-input-method](img/install-input-method.png)
 
+Open **Settings**, select `Region & Language`, press `Manage Installed Languages`: 
 ![alt manage-installed-languages](img/manage-installed-languages.png)
 
+Press `Install/Remove Languages`: 
 ![alt installed-language-1](img/installed-language-1.png)
 
-![alt installed-language-2](img/installed-language-2.png)
-
+Select `Chinese (traditional)` and `English`: 
 ![alt installed-language-3](img/installed-language-3.png)
 
+Open **Settings**, select `Keyboard`, press `Add Input Source`, add `Chinese (Cangjie5)` and `Chinese (Quick Classic)`: 
 ![alt add-input-source](img/add-input-source.png)
 
 
