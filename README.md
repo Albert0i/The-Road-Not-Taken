@@ -816,8 +816,6 @@ To be honest, I am a big fan of Microsoft. My graduate project was a **RTF Edito
 
 ![alt RTF-editor-about](img/RTF-editor-about.JPG)
 
-[Windows 3.1 SDK](https://archive.org/details/bitsavers_microsoftwindows3.1SDK1992PC302110492ProgrammersRe_14016743) and [Programming Windows 3.1, by Petzold, Charles, 1992](https://archive.org/details/programming-windows-31-3rd-ed) are important reference at that time. 
-
 > “When a relationship comes to an end, we have to clearly decide whether to continue tolerating *or* simply go away...Endings are not failures; they are transitions. Each one asks us to choose: do we carry the weight of what no longer serves us? or do we honor the experience and step forward lighter? To tolerate without purpose is to remain bound, to walk away with clarity is to redeem ourselves. In that choice lies our strength, and in that strength lies the beginning of something new.” ── by copilot
 
 
