@@ -842,9 +842,6 @@ Believe it or not, I still use [Windows XP](https://apk.tw/thread-695987-1-1.htm
 
 > “When a relationship comes to an end, we have to clearly think whether to continue tolerating *or* simply to go away...Endings are not failures; they are transitions. Each one asks us to choose: do we carry the weight of what no longer serves us? or do we honor the experience and step forward lighter? To tolerate without purpose is to remain bound, to walk away with clarity is to redeem ourselves. In that choice lies our strength, and in that strength lies the beginning of something new.” ── by copilot
 
-> “It is only with the heart that one can see rightly; what is essential is invisible to the eye.”<br />
-─ Antoine de Saint-Exupery, The Little Prince
-
 
 #### VIII. Bibliography 
 1. [Switch Your Organization From Windows in 5 Steps](https://help.zorin.com/docs/getting-started/switch-your-organization-from-windows/)
