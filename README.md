@@ -749,6 +749,8 @@ A 128G partition was created to make room for Zorin OS and everything seems fine
 
 A [wallpaper](img/thumb-1920-1158141.jpg) is *deliberately* chosen for reminiscence. 
 
+![alt F8Vr-screenfetch](img/F8Vr-screenfetch.png)
+
 ##### GPU fix 
 > Try to launch Brave browser with disabled hardware acceleration
 ```
@@ -820,6 +822,14 @@ Open **Settings**, select `Keyboard`, press `Add Input Source`, add `Chinese (Ca
 
 Use [Win]+[Space] to switch from English to Chinese. 
 
+Click the **en** icon on taskbar: 
+![alt input-method-1](img/F8Vr-input-method-1.png)
+
+![alt input-method-2](img/F8Vr-input-method-2.png)
+
+> “Hurrah for Karamazov!”<br />
+─ Fyodor Dostoyevsky, The Brothers Karamazov
+
 
 #### VII. Conclusion
 To be honest, I am a big fan of Microsoft. My graduate project was a **RTF Editor**, a tool to edit and build Windows Help File, written in C++, compiled using Visual C++ 1.0, ran on Windows 3.1. 
@@ -831,6 +841,9 @@ To be honest, I am a big fan of Microsoft. My graduate project was a **RTF Edito
 Believe it or not, I still use [Windows XP](https://apk.tw/thread-695987-1-1.html) in my day‑to‑day life! 
 
 > “When a relationship comes to an end, we have to clearly think whether to continue tolerating *or* simply to go away...Endings are not failures; they are transitions. Each one asks us to choose: do we carry the weight of what no longer serves us? or do we honor the experience and step forward lighter? To tolerate without purpose is to remain bound, to walk away with clarity is to redeem ourselves. In that choice lies our strength, and in that strength lies the beginning of something new.” ── by copilot
+
+> “It is only with the heart that one can see rightly; what is essential is invisible to the eye.”<br />
+─ Antoine de Saint-Exupery, The Little Prince
 
 
 #### VIII. Bibliography 
