@@ -747,7 +747,7 @@ A 128G partition was created to make room for Zorin OS and everything seems fine
 
 ![alt F8Vr-first-screen](img/F8Vr-first-screen.jpeg)
 
-I deliberately choose the wallpaper for reminiscence. 
+A [wallpaper](img/thumb-1920-1158141.jpg) is *deliberately* chosen for reminiscence. 
 
 ##### GPU fix 
 > Try to launch Brave browser with disabled hardware acceleration
@@ -822,13 +822,15 @@ Use [Win]+[Space] to switch from English to Chinese.
 
 
 #### VII. Conclusion
-To be honest, I am a big fan of Microsoft. My graduate project was a **RTF Editor**, a tool to edit and build Windows Help File, written in C, compiled using Visual C++ 1.0, ran on Windows 3.1. 
+To be honest, I am a big fan of Microsoft. My graduate project was a **RTF Editor**, a tool to edit and build Windows Help File, written in C++, compiled using Visual C++ 1.0, ran on Windows 3.1. 
 
 ![alt RTF-editor-main](img/RTF-editor-main.JPG)
 
 ![alt RTF-editor-about](img/RTF-editor-about.JPG)
 
-> “When a relationship comes to an end, we have to clearly decide whether to continue tolerating *or* simply go away...Endings are not failures; they are transitions. Each one asks us to choose: do we carry the weight of what no longer serves us? or do we honor the experience and step forward lighter? To tolerate without purpose is to remain bound, to walk away with clarity is to redeem ourselves. In that choice lies our strength, and in that strength lies the beginning of something new.” ── by copilot
+Believe it or not, I still use [Windows XP](https://apk.tw/thread-695987-1-1.html) in my day‑to‑day life! 
+
+> “When a relationship comes to an end, we have to clearly think whether to continue tolerating *or* simply to go away...Endings are not failures; they are transitions. Each one asks us to choose: do we carry the weight of what no longer serves us? or do we honor the experience and step forward lighter? To tolerate without purpose is to remain bound, to walk away with clarity is to redeem ourselves. In that choice lies our strength, and in that strength lies the beginning of something new.” ── by copilot
 
 
 #### VIII. Bibliography 
