@@ -334,7 +334,7 @@ This complains that `permission denied` in `docker-compose -d`.
 
 > When Docker and Docker Compose are installed via **Snap**, they run inside a sandbox with strict confinement rules. That sandbox prevents them from accessing certain directories in your home folder (like `~/.winboat/`) and from communicating properly with the Docker daemon socket. This is why you see **“permission denied”** errors when trying to run WinBoat.  
 
-Follow this [guide](winboat.md) to remove and re-install Docker if you come across this error. I met this because I use built-in **Software Manager** of Zorin OS to install Docker in the first place. 
+Follow this [guide](winboat.md) to remove and re-install Docker if you come across this error. I met this because of built-in **Software Manager** of Zorin OS to install Docker in the first place. 
 
 After that, things go smooth... 
 
@@ -420,7 +420,7 @@ As a developer, running a dual-boot system or linux with Virtualized Windows is 
 
 **To cut it short, both GarminExpress and iTunes depend on USB passthrough from the host system.**
 
-To resume our experiment, I install latest version `7.2.6` of Virtual Box and extension pack. Use `tiny11_25H2_jffeb9.iso` to setup Windows 11: 4 Cores, 8G RAM, 64G disk, NAT network and shared folder... 
+To resume our experiment, install latest version `7.2.6` of Virtual Box and extension pack. Use `tiny11_25H2_jffeb9.iso` to setup Windows 11: 4 Cores, 8G RAM, 64G disk, NAT network and shared folder... 
 
 ![alt A-Few-Moments-Later](img/A-Few-Moments-Later.png)
 
