@@ -838,7 +838,7 @@ To be honest, I am a big fan of Microsoft. My graduate project was a **RTF Edito
 
 ![alt RTF-editor-about](img/RTF-editor-about.JPG)
 
-Believe it or not, I still use [Windows XP](https://apk.tw/thread-695987-1-1.html) in my day‑to‑day life! 
+Believe it or not, I still use [Windows XP](https://apk.tw/thread-695987-1-1.html) in my day‑to‑day life! In light of current juggling and future struggling, I quit! 
 
 > “When a relationship comes to an end, we have to clearly think whether to continue tolerating *or* simply to go away...Endings are not failures; they are transitions. Each one asks us to choose: do we carry the weight of what no longer serves us? or do we honor the experience and step forward lighter? To tolerate without purpose is to remain bound, to walk away with clarity is to redeem ourselves. In that choice lies our strength, and in that strength lies the beginning of something new.” ── by copilot
 
