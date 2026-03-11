@@ -131,11 +131,12 @@ Software occasionally used:
 
 | **Application** | **Cross-platform** | **Alternative** |
 | ----------- | ----------- | ----------- |
-| [edge](https://www.microsoft.com/en-us/edge/download?form=MA13FJ) | yes | --- |
+| [Microsoft Edge](https://www.microsoft.com/en-us/edge/download?form=MA13FJ) | yes | --- |
 | [HeidiSQL](https://www.heidisql.com/) | yes | --- |
 | [Paint](https://www.microsoft.com/en-us/windows/paint) | no | yes |
 | [ConvertZ](https://www.azofreeware.com/2006/03/convertz-802.html) | no | no |
 | [ASS2SRT](https://apps.microsoft.com/detail/9p6zjkkntck1?hl=en-US&gl=SA) | no | no |
+| [薦片影視](https://www.jianpian15.com/#/home) | no | no |
 
 
 #### III. Where Zorin OS shines
