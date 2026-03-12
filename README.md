@@ -142,6 +142,8 @@ Software occasionally used:
 #### III. Where Zorin OS shines
 ![alt zorin os 18](img/Screenshot%20from%202026-02-15%2019-44-08.png)
 
+Chances are there exist some applications you can not do without, and so much the worse, there are no alternatives. 
+
 1. [WineHQ](https://www.winehq.org/)
 2. [Bottles - Run Windows Software on Linux](https://usebottles.com/)
 3. [WinBoat](https://www.winboat.app/)
@@ -839,7 +841,7 @@ To be honest, I am a big fan of Microsoft. My graduate project was a **RTF Edito
 
 ![alt RTF-editor-about](img/RTF-editor-about.JPG)
 
-Believe it or not, I still use [Windows XP](https://apk.tw/thread-695987-1-1.html) in my day‑to‑day life and in light of current juggling and future struggling, I quit... I mean Windows 11. 
+Believe it or not, I still use [Windows XP](https://apk.tw/thread-695987-1-1.html) in my day‑to‑day life and in light of current juggling and future struggling, I quit... I mean Windows 11, 12... so on and so forth. 
 
 > “When a relationship comes to an end, we have to clearly think whether to continue tolerating *or* simply to go away...Endings are not failures; they are transitions. Each one asks us to choose: do we carry the weight of what no longer serves us? or do we honor the experience and step forward lighter? To tolerate without purpose is to remain bound, to walk away with clarity is to redeem ourselves. In that choice lies our strength, and in that strength lies the beginning of something new.” ── by copilot
 
