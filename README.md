@@ -445,12 +445,9 @@ This pretty much concludes our journey on running `.exe` files on Linux. The bes
 
 
 #### IV. The Feather of Chromebook
-- [Set up Linux on your Chromebook](https://support.google.com/chromebook/answer/9145439)
-- [Crostini developer guide](https://www.chromium.org/chromium-os/developer-library/guides/containers/crostini-developer-guide/)
-- [Running Custom Containers Under ChromeOS](https://www.chromium.org/chromium-os/developer-library/guides/containers/containers-and-vms/)
-- [Linux for Chromebooks: Secure Development (Google I/O ’19)](https://youtu.be/pRlh8LX4kQI)
-
 ![alt Crostini-architecture](img/Crostini-architecture.png)
+
+##### 
 
 [FAQ](https://www.chromium.org/chromium-os/developer-library/guides/containers/containers-and-vms/#faq)
 
@@ -486,7 +483,14 @@ Also, [we love turtles](https://en.wikipedia.org/wiki/Turtles_all_the_way_down).
 
 It's a play off [crouton](https://github.com/dnschneid/crouton) which is a project to easily create full Linux environments (including developer tools) for users who turned on developer mode. [Crostini](https://www.chromium.org/chromium-os/developer-library/guides/containers/containers-and-vms/#Crostini) aims to satisfy the majority of use cases covered by [crouton](https://github.com/dnschneid/crouton), and is a larger & tastier snack than a crouton, hence the name.
 
+See Also: 
 
+- [Set up Linux on your Chromebook](https://support.google.com/chromebook/answer/9145439)
+- [Crostini developer guide](https://www.chromium.org/chromium-os/developer-library/guides/containers/crostini-developer-guide/)
+- [Running Custom Containers Under ChromeOS](https://www.chromium.org/chromium-os/developer-library/guides/containers/containers-and-vms/)
+- [Linux for Chromebooks: Secure Development (Google I/O ’19)](https://youtu.be/pRlh8LX4kQI)
+
+##### 
 
 ![alt chromebook-desktop](img/chromebook-desktop.png)
 
