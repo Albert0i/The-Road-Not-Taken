@@ -455,17 +455,21 @@ This pretty much concludes our journey on running `.exe` files on Linux. The bes
 [FAQ](https://www.chromium.org/chromium-os/developer-library/guides/containers/containers-and-vms/#faq)
 
 - **Can I run Windows programs?**
+
 Sure, give [WINE](https://www.winehq.org/) a try. Compatibility will largely depend on [WINE](https://www.winehq.org/) though, so please don't ask us for support.
 
 - **Why run VMs? Aren't containers secure?**
+
 While containers often isolate themselves (via Linux [namespaces](https://man7.org/linux/man-pages/man7/namespaces.7.html)), they do not isolate the kernel or similar system resources. That means it only takes a single bug in the kernel to fully exploit the system and steal your data.
 
 That isn't good enough for ChromeOS, hence we put everything inside a [VM](https://en.wikipedia.org/wiki/Virtual_machine). Now you have to exploit [crosvm](https://crosvm.dev/book/) via its limited interactions with the guest, and [crosvm](https://crosvm.dev/book/) itself is heavily sandboxed.
 
 - **Don't VMs slow everything down?**
+
 It is certainly true that [VM](https://en.wikipedia.org/wiki/Virtual_machine)s add overhead when compared to running in only a container or directly in the system. However, in our tests, the overhead is negligible to the user experience, and well worth the strong gains in system security.
 
 - **Why run containers inside the VM? Why not run programs directly in the VM?**
+
 In order to keep [VM](https://en.wikipedia.org/wiki/Virtual_machine) startup times low, we need [Termina](https://chromium.googlesource.com/chromiumos/overlays/board-overlays/+/HEAD/project-termina/) to be as slim as possible. That means cutting out programs/files we don't need or are about.
 
 We use [dm-verity](https://gitlab.com/cryptsetup/cryptsetup/wikis/DMVerity) which requires the [Termina](https://chromium.googlesource.com/chromiumos/overlays/board-overlays/+/HEAD/project-termina/) image be read-only for [Security](https://www.chromium.org/chromium-os/developer-library/guides/containers/containers-and-vms/#security), but it also means we can safely share it between [VM](https://en.wikipedia.org/wiki/Virtual_machine) instances.
@@ -479,6 +483,7 @@ Altogether, it's difficult to support running arbitrary programs, and would resu
 Also, [we love turtles](https://en.wikipedia.org/wiki/Turtles_all_the_way_down).
 
 - **Why the name Crostini?**
+
 It's a play off [crouton](https://github.com/dnschneid/crouton) which is a project to easily create full Linux environments (including developer tools) for users who turned on developer mode. [Crostini](https://www.chromium.org/chromium-os/developer-library/guides/containers/containers-and-vms/#Crostini) aims to satisfy the majority of use cases covered by [crouton](https://github.com/dnschneid/crouton), and is a larger & tastier snack than a crouton, hence the name.
 
 
