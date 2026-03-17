@@ -445,6 +445,13 @@ This pretty much concludes our journey on running `.exe` files on Linux. The bes
 
 
 #### IV. The Feather of Chromebook
+- [Set up Linux on your Chromebook](https://support.google.com/chromebook/answer/9145439)
+- [Crostini developer guide](https://www.chromium.org/chromium-os/developer-library/guides/containers/crostini-developer-guide/)
+- [Running Custom Containers Under ChromeOS](https://www.chromium.org/chromium-os/developer-library/guides/containers/containers-and-vms/)
+- []()
+- []()
+
+
 ![alt chromebook-desktop](img/chromebook-desktop.png)
 
 ![alt chromebook-linux-apps-1](img/chromebook-linux-apps-1.png)
