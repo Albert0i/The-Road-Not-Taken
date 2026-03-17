@@ -445,11 +445,13 @@ This pretty much concludes our journey on running `.exe` files on Linux. The bes
 
 
 #### IV. The Feather of Chromebook
+> Chromebook is a lightweightChromeOS PCs are designed for speed, security, and cloud computing, and are typically affordable, have long battery life, and are easy to use. They come with built-in Google services (such as Gmail and Drive), support Android apps and Microsoft 365 web version, and are suitable for word processing and teaching. 
+
+> Chromebook 是一款搭載輕量級 ChromeOS 的個人電腦，主打快速、安全且專為雲端運算設計，通常價格實惠、電池續航力長且易於使用。它內建 Google 服務（如 Gmail、雲端硬碟），支援 Android 應用程式和 Microsoft 365 網頁版，適合文書處理與教學。
+
 ![alt Crostini-architecture](img/Crostini-architecture.png)
 
-##### 1. 
-
-[FAQ](https://www.chromium.org/chromium-os/developer-library/guides/containers/containers-and-vms/#faq)
+##### 1. [FAQ](https://www.chromium.org/chromium-os/developer-library/guides/containers/containers-and-vms/#faq)
 
 - **Can I run Windows programs?**
 
@@ -490,7 +492,7 @@ See Also:
 - [Running Custom Containers Under ChromeOS](https://www.chromium.org/chromium-os/developer-library/guides/containers/containers-and-vms/)
 - [Linux for Chromebooks: Secure Development (Google I/O ’19)](https://youtu.be/pRlh8LX4kQI)
 
-##### 2. 
+##### 2. Overview
 
 ![alt chromebook-desktop](img/chromebook-desktop.png)
 
