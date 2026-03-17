@@ -447,7 +447,7 @@ This pretty much concludes our journey on running `.exe` files on Linux. The bes
 #### IV. The Feather of Chromebook
 ![alt Crostini-architecture](img/Crostini-architecture.png)
 
-##### 
+##### 1. 
 
 [FAQ](https://www.chromium.org/chromium-os/developer-library/guides/containers/containers-and-vms/#faq)
 
@@ -490,7 +490,7 @@ See Also:
 - [Running Custom Containers Under ChromeOS](https://www.chromium.org/chromium-os/developer-library/guides/containers/containers-and-vms/)
 - [Linux for Chromebooks: Secure Development (Google I/O ’19)](https://youtu.be/pRlh8LX4kQI)
 
-##### 
+##### 2. 
 
 ![alt chromebook-desktop](img/chromebook-desktop.png)
 
