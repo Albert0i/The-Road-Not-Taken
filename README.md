@@ -492,7 +492,7 @@ See Also:
 - [Running Custom Containers Under ChromeOS](https://www.chromium.org/chromium-os/developer-library/guides/containers/containers-and-vms/)
 - [Linux for Chromebooks: Secure Development (Google I/O ’19)](https://youtu.be/pRlh8LX4kQI)
 
-##### 2. Overview
+##### 2. System Overview
 
 ![alt chromebook-desktop](img/chromebook-desktop.png)
 
