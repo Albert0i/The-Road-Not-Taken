@@ -574,6 +574,11 @@ Key Specifications & Performance:
 
 > Both **Flatpak** and **Snapd** can work on **Debian**, though they aren’t installed by default.
 
+> Practical Advice for Crostini
+- **Default choice**: Use **apt-get** for most packages — it’s efficient and symbolic, perfect for your 15 GB chamber.  
+- **Snapd**: Avoid unless absolutely necessary; it consumes space and runs background services.  
+- **Flatpak**: Use sparingly for GUI apps unavailable via apt; prune unused runtimes to reclaim disk space.  
+
 - [Debian Quick Setup - Follow these simple steps to start using Flatpak](https://flatpak.org/setup/Debian)
 - [Install snap on Debian](https://snapcraft.io/docs/tutorials/install-the-daemon/debian/)
 - [apt-get command in Linux with Examples](https://www.geeksforgeeks.org/linux-unix/apt-get-command-in-linux-with-examples/)
