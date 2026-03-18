@@ -519,7 +519,7 @@ See Also:
 - [Linux for Chromebooks: Secure Development (Google I/O ’19)](https://youtu.be/pRlh8LX4kQI)
 
 ---
-“**Containers Inside Virtual Machines: Layered Isolation and Trade-offs**”── by copilot
+“**Chromebook and WinBoat: Layered VM–Container Isolation for Security**”<br />── by copilot
 
 Running containers inside virtual machines (VMs) is a layered approach that merges two distinct forms of isolation. VMs provide hardware-level separation, enabling multiple operating systems to run securely on shared infrastructure. Containers, in contrast, isolate applications at the process level, packaging dependencies for portability and rapid deployment. Together, they create a defense-in-depth model where the VM acts as the fortified shell and the container as the agile inscription within.  
 
