@@ -138,6 +138,12 @@ Software occasionally used:
 | [ASS2SRT](https://apps.microsoft.com/detail/9p6zjkkntck1?hl=en-US&gl=SA) | no | no |
 | [薦片影視](https://www.jianpian15.com/#/home) | no | no |
 
+My ASUS notebook was bought on late 2024. 
+
+![alt expert-book-info](img/expert-book-info.jpeg)
+
+Roam says that it is NOT eligible for Windows 12 due to deficiency of [NPU](https://en.wikipedia.org/wiki/Neural_processing_unit) so much the worse! 
+
 
 #### III. Where Zorin OS shines
 ![alt zorin os 18](img/Screenshot%20from%202026-02-15%2019-44-08.png)
