@@ -520,7 +520,7 @@ See Also:
 
 ---
 
-“**Chromebook and WinBoat: Layered VM–Container Isolation for Security**”<br />── by copilot
+“**🧭 Chromebook and WinBoat: Layered VM–Container Isolation for Security**”<br />── by copilot
 
 Running containers inside virtual machines (VMs) is a layered approach that merges two distinct forms of isolation. 
 - VMs provide **hardware-level** separation, enabling multiple operating systems to run securely on shared infrastructure. 
