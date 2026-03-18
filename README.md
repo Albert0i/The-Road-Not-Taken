@@ -518,8 +518,7 @@ See Also:
 - [Running Custom Containers Under ChromeOS](https://www.chromium.org/chromium-os/developer-library/guides/containers/containers-and-vms/)
 - [Linux for Chromebooks: Secure Development (Google I/O ’19)](https://youtu.be/pRlh8LX4kQI)
 
----
-“**Chromebook and WinBoat: Layered VM–Container Isolation for Security**”<br />── by copilot
+##### 2. “Chromebook and WinBoat: Layered VM–Container Isolation for Security”<br />── by copilot
 
 Running containers inside virtual machines (VMs) is a layered approach that merges two distinct forms of isolation. 
 - VMs provide **hardware-level** separation, enabling multiple operating systems to run securely on shared infrastructure. 
@@ -537,7 +536,7 @@ Similarly, **WinBoat** employs KVM to host a Windows 11 VM, and within that VM, 
 
 In both cases, the design is deliberate rather than coincidental. The VM–container layering balances **security, compatibility, and manageability**, making it especially valuable in multi-tenant or regulated environments. Symbolically, it is the scroll within a scroll — a heavier artifact to carry, but one that offers resilience and trust.
 
-##### 2. System Overview
+##### 3. System Overview
 
 ![alt chromebook-desktop](img/chromebook-desktop.png)
 
