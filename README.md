@@ -575,7 +575,7 @@ Key Specifications & Performance:
 > Both **Flatpak** and **Snapd** can work on **Debian**, though they aren’t installed by default.
 
 > Practical Advice for Crostini
-- **Default choice**: Use **apt-get** for most packages — it’s efficient and symbolic, perfect for your 15 GB chamber.  
+- **Default choice**: Use **apt-get** for most packages — it’s efficient and symbolic.  
 - **Snapd**: Avoid unless absolutely necessary; it consumes space and runs background services.  
 - **Flatpak**: Use sparingly for GUI apps unavailable via apt; prune unused runtimes to reclaim disk space.  
 
