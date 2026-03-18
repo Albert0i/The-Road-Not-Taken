@@ -129,7 +129,7 @@ Without further ado, let's talk about the softwares, besides these bundled by **
 
 Software occasionally used: 
 
-| **Application** | **Cross-platform** | **Alternative** |
+|     | **Application** | **Cross-platform** | **Alternative** |
 | --- | ----------- | ----------- | ----------- |
 | 1 | [Microsoft Edge](https://www.microsoft.com/en-us/edge/download?form=MA13FJ) | yes | --- |
 | 2 | [HeidiSQL](https://www.heidisql.com/) | yes | --- |
