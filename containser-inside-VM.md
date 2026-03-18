@@ -1,6 +1,8 @@
 
 # 🪶 Containers Inside VMs: A Comprehensive Exploration
 
+![alt vm-and-container-layer](img/vm-and-container-layer.png)
+
 ## Introduction
 In modern computing, virtualization and containerization are two pillars of workload isolation and deployment. Virtual machines (VMs) emulate hardware, allowing multiple operating systems to run on a single physical host. Containers, by contrast, isolate applications at the process level, sharing the host kernel but packaging dependencies for portability.  
 
