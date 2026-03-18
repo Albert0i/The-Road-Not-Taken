@@ -538,6 +538,8 @@ Similarly, **WinBoat** employs [KVM](https://en.wikipedia.org/wiki/Kernel-based_
 
 In both cases, the design is deliberate rather than coincidental. The VM–container layering balances **security, compatibility, and manageability**, making it especially valuable in multi-tenant or regulated environments. Symbolically, it is the scroll within a scroll — a heavier artifact to carry, but one that offers resilience and trust.
 
+![alt Chromebook-Winboat](img/Chromebook-Winboat.png)
+
 ##### 2. System Overview
 
 ![alt chromebook-desktop](img/chromebook-desktop.png)
