@@ -455,6 +455,8 @@ This pretty much concludes our journey on running `.exe` files on Linux. The bes
 
 > Chromebook 是一款搭載輕量級 ChromeOS 的個人電腦，主打快速、安全且專為雲端運算設計，通常價格實惠、電池續航力長且易於使用。它內建 Google 服務（如 Gmail、雲端硬碟），支援 Android 應用程式和 Microsoft 365 網頁版，適合文書處理與教學。
 
+> Crostini is the official method for running Linux applications directly on ChromeOS, offering a secure, containerized Debian-based environment. It enables developers and users to install IDEs, editors, and terminal tools, which integrate seamlessly into the Launcher and share files with the host system. It is supported on most modern Chromebooks via the settings menu.
+
 ![alt Crostini-architecture](img/Crostini-architecture.png)
 
 ##### 1. [FAQ](https://www.chromium.org/chromium-os/developer-library/guides/containers/containers-and-vms/#faq)
@@ -525,7 +527,6 @@ This architecture offers several advantages. It enhances security by adding an e
 
 However, the approach is not without drawbacks. Containers inside VMs introduce performance overhead, resource duplication, and slower startup times compared to bare-metal containers. Management complexity increases, as administrators must orchestrate both VM lifecycles and container deployments. Networking and storage also become more intricate, with nested layers adding latency and consuming disk space. For lean environments, such as Crostini with strict disk constraints, the trade-off is stark: ritual completeness and fortified boundaries versus efficiency and simplicity. Ultimately, the container-inside-VM model is a deliberate choice, balancing resilience and flexibility against resource costs.
 
-
 ##### 2. System Overview
 
 ![alt chromebook-desktop](img/chromebook-desktop.png)
@@ -549,8 +550,6 @@ Key Specifications & Performance:
 - Use Case: Ideal for light browsing, document editing, and mobility rather than heavy processing.
 
 > The m3-8100Y is often found in devices like the Microsoft Surface Go 2 and various ASUS Chromebooks. It offers decent performance for daily tasks but is not meant for gaming or intense video editing. 
-
-> Crostini is the official method for running Linux applications directly on ChromeOS, offering a secure, containerized Debian-based environment. It enables developers and users to install IDEs, editors, and terminal tools, which integrate seamlessly into the Launcher and share files with the host system. It is supported on most modern Chromebooks via the settings menu.
 
 > On Ubuntu, **Flatpak** and **Snapd** are two modern systems for installing applications, each with its own ecosystem.  
 
