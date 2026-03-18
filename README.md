@@ -138,7 +138,7 @@ Software occasionally used:
 | 5 | [ASS2SRT](https://apps.microsoft.com/detail/9p6zjkkntck1?hl=en-US&gl=SA) | no | no |
 | 6 | [薦片影視](https://www.jianpian15.com/#/home) | no | no |
 
-My ASUS notebook was bought on late 2024. 
+My ASUS notebook was bought in late 2024. 
 
 ![alt expert-book-info](img/expert-book-info.jpeg)
 
