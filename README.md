@@ -94,38 +94,38 @@ The next day, when you turn on the computer, the war continues like clockwork. G
 
 Without further ado, let's talk about the softwares, besides these bundled by **ASUS** and those pre-installed by **Microsoft**, which consumes more than 40G, Following is the list: 
 
-| **Application** | **Cross-platform** | **Alternative** |
-| ----------- | ----------- | ----------- |
-| [Avast Free AntiVIrus](https://www.avast.com/free-antivirus-download#pc) | no | no |
-| [Desktop Restore](https://www.majorgeeks.com/files/details/desktop_restore.html) 1.7.2.083 | no | no |
-| [EaseUS Todo Backup Free 2025](https://www.easeus.com/download/tbf-download.html?srsltid=AfmBOopjxoA-5S-s9NZHvRwlyVqlGJzmH-HHgeyzu8L7sf7iAfGGXsuM) | no | no |
-| [FileZilla](https://filezilla-project.org/) 3.68.1 | yes | --- |
-| [FreeFileSync](https://freefilesync.org/) | yes | --- |
-| [Git](https://git-scm.com/) | yes | --- |
-| [GnuWin32: Make](https://gnuwin32.sourceforge.net/packages/make.htm)-3.8.1 | yes | --- |
-| [GnuWin32: sed](https://gnuwin32.sourceforge.net/packages/sed.htm)-4.2.1 | yes | --- |
-| [Google Chrome](https://www.google.com/chrome/) | yes | --- |
-| [HandBrake](https://handbrake.fr/) 1.8.2 | yes | --- |
-| [iTunes](https://www.apple.com/itunes/) 12.10.11 | no | no |
-| [MariaDB](https://mariadb.com/)  11.7.2 | yes | --- |
-| [Microsoft Visual Studio Code](https://code.visualstudio.com/) | yes | --- |
-| [MongoDB Compass](https://www.mongodb.com/products/tools/compass) | yes | --- |
-| [Mozilla Thunderbird](https://www.thunderbird.net/en-US/) | yes | --- |
-| [Node.js](https://nodejs.org/en) | yes | --- |
-| [Notepad++](https://notepad-plus-plus.org/downloads/) | no | yes |
-| [NVM for Windows](https://www.nvmnode.com/) 1.2.2 | yes | --- |
-| [Ollama](https://ollama.com/) 0.13.5 | yes | --- |
-| [Open-Shell](https://open-shell.github.io/Open-Shell-Menu/) | no | no |
-| [Pea](https://peazip.github.io/) 10.0.0 | yes | --- |
-| [Putty](https://putty.org/index.html) release 0.81 | yes | --- |
-| [RealVNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) 7.12.1 | no | yes |
-| [Redis](https://github.com/zkteco-home/redis-windows) 8.4.0 | yes | --- |
-| [Redis Insight](https://redis.io/insight/) 2.70.1 | yes | --- |
-| [TightVNC](https://www.tightvnc.com/download.php) | no | yes |
-| [Transmission](https://transmissionbt.com/) | yes | --- |
-| [VLC media player](https://www.videolan.org/vlc/) 4.0.6 | yes | --- |
-| [WinSCP](https://winscp.net/eng/download.php) 6.3.5 | yes | --- |
-| [百度網盤](https://pan.baidu.com/disk/main) | yes | --- |
+|     | **Application** | **Cross-platform** | **Alternative** |
+| --- | ----------- | ----------- | ----------- |
+| 1 | [Avast Free AntiVIrus](https://www.avast.com/free-antivirus-download#pc) | no | no |
+| 2 | [Desktop Restore](https://www.majorgeeks.com/files/details/desktop_restore.html) 1.7.2.083 | no | no |
+| 3 | [EaseUS Todo Backup Free 2025](https://www.easeus.com/download/tbf-download.html?srsltid=AfmBOopjxoA-5S-s9NZHvRwlyVqlGJzmH-HHgeyzu8L7sf7iAfGGXsuM) | no | no |
+| 4 | [FileZilla](https://filezilla-project.org/) 3.68.1 | yes | --- |
+| 5 | [FreeFileSync](https://freefilesync.org/) | yes | --- |
+| 6 | [Git](https://git-scm.com/) | yes | --- |
+| 7 | [GnuWin32: Make](https://gnuwin32.sourceforge.net/packages/make.htm)-3.8.1 | yes | --- |
+| 8 | [GnuWin32: sed](https://gnuwin32.sourceforge.net/packages/sed.htm)-4.2.1 | yes | --- |
+| 9 | [Google Chrome](https://www.google.com/chrome/) | yes | --- |
+| 10 | [HandBrake](https://handbrake.fr/) 1.8.2 | yes | --- |
+| 11 | [iTunes](https://www.apple.com/itunes/) 12.10.11 | no | no |
+| 12 | [MariaDB](https://mariadb.com/)  11.7.2 | yes | --- |
+| 13 | [Microsoft Visual Studio Code](https://code.visualstudio.com/) | yes | --- |
+| 14 | [MongoDB Compass](https://www.mongodb.com/products/tools/compass) | yes | --- |
+| 15 | [Mozilla Thunderbird](https://www.thunderbird.net/en-US/) | yes | --- |
+| 16| [Node.js](https://nodejs.org/en) | yes | --- |
+| 17 | [Notepad++](https://notepad-plus-plus.org/downloads/) | no | yes |
+| 18 | [NVM for Windows](https://www.nvmnode.com/) 1.2.2 | yes | --- |
+| 19 | [Ollama](https://ollama.com/) 0.13.5 | yes | --- |
+| 20 | [Open-Shell](https://open-shell.github.io/Open-Shell-Menu/) | no | no |
+| 21 | [Pea](https://peazip.github.io/) 10.0.0 | yes | --- |
+| 22 | [Putty](https://putty.org/index.html) release 0.81 | yes | --- |
+| 23 | [RealVNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) 7.12.1 | no | yes |
+| 24 | [Redis](https://github.com/zkteco-home/redis-windows) 8.4.0 | yes | --- |
+| 25 | [Redis Insight](https://redis.io/insight/) 2.70.1 | yes | --- |
+| 26 | [TightVNC](https://www.tightvnc.com/download.php) | no | yes |
+| 27 | [Transmission](https://transmissionbt.com/) | yes | --- |
+| 28 | [VLC media player](https://www.videolan.org/vlc/) 4.0.6 | yes | --- |
+| 29 | [WinSCP](https://winscp.net/eng/download.php) 6.3.5 | yes | --- |
+| 30 | [百度網盤](https://pan.baidu.com/disk/main) | yes | --- |
 
 Software occasionally used: 
 
