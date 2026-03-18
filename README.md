@@ -459,6 +459,24 @@ This pretty much concludes our journey on running `.exe` files on Linux. The bes
 
 ##### 1. [FAQ](https://www.chromium.org/chromium-os/developer-library/guides/containers/containers-and-vms/#faq)
 
+- **Can I run a VM inside the VM?**
+
+Yes, on machines with kernels >= 4.19 nested virtualization is on by default. However, performance will be slow if you don't have at least 8GB of RAM. Currently, we don't have performance testing or guarantees for nested VMs.
+
+- **Can I run a container inside the container?**
+
+Yes! You'll probably need to install the relevant packages first for whatever container format you want to run.
+
+- **Do I have to manage VM updates?**
+
+Nope! The [Termina](https://chromium.googlesource.com/chromiumos/overlays/board-overlays/+/HEAD/project-termina/) [VM](https://en.wikipedia.org/wiki/Virtual_machine) is a [component](https://chromium.googlesource.com/chromium/src/+/lkgr/components/component_updater/README.md) that is updated automatically.
+
+Keep in mind that the [VM](https://en.wikipedia.org/wiki/Virtual_machine) is separate from the container.
+
+- **How do I check the Termina version?**
+
+The [Termina](https://chromium.googlesource.com/chromiumos/overlays/board-overlays/+/HEAD/project-termina/) version is tied to the ChromeOS version and updated at the same time. ChromeOS's version can be seen at `chrome://version`, and will look something like `14324.72.0`.
+
 - **Can I run Windows programs?**
 
 Sure, give [WINE](https://www.winehq.org/) a try. Compatibility will largely depend on [WINE](https://www.winehq.org/) though, so please don't ask us for support.
