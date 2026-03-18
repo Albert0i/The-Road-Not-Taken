@@ -130,13 +130,13 @@ Without further ado, let's talk about the softwares, besides these bundled by **
 Software occasionally used: 
 
 | **Application** | **Cross-platform** | **Alternative** |
-| ----------- | ----------- | ----------- |
-| [Microsoft Edge](https://www.microsoft.com/en-us/edge/download?form=MA13FJ) | yes | --- |
-| [HeidiSQL](https://www.heidisql.com/) | yes | --- |
-| [Paint](https://www.microsoft.com/en-us/windows/paint) | no | yes |
-| [ConvertZ](https://www.azofreeware.com/2006/03/convertz-802.html) | no | no |
-| [ASS2SRT](https://apps.microsoft.com/detail/9p6zjkkntck1?hl=en-US&gl=SA) | no | no |
-| [薦片影視](https://www.jianpian15.com/#/home) | no | no |
+| --- | ----------- | ----------- | ----------- |
+| 1 | [Microsoft Edge](https://www.microsoft.com/en-us/edge/download?form=MA13FJ) | yes | --- |
+| 2 | [HeidiSQL](https://www.heidisql.com/) | yes | --- |
+| 3 | [Paint](https://www.microsoft.com/en-us/windows/paint) | no | yes |
+| 4 | [ConvertZ](https://www.azofreeware.com/2006/03/convertz-802.html) | no | no |
+| 5 | [ASS2SRT](https://apps.microsoft.com/detail/9p6zjkkntck1?hl=en-US&gl=SA) | no | no |
+| 6 | [薦片影視](https://www.jianpian15.com/#/home) | no | no |
 
 My ASUS notebook was bought on late 2024. 
 
