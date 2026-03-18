@@ -768,11 +768,9 @@ sudo apt install ftp
 
 ##### Miscellaneous
 ```
-arc-linux-17.0.9-amd64.deb
 baidunetdisk_4.17.7_amd64.deb
 code_1.106.3-1764110892_amd64.deb
 heidisql_12.15.1.1_amd64.deb
-microsoft-edge-stable_145.0.3800.58-1_amd64.deb
 mongodb-mongosh_2.7.0_amd64.deb
 mongodb-compass_1.48.2_amd64.deb
 peazip_10.7.0.LINUX.Qt6-1_amd64.deb
