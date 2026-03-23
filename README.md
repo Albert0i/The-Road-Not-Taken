@@ -586,33 +586,9 @@ sudo apt-get install fortune cowsay
 sudo apt-get install screenfetch
 ```
 
-##### 
-
-##### 
-
-##### 
-
-
 ##### Domestic
-[pbpaste && pbcopy for Ubuntu Linux 20.04](https://gist.github.com/diegopacheco/75de31680b3eaeb8824e994b81889f82)
-```
-sudo apt-get install xclip -y
-```
 
-Create Alias
-```
-alias pbcopy='xclip -selection clipboard'
-alias pbpaste='xclip -selection clipboard -o'
-```
-
-Try out
-```
-pbcopy < /proc/cpuinfo 
-pbpaste > tst.txt
-cat tst.txt 
-```
-
-`~./bash_aliases`
+Create `~/.bash_aliases`: 
 ```
 alias ll='ls -l'
 alias la='ls -al'
@@ -629,27 +605,36 @@ alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 ```
 
-Install the fortune and cowsay 
+Modify `~/.bashrc` by adding the following at the bottom: 
 ```
-apt-get install fortune cowsay 
+fortune | cowsay
 ```
-Add `fortune | cowsay` at the end of `~./bashrc`
 
-`~./bash_logout`
+Modify `~/.bash_logout` by adding the following at the bottom: 
 ```
-# ~/.bash_logout: executed by bash(1) when login shell exits.
-
-# when leaving the console clear the screen to increase privacy
-
-if [ "$SHLVL" = 1 ]; then
-    [ -x /usr/bin/clear_console ] && /usr/bin/clear_console -q
-fi
-
 echo
 echo Goodbye $(whoami), have a nice day!
 sleep 1
 clear
 ```
+
+[pbpaste && pbcopy for Ubuntu Linux 20.04](https://gist.github.com/diegopacheco/75de31680b3eaeb8824e994b81889f82)
+```
+sudo apt-get install xclip -y
+```
+
+Try out
+```
+pbcopy < /proc/cpuinfo 
+pbpaste > tst.txt
+cat tst.txt 
+```
+
+##### 
+
+##### 
+
+##### 
 
 ##### Development
 Install Docker
