@@ -553,6 +553,20 @@ In both cases, the design is deliberate rather than coincidental. The VM–conta
 
 ![alt chromebook-purchase-info](img/chromebook-purchase-info.jpeg)
 
+To begin with, open `Settings` and search for `linux`, you should see `Linux Development Environment` section, just follow the on screen instructions: 
+![alt setup-linux-dev-env-1](img/setup-linux-dev-env-1.png)
+
+
+![alt setup-linux-dev-env-2](img/setup-linux-dev-env-2.png)
+
+![alt setup-linux-dev-env-3](img/setup-linux-dev-env-3.png)
+
+![alt setup-linux-dev-env-4](img/setup-linux-dev-env-4.png)
+
+![alt setup-linux-dev-env-5](img/setup-linux-dev-env-5.png)
+
+![alt setup-linux-dev-env-6](img/setup-linux-dev-env-6.png)
+
 See also: 
 
 - [Debian Quick Setup - Follow these simple steps to start using Flatpak](https://flatpak.org/setup/Debian)
