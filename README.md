@@ -589,7 +589,7 @@ sudo apt install telnet
 sudo apt install ftp
 ```
 
-##### Domestic
+##### 1. Domestic
 Create `~/.bash_aliases`: 
 ```
 alias ll='ls -l'
@@ -632,8 +632,8 @@ pbpaste > tst.txt
 cat tst.txt 
 ```
 
-##### [Docker](https://docs.docker.com/engine/install/debian/#install-using-the-repository)
-1. Set up Docker's `apt` repository.
+##### 2. [Docker](https://docs.docker.com/engine/install/debian/#install-using-the-repository)
+a. Set up Docker's `apt` repository.
 ```
 # Add Docker's official GPG key:
 sudo apt update
@@ -654,7 +654,7 @@ EOF
 sudo apt update
 ```
 
-2. Install the Docker packages.
+b. Install the Docker packages.
 
 ```
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
@@ -667,26 +667,26 @@ docker --version
 docker-compose --version 
 ```
 
-3. Verify that the installation is successful by running the `hello-world` image:
+c. Verify that the installation is successful by running the `hello-world` image:
 ```
 sudo docker run hello-world
 ```
 
-4. Redis
+d. Redis
 ```
 docker run --name redis -d -p 6379:6379 redis:8.4.0
 
 redis-cli 
 ```
 
-5. MariaDB
+e. MariaDB
 ```
 docker run --name mariadb -d -p 3306:3306 -e MARIADB_ROOT_PASSWORD=123456 mariadb:11.7.2
 
 mysql -h 127.0.0.1 -u root -p
 ```
 
-##### Database Clients
+##### 3. Database Clients
 [Redis CLI](https://redis.io/docs/latest/develop/tools/cli/) and [MySQL CLI](https://dev.mysql.com/doc/refman/8.4/en/mysql.html)
 ```
 sudo apt install default-mysql-client redis-tools
@@ -722,7 +722,7 @@ curl -sSfL https://get.tur.so/install.sh | bash
 heidisql_12.16_amd64.deb
 ```
 
-##### Miscellaneous
+##### 4. Utilities
 [jq](https://jqlang.org/) 
 ```
 sudo apt install jq
@@ -738,12 +738,12 @@ peazip_10.9.0.LINUX.Qt6-1_amd64.deb
 baidunetdisk_4.17.7_amd64.deb
 ```
 
-##### [VSCode](https://code.visualstudio.com/Download) 
+##### 5. [VSCode](https://code.visualstudio.com/Download) 
 ```
 code_1.112.0-1773778351_amd64.deb
 ```
 
-##### [NVM](https://www.nvmnode.com/guide/download.html)
+##### 6. [NVM](https://www.nvmnode.com/guide/download.html)
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 
@@ -756,7 +756,7 @@ npm install -g nodemon
 nodemon --version
 ```
 
-##### [Ollama](https://ollama.com/download) (Optional)
+##### 7. [Ollama](https://ollama.com/download) (Optional)
 ```
 sudo apt get install zstd
 
@@ -766,6 +766,8 @@ ollama --version
 
 ollama run gemma3:1b 
 ```
+
+![alt chromebook-ollama](/img/chromebook-ollama.png)
 
 To enable ollama API
 ```
@@ -793,15 +795,12 @@ http://localhost:11434/api/version
 https://docs.ollama.com/api/tags
 ```
 
-##### [libreOffice](https://www.libreoffice.org/) (Optional)
+##### 8. [libreOffice](https://www.libreoffice.org/) (Optional)
 ```
 sudo apt install libreoffice
 ```
 
-
-
-
-##### Development
+##### Old Doc
 Install Docker
 > To install Docker on a Chromebook, you must use the built-in Linux development environment (Crostini) and follow the standard Docker Engine installation steps for Debian Linux. Docker Desktop for Linux may not run correctly in the Crostini environment.
 
@@ -856,102 +855,6 @@ In case you may need:
 sudo apt install default-mysql-client redis-tools
 ```
 
-Install SQLite CLI
-```
-sudo apt install sqlite3
-```
-
-Install Turso CLI
-```
-curl -sSfL https://get.tur.so/install.sh | bash
-```
-
-Install jq
-```
-sudo apt install jq
-```
-
-Install the [MongoDB Shell](https://www.mongodb.com/try/download/shell)
-
-
-Install NVM 
-```
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
-```
-
-Install nodemon
-```
-npm install -g nodemon
-```
-
-##### Productivity
-Install libreOffice
-```
-sudo apt install libreoffice
-```
-
-Install [ollama](https://ollama.com/download/linux)
-```
-curl -fsSL https://ollama.com/install.sh | sh
-```
-
-> WARNING: Unable to detect NVIDIA/AMD GPU. Install lspci or lshw to automatically detect and install GPU dependencies.
-```
-sudo apt update && sudo apt install pciutils lshw
-```
-
-Test with 
-```
-ollama run gemma3:1b 
-```
-
-![alt chromebook-ollama](/img/chromebook-ollama.png)
-
-To enable ollama API
-```
-systemctl status ollama
-sudo systemctl edit ollama.service
-```
-
-Add the the following section
-```
-[Service]
-Environment="OLLAMA_HOST=127.0.0.1:11434"
-```
-
-Restart ollama service
-```
-sudo systemctl restart ollama
-```
-
-Test ollama API on browser 
-```
-http://localhost:11434/api/tags
-http://localhost:11434/api/ps
-http://localhost:11434/api/version
-
-https://docs.ollama.com/api/tags
-```
-
-Install the telnet and ftp
-```
-sudo apt install telnet
-sudo apt install ftp
-```
-
-##### Miscellaneous
-```
-baidunetdisk_4.17.7_amd64.deb
-code_1.106.3-1764110892_amd64.deb
-heidisql_12.15.1.1_amd64.deb
-mongodb-mongosh_2.7.0_amd64.deb
-mongodb-compass_1.48.2_amd64.deb
-peazip_10.7.0.LINUX.Qt6-1_amd64.deb
-Redis-Insight-linux-amd64.deb
-```
-
-> Screenfetch is a Bash-based command-line tool for Debian that displays system information, such as OS version, kernel, uptime, and memory, alongside an ASCII distribution logo. It is easily installed via `sudo apt install screenfetch` and run by typing `screenfetch` in the terminal, making it ideal for sharing system specs.
-
 ![alt chromebook-screenfetch](img/chromebook-screenfetch.png)
 
 ![alt chromebook-desktop](img/chromebook-desktop.png)
@@ -961,10 +864,6 @@ Redis-Insight-linux-amd64.deb
 ![alt chromebook-linux-apps-2](img/chromebook-linux-apps-2.png)
 
 ![alt chromebook-lshw](img/chromebook-lshw.png)
-
-See also: 
-
-[Winboat.app on Debian — Complete Installation Tutorial](https://youtu.be/Rqec-jmbQRs)
 
 
 #### V. The Touch of Vintage
