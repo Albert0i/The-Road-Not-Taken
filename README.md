@@ -800,6 +800,63 @@ https://docs.ollama.com/api/tags
 sudo apt install libreoffice
 ```
 
+##### 11. 
+Press `Ctrl + Alt + T` to open ChromeOS Developer Shell. You can run the `help` command to view a list of basic commands. Or run `help_advanced` for more advanced commands that are mainly used for debugging.
+
+```
+vmstat --help 
+
+Usage:
+ vmstat [options] [delay [count]]
+
+Options:
+ -a, --active           active/inactive memory
+ -f, --forks            number of forks since boot
+ -m, --slabs            slabinfo
+ -n, --one-header       do not redisplay header
+ -s, --stats            event counter statistics
+ -d, --disk             disk statistics
+ -D, --disk-sum         summarize disk statistics
+ -p, --partition <dev>  partition specific statistics
+ -S, --unit <char>      define display unit
+ -w, --wide             wide output
+ -t, --timestamp        show timestamp
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+```
+
+```
+vmc --help 
+USAGE: vmc [
+     start [--enable-gpu] [--enable-dgpu-passthrough] [--enable-big-gl] [--enable-virtgpu-native-context] [--vtpm-proxy] [--enable-audio-capture] [--extra-disk PATH] [--dlc ID] [--tools-dlc ID] [--kernel PATH] [--initrd PATH] [--rootfs PATH] [--vm-type <CROSTINI | ARC_VM | BOREALIS | BRUSCHETTA | BAGUETTE>] [--no-start-lxd] [--writable-rootfs] [--kernel-param PARAM]... [--oem-string STRING]... [--bios PATH] [--pflash PATH] [--bios-dlc ID] [--timeout PARAM] [--no-shell] [--user NAME] [--user-uid PARAM] [--user-group PARAM]... <vm name>
+
+  |  stop <vm name>
+
+  |  launch <main descriptor> [<descriptor>...]
+  |  create [-p] [--size SIZE] --vm-type <vm type> <vm name> [<source media> [<removable storage name>]] [-- additional parameters]
+  |  create-extra-disk --size SIZE <file name> [<removable storage name>]
+  |  adjust <vm name> <operation> [additional parameters]
+  |  destroy [-y] <vm name>
+  |  disk-op-status <command UUID>
+  |  export [-d] [-f] <vm name> <file name> [<removable storage name>]
+  |  import [--vm-type <vm type>] <vm name> <file name> [<removable storage name>]
+  |  inspect-backup <file name> [<removable storage name>]
+  |  resize <vm name> <size>
+  |  list
+  |  logs <vm name>
+  |  share <vm name> <path>
+  |  unshare <vm name> <path>
+  |  container <vm name> <container name> [ (<image server> <image alias>) | (<rootfs path> <metadata path>) ] [--privileged <true/false>] [--timeout PARAM]
+  |  update-container-devices <vm name> <container name> (<vm device>:<enable/disable>)...
+  |  usb-attach <vm name> <bus>:<device> [<container name>]
+  |  usb-detach <vm name> <port>
+  |  usb-list <vm name>
+  |  key-attach <vm name> <hidraw path>
+  |  pvm.send-problem-report [-n <vm name>] [-e <reporter's email>] <description of the problem>
+  |  --help | -h
+```
+
 ##### Older Document
 Install Docker
 > To install Docker on a Chromebook, you must use the built-in Linux development environment (Crostini) and follow the standard Docker Engine installation steps for Debian Linux. Docker Desktop for Linux may not run correctly in the Crostini environment.
