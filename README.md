@@ -564,13 +564,13 @@ To begin with, open `Settings` and search for `linux`, you should see `Linux dev
 
 ![alt setup-linux-dev-env-5](img/setup-linux-dev-env-5.png)
 
-Due to unknown issue, you may come across error while installing Linux... Just press `Retry`. 
+Due to *unknown* issue, you may come across error while installing Linux... Just press `Retry`. If error persists, reboot and try again. 
 ![alt setup-linux-dev-env-6](img/setup-linux-dev-env-6.png)
 
 And finally: 
 ![alt penguin-debut](img/penguin-debut.png)
 
-As you can see, around 1.5G is used. 
+As you can see, around 1.44G is used. 
 ![alt penguin-debut-df](img/penguin-debut-df.png)
 
 See also: 
