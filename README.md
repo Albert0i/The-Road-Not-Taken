@@ -548,7 +548,7 @@ In both cases, the design is deliberate rather than coincidental. The VM–conta
 
 ![alt Chromebook-Winboat](img/Chromebook-Winboat.png)
 
-##### 2. System Overview
+##### 2. Install Linux
 > 前所未見的最新 [ASUS Chromebook Flip C434](https://www.asus.com/tw/laptops/for-home/chromebook/asus-chromebook-flip-c434/)， 使可翻轉 Chromebook 設計邁向全新境界。 集時尚現代造型、精巧便攜及強大規格於一身，讓您無時無刻都能完成使命。 ASUS Chromebook Flip C434 配備全新的 NanoEdge 四邊窄邊框 14 吋顯示器，搭載超薄邊框和無與倫比的 87% 螢幕佔比，提供真正身歷其境的觀賞體驗，同時獨家 360° ErgoLift 轉軸更能帶來極致工作舒適性。 而且 Google Play 商店1 還有各式各樣的應用程式等您親自探索。 只有最好才夠好，ASUS Chromebook Flip C434 就是最佳實例。
 
 ![alt chromebook-purchase-info](img/chromebook-purchase-info.jpeg)
