@@ -584,10 +584,12 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install nano
 sudo apt install fortune cowsay 
 sudo apt install screenfetch
+
+sudo apt install telnet
+sudo apt install ftp
 ```
 
 ##### Domestic
-
 Create `~/.bash_aliases`: 
 ```
 alias ll='ls -l'
@@ -715,9 +717,25 @@ sudo apt install sqlite3
 curl -sSfL https://get.tur.so/install.sh | bash
 ```
 
+[HeidiSQL](https://www.heidisql.com/download.php)
+```
+heidisql_12.16_amd64.deb
+```
+
+#### Miscellaneous
 [jq](https://jqlang.org/) 
 ```
 sudo apt install jq
+```
+
+[Pea](https://peazip.github.io/peazip-linux.html)
+```
+peazip_10.9.0.LINUX.Qt6-1_amd64.deb
+```
+
+[BaiduNetDisk](https://pan.baidu.com/disk/main#/index)
+```
+baidunetdisk_4.17.7_amd64.deb
 ```
 
 ##### [VSCode](https://code.visualstudio.com/Download) 
@@ -747,6 +765,32 @@ curl -fsSL https://ollama.com/install.sh | sh
 ollama --version 
 
 ollama run gemma3:1b 
+```
+
+To enable ollama API
+```
+systemctl status ollama
+sudo systemctl edit ollama.service
+```
+
+Add the the following section
+```
+[Service]
+Environment="OLLAMA_HOST=127.0.0.1:11434"
+```
+
+Restart ollama service
+```
+sudo systemctl restart ollama
+```
+
+Test ollama API on browser 
+```
+http://localhost:11434/api/tags
+http://localhost:11434/api/ps
+http://localhost:11434/api/version
+
+https://docs.ollama.com/api/tags
 ```
 
 ##### [libreOffice](https://www.libreoffice.org/) (Optional)
