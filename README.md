@@ -800,7 +800,7 @@ https://docs.ollama.com/api/tags
 sudo apt install libreoffice
 ```
 
-##### 11. 
+##### 11. [Crosh](https://www.chromium.org/chromium-os/developer-library/reference/device/crosh/)
 Press `Ctrl + Alt + T` to open ChromeOS Developer Shell. You can run the `help` command to view a list of basic commands. Or run `help_advanced` for more advanced commands that are mainly used for debugging.
 
 ```
