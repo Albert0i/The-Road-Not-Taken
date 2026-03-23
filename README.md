@@ -582,8 +582,8 @@ Recommended to run first
 sudo apt update && sudo apt upgrade -y
 
 sudo apt install nano
-sudo apt-get install fortune cowsay 
-sudo apt-get install screenfetch
+sudo apt install fortune cowsay 
+sudo apt install screenfetch
 ```
 
 ##### Domestic
@@ -620,7 +620,7 @@ clear
 
 [pbpaste && pbcopy for Ubuntu Linux 20.04](https://gist.github.com/diegopacheco/75de31680b3eaeb8824e994b81889f82)
 ```
-sudo apt-get install xclip -y
+sudo apt install xclip -y
 ```
 
 Try out
@@ -630,11 +630,125 @@ pbpaste > tst.txt
 cat tst.txt 
 ```
 
-##### 
+##### [Docker](https://docs.docker.com/engine/install/debian/#install-using-the-repository)
+1. Set up Docker's `apt` repository.
+```
+# Add Docker's official GPG key:
+sudo apt update
+sudo apt install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
 
-##### 
+# Add the repository to Apt sources:
+sudo tee /etc/apt/sources.list.d/docker.sources <<EOF
+Types: deb
+URIs: https://download.docker.com/linux/debian
+Suites: $(. /etc/os-release && echo "$VERSION_CODENAME")
+Components: stable
+Signed-By: /etc/apt/keyrings/docker.asc
+EOF
 
-##### 
+sudo apt update
+```
+
+2. Install the Docker packages.
+
+```
+sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+sudo systemctl status docker
+
+sudo usermod -aG docker $USER
+
+docker --version 
+docker-compose --version 
+```
+
+3. Verify that the installation is successful by running the `hello-world` image:
+```
+sudo docker run hello-world
+```
+
+4. Redis
+```
+docker run --name redis -d -p 6379:6379 redis:8.4.0
+
+redis-cli 
+```
+
+5. MariaDB
+```
+docker run --name mariadb -d -p 3306:3306 -e MARIADB_ROOT_PASSWORD=123456 mariadb:11.7.2
+
+mysql -h 127.0.0.1 -u root -p
+```
+
+##### Database Clients
+[Redis CLI](https://redis.io/docs/latest/develop/tools/cli/) and [MySQL CLI](https://dev.mysql.com/doc/refman/8.4/en/mysql.html)
+```
+sudo apt install default-mysql-client redis-tools
+```
+
+[RedisInsight](https://redis.io/insight/)
+```
+
+```
+
+[MongoDB Shell](https://www.mongodb.com/try/download/shell):
+```
+```
+
+[MongoDB Compass](https://www.mongodb.com/try/download/compass)
+```
+```
+
+[SQLite](https://sqlite.org/index.html)
+```
+sudo apt install sqlite3
+```
+
+[Turso CLI](https://github.com/tursodatabase/turso-cli)
+```
+curl -sSfL https://get.tur.so/install.sh | bash
+```
+
+[jq](https://jqlang.org/) 
+```
+sudo apt install jq
+```
+
+##### [NVM](https://www.nvmnode.com/guide/download.html)
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+
+nvm install 24.14.0
+
+nvm --version 
+node --version 
+
+npm install -g nodemon
+nodemon --version
+```
+
+##### [Ollama](https://ollama.com/download) (Optional)
+```
+sudo apt get install zstd
+
+curl -fsSL https://ollama.com/install.sh | sh
+
+ollama --version 
+
+ollama run gemma3:1b 
+```
+
+##### [libreOffice](https://www.libreoffice.org/) (Optional)
+```
+sudo apt install libreoffice
+```
+
+
+
 
 ##### Development
 Install Docker
