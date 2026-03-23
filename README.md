@@ -573,8 +573,9 @@ And finally:
 > “Hurrah for Karamazov!”<br />
 ─ Fyodor Dostoyevsky, The Brothers Karamazov
 
-
+As you can see, around 1.5G is used. 
 ![alt penguin-debut-df](img/penguin-debut-df.png)
+
 
 
 See also: 
