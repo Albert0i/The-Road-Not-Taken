@@ -453,8 +453,6 @@ This pretty much concludes our journey on running `.exe` files on Linux. The bes
 #### IV. The Feather of Chromebook
 > Chromebook is a lightweight ChromeOS PCs are designed for speed, security, and cloud computing, and are typically affordable, have long battery life, and are easy to use. They come with built-in Google services (such as Gmail and Drive), support Android apps and Microsoft 365 web version, and are suitable for word processing and teaching. 
 
-> Chromebook 是一款搭載輕量級 ChromeOS 的個人電腦，主打快速、安全且專為雲端運算設計，通常價格實惠、電池續航力長且易於使用。它內建 Google 服務（如 Gmail、雲端硬碟），支援 Android 應用程式和 Microsoft 365 網頁版，適合文書處理與教學。
-
 > Crostini is the official method for running Linux applications directly on ChromeOS, offering a secure, containerized Debian-based environment. It enables developers and users to install IDEs, editors, and terminal tools, which integrate seamlessly into the Launcher and share files with the host system. It is supported on most modern Chromebooks via the settings menu.
 
 ![alt Crostini-architecture](img/Crostini-architecture.png)
