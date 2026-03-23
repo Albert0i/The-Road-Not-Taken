@@ -520,6 +520,16 @@ See Also:
 
 ---
 
+⚖️ “**The Charm of Crostini**”<br />── by copilot
+
+[Crostini](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/crostini?q=Crostini) (singular: crostino) are small Italian appetizers made from thin slices of bread, toasted until crisp, and topped with a variety of flavorful ingredients. 
+
+The word *crostini* means “little crusts,” reflecting their crunchy texture and bite‑sized form. Traditionally served as antipasto (a small amount of food eaten at the beginning of an Italian meal), they offer a versatile base for both savory and sweet toppings. Common choices include creamy cheeses like ricotta (a soft, white Italian cheese that does not have a strong taste) or goat cheese, cured meats (醃肉) such as prosciutto (Italian dried ham (= meat from the leg or shoulder of a pig) served in very thin slices) or salami (a large sausage made from meat and spices that has a strong taste and is usually eaten cold in slices), and vegetables ranging from roasted peppers to fresh tomatoes. Olive oil, pesto (a green sauce used in Italian cooking, especially on pasta), or tapenade (a food made by crushing and mixing olives, anchovies and capers into a thick smooth paste) often enhance the flavor. 
+
+Crostini differ from bruschetta, which uses larger rustic bread slices rubbed with garlic and typically topped with tomato and basil. Elegant yet simple, crostini are ideal for parties, wine tastings, or light starters. Their colorful presentation makes them visually appealing, while their variety ensures something for every palate. In essence, crostini embody Italian tradition, balancing rustic origins with modern culinary creativity.  
+
+---
+
 🧭 “**Chromebook and WinBoat: Layered VM–Container Isolation for Security**”<br />── by copilot
 
 Running containers inside virtual machines (VMs) is a layered approach that merges two distinct forms of isolation. 
