@@ -800,7 +800,7 @@ https://docs.ollama.com/api/tags
 sudo apt install libreoffice
 ```
 
-##### Old Doc
+##### Older Document
 Install Docker
 > To install Docker on a Chromebook, you must use the built-in Linux development environment (Crostini) and follow the standard Docker Engine installation steps for Debian Linux. Docker Desktop for Linux may not run correctly in the Crostini environment.
 
