@@ -553,9 +553,8 @@ In both cases, the design is deliberate rather than coincidental. The VM–conta
 
 ![alt chromebook-purchase-info](img/chromebook-purchase-info.jpeg)
 
-To begin with, open `Settings` and search for `linux`, you should see `Linux Development Environment` section, just follow the on screen instructions: 
+To begin with, open `Settings` and search for `linux`, you should see `Linux development environment` section, just follow the on screen instructions: 
 ![alt setup-linux-dev-env-1](img/setup-linux-dev-env-1.png)
-
 
 ![alt setup-linux-dev-env-2](img/setup-linux-dev-env-2.png)
 
