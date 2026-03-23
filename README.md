@@ -551,43 +551,11 @@ In both cases, the design is deliberate rather than coincidental. The VM–conta
 ![alt Chromebook-Winboat](img/Chromebook-Winboat.png)
 
 ##### 2. System Overview
+> 前所未見的最新 [ASUS Chromebook Flip C434](https://www.asus.com/tw/laptops/for-home/chromebook/asus-chromebook-flip-c434/)， 使可翻轉 Chromebook 設計邁向全新境界。 集時尚現代造型、精巧便攜及強大規格於一身，讓您無時無刻都能完成使命。 ASUS Chromebook Flip C434 配備全新的 NanoEdge 四邊窄邊框 14 吋顯示器，搭載超薄邊框和無與倫比的 87% 螢幕佔比，提供真正身歷其境的觀賞體驗，同時獨家 360° ErgoLift 轉軸更能帶來極致工作舒適性。 而且 Google Play 商店1 還有各式各樣的應用程式等您親自探索。 只有最好才夠好，ASUS Chromebook Flip C434 就是最佳實例。
 
-![alt chromebook-desktop](img/chromebook-desktop.png)
+![alt chromebook-purchase-info](img/chromebook-purchase-info.jpeg)
 
-![alt chromebook-linux-apps-1](img/chromebook-linux-apps-1.png)
-
-![alt chromebook-linux-apps-2](img/chromebook-linux-apps-2.png)
-
-![alt chromebook-lshw](img/chromebook-lshw.png)
-
-Intel(R) Core(TM) m3-8100Y CPU @ 1.10GHz
-> The Intel Core m3-8100Y is an ultra-low-power, 8th-generation dual-core processor designed for thin-and-light laptops, 2-in-1s, and tablets. Operating at a base frequency of 1.10 GHz, it boasts a turbo boost up to 3.40 GHz. It is ideal for basic productivity tasks, with a very low 5W TDP, and features Intel UHD Graphics 615.
-
-Key Specifications & Performance:
-
-- Cores/Threads: 2 cores / 4 threads (Hyper-Threading).
-- Frequency: 1.10 GHz Base, 3.40 GHz Turbo.
-- Graphics: Integrated Intel® UHD Graphics 615.
-- TDP: 5W (extremely energy-efficient).
-- Cache: 4 MB Intel® Smart Cache.
-- Use Case: Ideal for light browsing, document editing, and mobility rather than heavy processing.
-
-> The m3-8100Y is often found in devices like the Microsoft Surface Go 2 and various ASUS Chromebooks. It offers decent performance for daily tasks but is not meant for gaming or intense video editing. 
-
-> On Ubuntu, **Flatpak** and **Snapd** are two modern systems for installing applications, each with its own ecosystem.  
-
-> **Flatpak** was created by the open-source community to provide a universal way of packaging apps that run across different Linux distributions. It emphasizes sandboxing, meaning applications are isolated for better security, and it relies on shared “runtimes” to reduce duplication.  
-
-> **Snapd**, on the other hand, is Canonical’s system for managing **Snaps**, tightly integrated with Ubuntu. Snaps bundle all their dependencies, update automatically, and can roll back if something goes wrong. This makes them convenient, especially for Ubuntu users, though they’re heavier than Flatpaks.  
-
-> Flatpak is community-driven and cross-distro, while Snapd is Ubuntu’s native solution with automatic updates. Both aim to simplify Linux app installation, but they reflect different philosophies of packaging and distribution.  
-
-> Both **Flatpak** and **Snapd** can work on **Debian**, though they aren’t installed by default.
-
-> Practical Advice for Crostini
-- **Default choice**: Use **apt-get** for most packages — it’s efficient and symbolic.  
-- **Snapd**: Avoid unless absolutely necessary; it consumes space and runs background services.  
-- **Flatpak**: Use sparingly for GUI apps unavailable via apt; prune unused runtimes to reclaim disk space.  
+See also: 
 
 - [Debian Quick Setup - Follow these simple steps to start using Flatpak](https://flatpak.org/setup/Debian)
 - [Install snap on Debian](https://snapcraft.io/docs/tutorials/install-the-daemon/debian/)
@@ -808,6 +776,16 @@ Redis-Insight-linux-amd64.deb
 > Screenfetch is a Bash-based command-line tool for Debian that displays system information, such as OS version, kernel, uptime, and memory, alongside an ASCII distribution logo. It is easily installed via `sudo apt install screenfetch` and run by typing `screenfetch` in the terminal, making it ideal for sharing system specs.
 
 ![alt chromebook-screenfetch](img/chromebook-screenfetch.png)
+
+![alt chromebook-desktop](img/chromebook-desktop.png)
+
+![alt chromebook-linux-apps-1](img/chromebook-linux-apps-1.png)
+
+![alt chromebook-linux-apps-2](img/chromebook-linux-apps-2.png)
+
+![alt chromebook-lshw](img/chromebook-lshw.png)
+
+See also: 
 
 [Winboat.app on Debian — Complete Installation Tutorial](https://youtu.be/Rqec-jmbQRs)
 
