@@ -857,6 +857,12 @@ USAGE: vmc [
   |  --help | -h
 ```
 
+![alt vmc-list-Error-on-disk-VM-type-not-specified](img/vmc-list-Error-on-disk-VM-type-not-specified.png)
+
+![alt vmc-stop-and-start](img/vmc-stop-and-start.png)
+
+![alt vmc-start](img/vmc-start.png)
+
 ##### Older Document
 Install Docker
 > To install Docker on a Chromebook, you must use the built-in Linux development environment (Crostini) and follow the standard Docker Engine installation steps for Debian Linux. Docker Desktop for Linux may not run correctly in the Crostini environment.
