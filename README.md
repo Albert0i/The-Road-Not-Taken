@@ -575,14 +575,23 @@ As you can see, around 1.5G is used.
 
 See also: 
 
-- [Debian Quick Setup - Follow these simple steps to start using Flatpak](https://flatpak.org/setup/Debian)
-- [Install snap on Debian](https://snapcraft.io/docs/tutorials/install-the-daemon/debian/)
-- [apt-get command in Linux with Examples](https://www.geeksforgeeks.org/linux-unix/apt-get-command-in-linux-with-examples/)
+- [Set up Linux on your Chromebook](https://support.google.com/chromebook/answer/9145439?b=rammus-signed-mp-v9keys&visit_id=639096762796065360-163165720&p=chromebook_linuxapps&rd=1)
 
 Recommended to run first
 ```
 sudo apt update && sudo apt upgrade -y
+
+sudo apt install nano
+sudo apt-get install fortune cowsay 
+sudo apt-get install screenfetch
 ```
+
+##### 
+
+##### 
+
+##### 
+
 
 ##### Domestic
 [pbpaste && pbcopy for Ubuntu Linux 20.04](https://gist.github.com/diegopacheco/75de31680b3eaeb8824e994b81889f82)
