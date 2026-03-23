@@ -667,6 +667,12 @@ docker --version
 docker-compose --version 
 ```
 
+> Reboot the Linux container for the group changes to take effect. The easiest way is to type `sudo reboot` in the terminal or simply `restart` your Chromebook.
+
+```
+permission denied while trying to connect to the docker API at unix:///var/run/docker.sock
+```
+
 c. Verify that the installation is successful by running the `hello-world` image:
 ```
 sudo docker run hello-world
