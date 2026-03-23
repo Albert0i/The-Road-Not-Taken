@@ -570,13 +570,8 @@ Due to unknown issue, you may come across error while installing Linux... Just p
 And finally: 
 ![alt penguin-debut](img/penguin-debut.png)
 
-> “Hurrah for Karamazov!”<br />
-─ Fyodor Dostoyevsky, The Brothers Karamazov
-
 As you can see, around 1.5G is used. 
 ![alt penguin-debut-df](img/penguin-debut-df.png)
-
-
 
 See also: 
 
