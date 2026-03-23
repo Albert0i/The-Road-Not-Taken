@@ -694,17 +694,17 @@ sudo apt install default-mysql-client redis-tools
 
 [RedisInsight](https://redis.io/downloads/?_gl=1*nx8art*_gcl_au*NDQzNjg2MjM4LjE3NjQ2MTY0NDE.#Redis_Insight)
 ```
-Redis-Insight-linux-amd64.deb
+sudo apt install Redis-Insight-linux-amd64.deb
 ```
 
 [MongoDB Shell](https://www.mongodb.com/try/download/shell)
 ```
-mongodb-mongosh_2.8.1_amd64.deb
+sudo apt install mongodb-mongosh_2.8.1_amd64.deb
 ```
 
 [MongoDB Compass](https://www.mongodb.com/try/download/compass)
 ```
-mongodb-compass_1.49.4_amd64.deb
+sudo apt install mongodb-compass_1.49.4_amd64.deb
 ```
 
 [SQLite](https://sqlite.org/index.html)
@@ -719,7 +719,7 @@ curl -sSfL https://get.tur.so/install.sh | bash
 
 [HeidiSQL](https://www.heidisql.com/download.php)
 ```
-heidisql_12.16_amd64.deb
+sudo apt install heidisql_12.16_amd64.deb
 ```
 
 ##### 6. Utilities
@@ -730,17 +730,17 @@ sudo apt install jq
 
 [Pea](https://peazip.github.io/peazip-linux.html)
 ```
-peazip_10.9.0.LINUX.Qt6-1_amd64.deb
+sudo apt install peazip_10.9.0.LINUX.Qt6-1_amd64.deb
 ```
 
 [BaiduNetDisk](https://pan.baidu.com/disk/main#/index)
 ```
-baidunetdisk_4.17.7_amd64.deb
+sudo apt install baidunetdisk_4.17.7_amd64.deb
 ```
 
 ##### 7. [VSCode](https://code.visualstudio.com/Download) 
 ```
-code_1.112.0-1773778351_amd64.deb
+sudo apt install code_1.112.0-1773778351_amd64.deb
 ```
 
 ##### 8. [NVM](https://www.nvmnode.com/guide/download.html)
