@@ -459,7 +459,7 @@ This pretty much concludes our journey on running `.exe` files on Linux. The bes
 
 ![alt Crostini-architecture](img/Crostini-architecture.png)
 
-##### 1. [FAQ](https://www.chromium.org/chromium-os/developer-library/guides/containers/containers-and-vms/#faq)
+##### 1. [FAQ](https://www.chromium.org/chromium-os/developer-library/guides/containers/containers-and-vms/#faq) (TL/DR)
 
 - **Can I run a VM inside the VM?**
 
