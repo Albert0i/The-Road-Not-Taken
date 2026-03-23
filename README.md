@@ -722,7 +722,7 @@ curl -sSfL https://get.tur.so/install.sh | bash
 heidisql_12.16_amd64.deb
 ```
 
-#### Miscellaneous
+##### Miscellaneous
 [jq](https://jqlang.org/) 
 ```
 sudo apt install jq
