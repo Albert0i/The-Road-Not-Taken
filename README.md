@@ -589,7 +589,7 @@ sudo apt install telnet
 sudo apt install ftp
 ```
 
-##### 1. Domestic
+##### 3. Domestic
 Create `~/.bash_aliases`: 
 ```
 alias ll='ls -l'
@@ -632,7 +632,7 @@ pbpaste > tst.txt
 cat tst.txt 
 ```
 
-##### 2. [Docker](https://docs.docker.com/engine/install/debian/#install-using-the-repository)
+##### 4. [Docker](https://docs.docker.com/engine/install/debian/#install-using-the-repository)
 a. Set up Docker's `apt` repository.
 ```
 # Add Docker's official GPG key:
@@ -686,7 +686,7 @@ docker run --name mariadb -d -p 3306:3306 -e MARIADB_ROOT_PASSWORD=123456 mariad
 mysql -h 127.0.0.1 -u root -p
 ```
 
-##### 3. Database Clients
+##### 5. Database Clients
 [Redis CLI](https://redis.io/docs/latest/develop/tools/cli/) and [MySQL CLI](https://dev.mysql.com/doc/refman/8.4/en/mysql.html)
 ```
 sudo apt install default-mysql-client redis-tools
@@ -722,7 +722,7 @@ curl -sSfL https://get.tur.so/install.sh | bash
 heidisql_12.16_amd64.deb
 ```
 
-##### 4. Utilities
+##### 6. Utilities
 [jq](https://jqlang.org/) 
 ```
 sudo apt install jq
@@ -738,12 +738,12 @@ peazip_10.9.0.LINUX.Qt6-1_amd64.deb
 baidunetdisk_4.17.7_amd64.deb
 ```
 
-##### 5. [VSCode](https://code.visualstudio.com/Download) 
+##### 7. [VSCode](https://code.visualstudio.com/Download) 
 ```
 code_1.112.0-1773778351_amd64.deb
 ```
 
-##### 6. [NVM](https://www.nvmnode.com/guide/download.html)
+##### 8. [NVM](https://www.nvmnode.com/guide/download.html)
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 
@@ -756,7 +756,7 @@ npm install -g nodemon
 nodemon --version
 ```
 
-##### 7. [Ollama](https://ollama.com/download) (Optional)
+##### 9. [Ollama](https://ollama.com/download) (Optional)
 ```
 sudo apt get install zstd
 
@@ -795,7 +795,7 @@ http://localhost:11434/api/version
 https://docs.ollama.com/api/tags
 ```
 
-##### 8. [libreOffice](https://www.libreoffice.org/) (Optional)
+##### 10. [libreOffice](https://www.libreoffice.org/) (Optional)
 ```
 sudo apt install libreoffice
 ```
