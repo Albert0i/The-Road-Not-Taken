@@ -806,7 +806,7 @@ https://docs.ollama.com/api/tags
 sudo apt install libreoffice
 ```
 
-##### 11. [Crosh](https://www.chromium.org/chromium-os/developer-library/reference/device/crosh/)
+##### 11. [Crosh](https://www.chromium.org/chromium-os/developer-library/reference/device/crosh/) (Advanced)
 Press `Ctrl + Alt + T` to open ChromeOS Developer Shell. You can run the `help` command to view a list of basic commands. Or run `help_advanced` for more advanced commands that are mainly used for debugging.
 
 ```
@@ -869,7 +869,7 @@ USAGE: vmc [
 
 ![alt vmc-start](img/vmc-start.png)
 
-##### 12. Install Docker (alternative)
+##### 12. Docker (Alternative)
 > To install Docker on a Chromebook, you must use the built-in Linux development environment (Crostini) and follow the standard Docker Engine installation steps for Debian Linux. Docker Desktop for Linux may not run correctly in the Crostini environment.
 
 **1. Update the apt package index and install necessary prerequisites**
