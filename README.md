@@ -744,6 +744,16 @@ sudo apt install peazip_10.9.0.LINUX.Qt6-1_amd64.deb
 sudo apt install baidunetdisk_4.17.7_amd64.deb
 ```
 
+[mc](https://midnight-commander.org/)
+```
+sudo apt install mc
+```
+
+[vlc](https://www.videolan.org/)
+```
+sudo apt install vlc
+```
+
 ##### 7. [VSCode](https://code.visualstudio.com/Download) 
 ```
 sudo apt install code_1.112.0-1773778351_amd64.deb
