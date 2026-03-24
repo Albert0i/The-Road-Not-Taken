@@ -999,8 +999,6 @@ APT is already installed
   sudo apt install <package-name>
   ```
 
----
-
 ✅ **Practical Guidance**
 - **APT**: Use for system essentials and anything Debian provides.  
 - **Flatpak**: Use for GUI apps you want in newer versions or not available in Debian.  
