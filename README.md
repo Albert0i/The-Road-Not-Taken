@@ -744,6 +744,16 @@ sudo apt install peazip_10.9.0.LINUX.Qt6-1_amd64.deb
 sudo apt install baidunetdisk_4.17.7_amd64.deb
 ```
 
+[FileZilla](https://filezilla-project.org/download.php?type=client)
+```
+sudo apt install filezilla
+```
+
+[Transmission](https://transmissionbt.com/download)
+```
+sudo apt install transmission-gtk
+```
+
 [mc](https://midnight-commander.org/)
 ```
 sudo apt install mc
@@ -769,14 +779,14 @@ sudo apt install tigervnc-viewer
 sudo apt install gnome-system-monitor
 ```
 
-[FileZilla](https://filezilla-project.org/download.php?type=client)
-```
-sudo apt install filezilla
-```
-
 [Microsoft Edge](https://www.microsoft.com/en-us/edge/download?form=MA13FJ)
 ```
 sudo apt install microsoft-edge-stable_146.0.3856.72-1_amd64.deb
+```
+
+[Advanced REST client](https://github.com/advanced-rest-client/arc-electron/releases)
+```
+sudo apt install arc-linux-17.0.9-amd64.deb
 ```
 
 ##### 7. [VSCode](https://code.visualstudio.com/Download) 
