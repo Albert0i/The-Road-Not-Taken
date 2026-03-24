@@ -774,6 +774,11 @@ sudo apt install kolourpaint
 sudo apt install tigervnc-viewer
 ```
 
+[GNOME Text Editor](https://flathub.org/en/apps/org.gnome.TextEditor)
+```
+sudo apt install gedit
+```
+
 [GNOME System Monitor](https://apps.gnome.org/SystemMonitor/)
 ```
 sudo apt install gnome-system-monitor
@@ -787,11 +792,6 @@ sudo apt install microsoft-edge-stable_146.0.3856.72-1_amd64.deb
 [Advanced REST client](https://github.com/advanced-rest-client/arc-electron/releases)
 ```
 sudo apt install arc-linux-17.0.9-amd64.deb
-```
-
-[GNOME Text Editor](https://flathub.org/en/apps/org.gnome.TextEditor)
-```
-sudo apt install gedit
 ```
 
 ##### 7. [VSCode](https://code.visualstudio.com/Download) 
