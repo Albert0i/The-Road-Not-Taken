@@ -789,7 +789,7 @@ sudo apt install microsoft-edge-stable_146.0.3856.72-1_amd64.deb
 sudo apt install arc-linux-17.0.9-amd64.deb
 ```
 
-[Text Editor](https://flathub.org/en/apps/org.gnome.TextEditor)
+[GNOME Text Editor](https://flathub.org/en/apps/org.gnome.TextEditor)
 ```
 sudo apt install gedit
 ```
