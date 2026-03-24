@@ -769,6 +769,16 @@ sudo apt install tigervnc-viewer
 sudo apt install gnome-system-monitor
 ```
 
+[FileZilla](https://filezilla-project.org/download.php?type=client)
+```
+sudo apt install filezilla
+```
+
+[edge](https://www.microsoft.com/en-us/edge/download?form=MA13FJ)
+```
+sudo apt install microsoft-edge-stable_146.0.3856.72-1_amd64.deb
+```
+
 ##### 7. [VSCode](https://code.visualstudio.com/Download) 
 ```
 sudo apt install code_1.112.0-1773778351_amd64.deb
