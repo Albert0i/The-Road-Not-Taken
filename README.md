@@ -754,6 +754,16 @@ sudo apt install mc
 sudo apt install vlc
 ```
 
+[kolourpaint](https://apps.kde.org/kolourpaint/)
+```
+sudo apt install kolourpaint
+```
+
+[tigervnc-viewer](https://tigervnc.org/)
+```
+sudo apt install tigervnc-viewer
+```
+
 ##### 7. [VSCode](https://code.visualstudio.com/Download) 
 ```
 sudo apt install code_1.112.0-1773778351_amd64.deb
