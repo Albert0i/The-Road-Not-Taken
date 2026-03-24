@@ -774,7 +774,7 @@ sudo apt install gnome-system-monitor
 sudo apt install filezilla
 ```
 
-[edge](https://www.microsoft.com/en-us/edge/download?form=MA13FJ)
+[Microsoft Edge](https://www.microsoft.com/en-us/edge/download?form=MA13FJ)
 ```
 sudo apt install microsoft-edge-stable_146.0.3856.72-1_amd64.deb
 ```
