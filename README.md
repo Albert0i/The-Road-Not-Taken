@@ -794,6 +794,11 @@ sudo apt install microsoft-edge-stable_146.0.3856.72-1_amd64.deb
 sudo apt install arc-linux-17.0.9-amd64.deb
 ```
 
+[GtkHash](https://gtkhash.org/)
+```
+sudo apt install gtkhash
+```
+
 ##### 7. [VSCode](https://code.visualstudio.com/Download) 
 ```
 sudo apt install code_1.112.0-1773778351_amd64.deb
