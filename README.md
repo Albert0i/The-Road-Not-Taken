@@ -736,7 +736,7 @@ sudo apt install jq
 
 [Pea](https://peazip.github.io/peazip-linux.html)
 ```
-sudo apt install peazip_10.9.0.LINUX.Qt6-1_amd64.deb
+sudo apt install peazip_10.9.0.LINUX.GTK2-1_amd64.deb
 ```
 
 [BaiduNetDisk](https://pan.baidu.com/disk/main#/index)
