@@ -784,6 +784,11 @@ sudo apt install gedit
 sudo apt install gnome-system-monitor
 ```
 
+[GNOME Disk Usage Analyzer](https://apps.gnome.org/Baobab/)
+```
+sudo apt install baobab
+```
+
 [Microsoft Edge](https://www.microsoft.com/en-us/edge/download?form=MA13FJ)
 ```
 sudo apt install microsoft-edge-stable_146.0.3856.72-1_amd64.deb
