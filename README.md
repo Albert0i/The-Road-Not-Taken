@@ -729,6 +729,16 @@ sudo apt install heidisql_12.16_amd64.deb
 ```
 
 ##### 6. Utilities
+[Git](https://git-scm.com/install/linux)
+```
+sudo apt install git
+```
+
+[Make](https://www.gnu.org/software/make/)
+```
+sudo apt install make
+```
+
 [jq](https://jqlang.org/) 
 ```
 sudo apt install jq
