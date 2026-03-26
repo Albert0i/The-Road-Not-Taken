@@ -809,6 +809,11 @@ sudo apt install arc-linux-17.0.9-amd64.deb
 sudo apt install gtkhash
 ```
 
+[HandBrake](https://handbrake.fr/downloads.php)
+```
+sudo apt install handbrake handbrake-cli
+```
+
 ##### 7. [VSCode](https://code.visualstudio.com/Download) 
 ```
 sudo apt install code_1.112.0-1773778351_amd64.deb
