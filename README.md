@@ -774,6 +774,11 @@ sudo apt install kolourpaint
 sudo apt install tigervnc-viewer
 ```
 
+[Remmina (RDP Client](https://remmina.org/)
+```
+sudo apt install remmina remmina-plugin-rdp
+```
+
 [GNOME Text Editor](https://flathub.org/en/apps/org.gnome.TextEditor)
 ```
 sudo apt install gedit
