@@ -749,9 +749,9 @@ sudo apt install jq
 sudo apt install peazip_10.9.0.LINUX.GTK2-1_amd64.deb
 ```
 
-[BaiduNetDisk](https://pan.baidu.com/disk/main#/index)
+[BaiduNetDisk](https://pan.baidu.com/download#linux)
 ```
-sudo apt install baidunetdisk_4.17.7_amd64.deb
+sudo apt install baidunetdisk_4.17.8_amd64.deb
 ```
 
 [FileZilla](https://filezilla-project.org/download.php?type=client)
