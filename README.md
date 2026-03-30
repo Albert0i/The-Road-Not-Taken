@@ -902,6 +902,9 @@ sudo apt install libreoffice
 ```
 
 ##### 11. [Crosh](https://www.chromium.org/chromium-os/developer-library/reference/device/crosh/) (Advanced)
+> “It is only with the heart that one can see rightly; what is essential is invisible to the eye.”<br />
+─ Antoine de Saint-Exupery, The Little Prince
+
 ![alt Starting-the-turtle](img/Starting-the-turtle.PNG)
 
 Press `Ctrl + Alt + T` to open ChromeOS Developer Shell. You can run the `help` command to view a list of basic commands. Or run `help_advanced` for more advanced commands that are mainly used for debugging.
