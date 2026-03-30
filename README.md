@@ -662,11 +662,11 @@ sudo systemctl status docker
 
 sudo usermod -aG docker $USER
 
-docker --version 
-docker-compose --version 
+docker --version
+docker compose version
 ```
 
-> Reboot the Linux container for the group changes to take effect. The easiest way is to type `sudo reboot` in the terminal or simply `restart` your Chromebook.
+> Reboot the Linux container for the group changes to take effect. The easiest way is to type `sudo reboot` in the terminal or simply `restart` your Chromebook, otherwise: 
 
 ```
 permission denied while trying to connect to the docker API at unix:///var/run/docker.sock
@@ -695,62 +695,72 @@ mysql -h 127.0.0.1 -u root -p
 [Redis CLI](https://redis.io/docs/latest/develop/tools/cli/) and [MySQL CLI](https://dev.mysql.com/doc/refman/8.4/en/mysql.html)
 ```
 sudo apt install default-mysql-client redis-tools
+
+redis-cli --version
+mysql --version
 ```
 
 [RedisInsight](https://redis.io/downloads/?_gl=1*nx8art*_gcl_au*NDQzNjg2MjM4LjE3NjQ2MTY0NDE.#Redis_Insight)
 ```
-sudo apt install Redis-Insight-linux-amd64.deb
+sudo apt install ./Redis-Insight-linux-amd64.deb
 ```
 
 [MongoDB Shell](https://www.mongodb.com/try/download/shell)
 ```
-sudo apt install mongodb-mongosh_2.8.1_amd64.deb
+sudo apt install ./mongodb-mongosh_2.8.1_amd64.deb
+
+mongosh --version
 ```
 
 [MongoDB Compass](https://www.mongodb.com/try/download/compass)
 ```
-sudo apt install mongodb-compass_1.49.4_amd64.deb
+sudo apt install ./mongodb-compass_1.49.4_amd64.deb
 ```
 
 [SQLite](https://sqlite.org/index.html)
 ```
 sudo apt install sqlite3
+
+sqlite3 --version 
 ```
 
 [Turso CLI](https://github.com/tursodatabase/turso-cli)
 ```
 curl -sSfL https://get.tur.so/install.sh | bash
+
+turso --version
 ```
 
-[HeidiSQL](https://www.heidisql.com/download.php)
+[turso](https://turso.tech/)
 ```
-sudo apt install heidisql_12.16_amd64.deb
+curl -sSL tur.so/install | sh
+
+tursodb --version 
 ```
 
 ##### 6. Utilities
-[Git](https://git-scm.com/install/linux)
-```
-sudo apt install git
-```
-
 [Make](https://www.gnu.org/software/make/)
 ```
 sudo apt install make
+
+make --version
 ```
 
 [jq](https://jqlang.org/) 
 ```
 sudo apt install jq
+
+jq --version 
 ```
 
 [Pea](https://peazip.github.io/peazip-linux.html)
 ```
-sudo apt install peazip_10.9.0.LINUX.GTK2-1_amd64.deb
+sudo apt install ./peazip_10.9.0.LINUX.GTK2-1_amd64.deb
 ```
 
 [BaiduNetDisk](https://pan.baidu.com/download#linux)
 ```
-sudo apt install baidunetdisk_4.17.8_amd64.deb
+sudo apt install ./baidunetdisk_4.17.8_amd64.deb
 ```
 
 [FileZilla](https://filezilla-project.org/download.php?type=client)
@@ -767,6 +777,7 @@ sudo apt install transmission-gtk
 ```
 sudo apt install mc
 ```
+![alt Midnight-Commander](img/Midnight-Commander.png)
 
 [vlc](https://www.videolan.org/)
 ```
@@ -783,7 +794,7 @@ sudo apt install kolourpaint
 sudo apt install tigervnc-viewer
 ```
 
-[Remmina (RDP Client](https://remmina.org/)
+[Remmina (RDP Client)](https://remmina.org/)
 ```
 sudo apt install remmina remmina-plugin-rdp
 ```
@@ -805,12 +816,12 @@ sudo apt install baobab
 
 [Microsoft Edge](https://www.microsoft.com/en-us/edge/download?form=MA13FJ)
 ```
-sudo apt install microsoft-edge-stable_146.0.3856.72-1_amd64.deb
+sudo apt install ./microsoft-edge-stable_146.0.3856.72-1_amd64.deb
 ```
 
 [Advanced REST client](https://github.com/advanced-rest-client/arc-electron/releases)
 ```
-sudo apt install arc-linux-17.0.9-amd64.deb
+sudo apt install ./arc-linux-17.0.9-amd64.deb
 ```
 
 [GtkHash](https://gtkhash.org/)
@@ -825,7 +836,7 @@ sudo apt install handbrake handbrake-cli
 
 ##### 7. [VSCode](https://code.visualstudio.com/Download) 
 ```
-sudo apt install code_1.112.0-1773778351_amd64.deb
+sudo apt install ./code_1.112.0-1773778351_amd64.deb
 ```
 
 ##### 8. [NVM](https://www.nvmnode.com/guide/download.html)
@@ -840,6 +851,11 @@ node --version
 npm install -g nodemon
 nodemon --version
 ```
+
+See also: 
+
+[How to Install NVM on Debian 12](https://tecadmin.net/how-to-install-nvm-on-debian-12/)
+
 
 ##### 9. [Ollama](https://ollama.com/download) (Optional)
 ```
@@ -948,59 +964,28 @@ USAGE: vmc [
 
 ![alt vmc-start](img/vmc-start.png)
 
-##### 12. Docker (Alternative)
-> To install Docker on a Chromebook, you must use the built-in Linux development environment (Crostini) and follow the standard Docker Engine installation steps for Debian Linux. Docker Desktop for Linux may not run correctly in the Crostini environment.
+##### 12. [Crosh](https://www.chromium.org/chromium-os/developer-library/reference/device/crosh/) Cont. (Advanced)
+Oftentimes, life does not go smoothly, and neither does Crostini....
 
-**1. Update the apt package index and install necessary prerequisites**
-```
-sudo apt-get install apt-transport-https ca-certificates curl gnupg2 software-properties-common -y
-```
+![alt Failed-to-launch-vshd-for-termina-photo](img/Failed-to-launch-vshd-for-termina-photo.png)
 
-**2. Add Docker's official GPG key**
-```
-curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
-```
+> **This error indicates that the Crostini Linux virtual machine ("termina") is missing or corrupted. Quick fix: **Open Settings > About ChromeOS > Developers > Linux development environment > Disk size (change), and change the value slightly to force a reload. Alternatively, restart your Chromebook and try launching the Terminal app again.
 
-**3. Set up the stable Docker repository for your architecture (usually amd64 or arm64, depending on your Chromebook's CPU)**:
-```
-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian $(lsb_release -cs) stable"
-```
+**Steps to Fix "Termina" Missing or Erroring:**
 
-**4. Install the latest version of Docker Engine and containerd**
-```
-sudo apt-get install docker-ce docker-ce-cli containerd.io -y
-```
+- **Try Refreshing Settings:** Simply visiting the Linux settings page often forces the system to recognize the VM.
 
-**Add your user to the docker group to run Docker commands without sudo (this is highly recommended)**
-```
-sudo usermod -aG docker $USER
-```
+![alt Resize-Linux-Disk](img/Resize-Linux-Disk.png)
 
-> Reboot the Linux container for the group changes to take effect. The easiest way is to type sudo reboot in the terminal or simply restart your Chromebook.
+- **Reboot & Update:** Restart your Chromebook. Check for ChromeOS updates and ensure components are updated.
 
-Test installation with 
-```
-docker run hello-world
-```
+-- **Check via Command Line (Crosh):**
+1. Press `Ctrl+Alt+T` to open crosh.
+2. Type `vmc list` to see if `termina` exists.
+3. If it doesn't appear or is broken, `try vmc start termina`.
 
-Run Redis
-```
-docker run --name redis -d -p 6379:6379 redis:8.4.0
+- **Reinstall Linux (Last Resort):** If the VM cannot be recovered, go to **Settings > Advanced > Developers > Linux development environment** and Remove it, then re-enable it. Note: This deletes all data in the Linux files folder. 
 
-redis-cli 
-```
-
-Run MariaDB
-```
-docker run --name mariadb -d -p 3306:3306 -e MARIADB_ROOT_PASSWORD=123456 mariadb:11.7.2
-
-mysql -h 127.0.0.1 -u root -p
-```
-
-In case you may need: 
-```
-sudo apt install default-mysql-client redis-tools
-```
 
 --- 
 
