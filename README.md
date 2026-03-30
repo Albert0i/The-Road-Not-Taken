@@ -905,6 +905,7 @@ sudo apt install libreoffice
 > “It is only with the heart that one can see rightly; what is essential is invisible to the eye.”<br />
 ─ Antoine de Saint-Exupery, The Little Prince
 
+Every time when you start a Terminal, [Crostini](https://en.wikipedia.org/wiki/Crostini) works behind the scenes: 
 ![alt Starting-the-turtle](img/Starting-the-turtle.PNG)
 
 Press `Ctrl + Alt + T` to open ChromeOS Developer Shell. You can run the `help` command to view a list of basic commands. Or run `help_advanced` for more advanced commands that are mainly used for debugging.
@@ -969,7 +970,7 @@ USAGE: vmc [
 
 ![alt vmc-start](img/vmc-start.png)
 
-##### 12. [Crosh](https://www.chromium.org/chromium-os/developer-library/reference/device/crosh/) Cont. (Advanced)
+##### 12. [Crostini](https://en.wikipedia.org/wiki/Crostini) (Advanced)
 Oftentimes, life does not go smoothly, and neither does Crostini....
 
 ![alt Failed-to-launch-vshd-for-termina-photo](img/Failed-to-launch-vshd-for-termina-photo.png)
@@ -990,7 +991,6 @@ Oftentimes, life does not go smoothly, and neither does Crostini....
 3. If it doesn't appear or is broken, `try vmc start termina`.
 
 - **Reinstall Linux (Last Resort):** If the VM cannot be recovered, go to **Settings > Advanced > Developers > Linux development environment** and Remove it, then re-enable it. Note: This deletes all data in the Linux files folder. 
-
 
 --- 
 
