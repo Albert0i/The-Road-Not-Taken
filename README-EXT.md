@@ -1,7 +1,7 @@
 ### 
 
 > "If there’s one thing I hate, it’s a reformer. A reformer is a man who
-sees the world’s super cial ills and sets out to cure them by
+sees the world’s superficial ills and sets out to cure them by
 aggravating the more basic ills. A doctor tries to bring a sick body
 into conformity with a normal, healthy body, but we don’t know
 what’s healthy or sick in the social sphere"<br />
