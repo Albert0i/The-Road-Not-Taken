@@ -12,14 +12,19 @@ what’s healthy or sick in the social sphere"<br />
 
 
 #### Prologue 
+![alt crostini_services](img/crostini_services.png)
 
 #### I. 
 
+
 #### II. 
+
 
 #### III. 
 
+
 #### IV. 
+
 
 #### V. Bibliography 
 1. [Set up Linux on your Chromebook](https://support.google.com/chromebook/answer/9145439)
@@ -30,6 +35,7 @@ what’s healthy or sick in the social sphere"<br />
 6. [Set Up a Virtual Machine on Your Chromebook & Fix CDROM Not Found Error](https://youtu.be/716T5iwmzxI)
 7. [How to install FreeDOS on VirtualBox](https://youtu.be/xXkmOwLPpcg)
 8. [FreeDOS](https://www.freedos.org/download/)
+9. [The Book of Disquiet by Fernando Pessoa](https://dn720004.ca.archive.org/0/items/english-collections-1/Book%20of%20Disquiet%2C%20The%20-%20Fernando%20Pessoa.pdf)
 
 
 #### Epilogue 
