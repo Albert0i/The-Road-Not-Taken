@@ -12,7 +12,7 @@ what’s healthy or sick in the social sphere"<br />
 
 
 #### Prologue 
-Having formed a basic understanding of Crostini: 
+With basic understanding of how Crostini works: 
 
 ![alt crostini_services](img/crostini_services.png)
 
