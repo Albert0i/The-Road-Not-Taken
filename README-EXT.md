@@ -8,7 +8,7 @@ what’s healthy or sick in the social sphere"<br />
 "Se alguma coisa odeio, é um reformador. Um reformador é um homem que vê os males superficiais do mundo e se propõe curá-los agravando os fundamentais. O médico tenta adaptar o corpo doente ao corpo são; mas nós não sabemos o que é são ou doente na vida social."<br />
 ── [The Book of Disquiet by Fernando Pessoa](https://dn720004.ca.archive.org/0/items/english-collections-1/Book%20of%20Disquiet%2C%20The%20-%20Fernando%20Pessoa.pdf)
 
-"Whenever you find yourself on the side of the majority, it is time to pause and reflect". ── Mark Twain
+> "Whenever you find yourself on the side of the majority, it is time to pause and reflect". ── Mark Twain
 
 
 #### Prologue 
