@@ -14,6 +14,12 @@ what’s healthy or sick in the social sphere"<br />
 #### Prologue 
 ![alt crostini_services](img/crostini_services.png)
 
+Having formed a preliminary understanding of Crostini, two trivial questions dawns upon me: 
+
+1. How to run multiple containers? 
+2. How to run multiple VMs? 
+
+
 #### I. 
 
 
