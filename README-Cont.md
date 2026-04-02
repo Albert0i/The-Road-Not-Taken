@@ -39,9 +39,9 @@ Two trivial questions dawns upon me:
 3. [Running Custom Containers Under ChromeOS](https://www.chromium.org/chromium-os/developer-library/guides/containers/containers-and-vms/)
 4. [Linux for Chromebooks: Secure Development (Google I/O ’19)](https://youtu.be/pRlh8LX4kQI)
 5. [Using other containers in ChromeOS (crostini) Terminal](https://github.com/edeloya/ChromeOS-Terminal-LXC-LXD)
-6. [Set Up a Virtual Machine on Your Chromebook & Fix CDROM Not Found Error](https://youtu.be/716T5iwmzxI)
-7. [How to install FreeDOS on VirtualBox](https://youtu.be/xXkmOwLPpcg)
-8. [FreeDOS](https://www.freedos.org/download/)
+6. [Full Guide how to install Windows XP in Chromebook](https://youtu.be/rTgG9u5FkV0)
+7. [Set Up a Virtual Machine on Your Chromebook & Fix CDROM Not Found Error](https://youtu.be/716T5iwmzxI)
+8. [How to install FreeDOS on VirtualBox](https://youtu.be/xXkmOwLPpcg)
 9. [The Book of Disquiet by Fernando Pessoa](https://dn720004.ca.archive.org/0/items/english-collections-1/Book%20of%20Disquiet%2C%20The%20-%20Fernando%20Pessoa.pdf)
 
 
