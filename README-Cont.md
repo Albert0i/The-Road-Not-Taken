@@ -82,6 +82,7 @@ lxc delete penguin/fresh_installed
 
 #### IV. More Utilities 
 - [Brave Browser](https://brave.com/linux/)
+
 For some unknown reason, you don't want to use [Google Chrome](https://www.google.com/chrome/) nor [Microsoft Edge](https://www.microsoft.com/en-us/edge/download?form=MA13FJ), you can give it a shot!
 ```
 curl -fsS https://dl.brave.com/install.sh | sh
