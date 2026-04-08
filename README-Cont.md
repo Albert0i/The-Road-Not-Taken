@@ -150,6 +150,8 @@ lxc remote add chronos 100.115.92.193
 lxc remote set-default chronos
 ```
 
+![alt show-gateway-ip](img/show-gateway-ip.png)
+
 ![alt lxc-client-configure](img/lxc-client-configure.png)
 
 ![alt ubuntu-24.04-lts](img/ubuntu-24.04-lts.png)
@@ -158,7 +160,9 @@ By dint of LXD, we can now start an `ubuntu:24.04` container from our `penguin` 
 
 
 #### VI. [LXC](https://linuxcontainers.org/lxc/introduction/) and LXD (Cont.)
+The bad news is: **Changes we made in `Termina` is NO* persistent! **
 
+![alt lxc-list-connection-refused](img/lxc-list-connection-refused.png)
 
 #### VII. Lost in Space 
 
