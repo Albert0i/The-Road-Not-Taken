@@ -276,7 +276,7 @@ chrome://drive-internals/
 
 and Press `Clear local data`.
 
-As of Debian our container: 
+As of our Debian container: 
 
 1. Remove all cached package files:
 ```
