@@ -175,7 +175,39 @@ Suggestions from AI:
 
 這會讓系統嘗試在容器初始化時自動配置橋接。
 
-But that is an experimental feature and I don't want mesh up the container. 
+But that is an experimental feature and I don't want mesh up the container. My only option left is find a way to automate the configure process: 
+
+`config_lxc.sh`
+```
+cd /usr/local/bin
+nano config_lxc.sh
+
+chmod +x config_lxc.sh
+```
+
+`config_lxd.txt`
+
+**切換到有權限寫入的目錄**
+```
+cd /mnt/stateful/lxd_conf
+```
+
+**再次執行建立腳本的指令**
+```
+cat << 'EOF' > config_lxd.sh
+#!/bin/bash
+lxc config set core.https_address :8443
+lxc config set core.trust_password somepassword
+echo "LXC 核心設定已完成。"
+EOF
+```
+
+**賦予執行權限並執行**
+```
+chmod +x config_lxd.sh
+
+./config_lxd.sh
+```
 
 
 #### VII. Lost in Space 
