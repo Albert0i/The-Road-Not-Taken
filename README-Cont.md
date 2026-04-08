@@ -152,6 +152,9 @@ ip -4 route show
 ```
 lxc remote add chronos 100.115.92.193
 lxc remote set-default chronos
+
+lxc launch ubuntu:24.04 ubuntu
+lxc list
 ```
 
 ![alt lxc-client-configure](img/lxc-client-configure.png)
