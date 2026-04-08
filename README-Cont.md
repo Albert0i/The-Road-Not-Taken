@@ -111,6 +111,13 @@ lxc list
 
 ![alt lxc-launch-ubuntu](img/lxc-launch-ubuntu.png)
 
+```
+lxc stop ubuntu
+lxc delete ubuntu 
+
+lxc list 
+```
+
 ![alt lxc-delete-ubuntu](img/lxc-delete-ubuntu.png)
 
 To start another VM from `Termina`: 
