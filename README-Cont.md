@@ -116,9 +116,17 @@ lxc list
 
 ![alt lxc-launch-ubuntu](img/lxc-launch-ubuntu.png)
 
-![alt ubuntu-24.04-lts](img/ubuntu-24.04-lts.png)
-
 ![alt lxc-delete-ubuntu](img/lxc-delete-ubuntu.png)
+
+To start another VM from `Termina`: 
+```
+lxc launch ubuntu:24.04 --vm
+```
+
+![alt lxc-launch-vm-failure](img.lxc-launch-vm-failure.png)
+
+
+![alt ubuntu-24.04-lts](img/ubuntu-24.04-lts.png)
 
 
 #### VI. [LXC](https://linuxcontainers.org/lxc/introduction/) and LXD (Cont.)
