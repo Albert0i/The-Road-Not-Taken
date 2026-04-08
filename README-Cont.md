@@ -294,7 +294,6 @@ Clear-local-data
 - To run **Ubuntu 24.04** in a Docker container on **Debian 12**, use the following command:
 ```
 docker run -it ubuntu:24.04 /bin/bash
-
 ```
 
 ![alt docker-run-ubuntu24.04](img/docker-run-ubuntu24.04.png)
