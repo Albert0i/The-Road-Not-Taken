@@ -44,7 +44,7 @@ Once Crostini is up and running, you can make backup to safeguard your work:
 
 ![alt linux-backup-restore](img/linux-backup-restore.png)
 
-This will create a `chromeos-linux-yyyy-mm-dd.img.zst`, a [zst](https://peazip.github.io/zst-compressed-file-format.html) file containing your linux Development Environment. Later on, you can restore with this file. 
+This will create a `chromeos-linux-yyyy-mm-dd.img.zst`, a [zst](https://peazip.github.io/zst-compressed-file-format.html) file containing your **Linux Development Environment**. Later on, you can restore with this file. 
 
 
 #### III. Snapshot 
