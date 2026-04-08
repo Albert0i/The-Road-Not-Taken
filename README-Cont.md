@@ -103,7 +103,12 @@ sudo dpkg -i ./drawio-amd64-29.6.6.deb
 ![alt drawio-on-chromebook](img/drawio-on-chromebook.png)
 
 
-#### V. Lxc and Lxd 
+#### V. [LXC](https://linuxcontainers.org/lxc/introduction/) and LXD 
+> LXC is a userspace interface for the Linux kernel containment features. Through a powerful API and simple tools, it lets Linux users easily create and manage system or application containers.
+
+> LXD (pronounced lex-dee) is a powerful, open-source next-generation system container and virtual machine manager developed by Canonical. It allows users to manage full Linux systems in lightweight containers or VMs, offering a cloud-like experience on local machines or clusters. LXD provides advanced features like live migration, snapshots, and image-based workflows.
+
+
 
 
 #### VI. lxc and Lxd (Cont.)
