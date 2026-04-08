@@ -47,15 +47,15 @@ Oftentimes, life does not go smoothly, and neither does Crostini....
 
 
 #### II. Backup and Restore 
-Once Crostini is up and running, you can make backup in: 
+Once Crostini is up and running, you can make backup to safeguard your work: 
 
 ![alt linux-backup-restore](img/linux-backup-restore.png)
 
-This will create a `chromeos-linux-yyyy-mm-dd.img.zst`, a [zst](https://peazip.github.io/zst-compressed-file-format.html) file of your Crostini. Later on, you can restore with this file. 
+This will create a `chromeos-linux-yyyy-mm-dd.img.zst`, a [zst](https://peazip.github.io/zst-compressed-file-format.html) file containing your linux Development Environment. Later on, you can restore with this file. 
 
 
 #### III. Snapshot 
-Backup/Restore is a time-consuming process, an alternative is to use snapshot. To begin with, press `Ctrl` + `Alt` + `T` to enter Crosh (ChromiumOS shell), to create a snapshot with: 
+Backup/Restore is a time-consuming process, if you want to experiment some packages, an alternative is to use snapshot. To begin with, press `Ctrl` + `Alt` + `T` to enter Crosh (ChromiumOS shell), to create a snapshot with: 
 ```
 vmc list 
 vmc start termina 
@@ -78,6 +78,8 @@ To delete the snapshot with:
 ```
 lxc delete penguin/fresh_installed
 ```
+
+Creating a snapshot is placing another layer on top of your Crostini and thus will degrade performance a little bit. You should use it with care.
 
 
 #### IV. More Utilities 
