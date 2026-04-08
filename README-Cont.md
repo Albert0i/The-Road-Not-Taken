@@ -107,6 +107,8 @@ sudo dpkg -i ./drawio-amd64-29.6.6.deb
 
 > LXD (pronounced lex-dee) is a powerful, open-source next-generation system container and virtual machine manager developed by Canonical. It allows users to manage full Linux systems in lightweight containers or VMs, offering a cloud-like experience on local machines or clusters. LXD provides advanced features like live migration, snapshots, and image-based workflows.
 
+[alt ChromeOS-Terminal-LXC-LXD-guide](img/ChromeOS-Terminal-LXC-LXD-guide.png)
+
 To start another container from `Termina`: 
 ```
 lxc launch ubuntu:24.04 ubuntu
@@ -125,7 +127,30 @@ lxc launch ubuntu:24.04 --vm
 
 ![alt lxc-launch-vm-failure](img/lxc-launch-vm-failure.png)
 
+To Configure `lxd` in `Termina`: 
+```
+lxc config set core.https_address :8443
 
+lxc config set core.trust_password somepassword
+```
+
+To install `lxc` in `Terminal`: 
+```
+sudo apt update
+sudo apt install lxd-client
+
+sudo ln -s /usr/bin/lxc /usr/local/bin/lxc
+```
+
+To configure `lxc` in `Terminal`: 
+```
+ip -4 route show
+# 100.115.92.193
+lxc remote add chronos 100.115.92.193
+lxc remote set-default chronos
+```
+
+![alt lxc-client-configure](img/lxc-client-configure.png)
 
 ![alt ubuntu-24.04-lts](img/ubuntu-24.04-lts.png)
 
