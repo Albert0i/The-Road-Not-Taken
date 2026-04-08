@@ -23,13 +23,61 @@ Two trivial questions dawns upon me:
 2. How to run multiple VMs?
 
 
-#### I. When things won't go smoothly 
+#### I. When life does not go smoothly...
+Oftentimes, life does not go smoothly, and neither does Crostini....
+
+![alt Failed-to-launch-vshd-for-termina-photo](img/Failed-to-launch-vshd-for-termina-photo.png)
+
+> **This error indicates that the Crostini Linux virtual machine ("termina") is missing or corrupted. Quick fix: **Open Settings > About ChromeOS > Developers > Linux development environment > Disk size (change), and change the value slightly to force a reload. Alternatively, restart your Chromebook and try launching the Terminal app again.
+
+**Steps to Fix "Termina" Missing or Erroring:**
+
+- **Try Refreshing Settings:** Simply visiting the Linux settings page often forces the system to recognize the VM.
+
+![alt Resize-Linux-Disk](img/Resize-Linux-Disk.png)
+
+- **Reboot & Update:** Restart your Chromebook. Check for ChromeOS updates and ensure components are updated.
+
+-- **Check via Command Line (Crosh):**
+1. Press `Ctrl+Alt+T` to open crosh.
+2. Type `vmc list` to see if `termina` exists.
+3. If it doesn't appear or is broken, `try vmc start termina`.
+
+- **Reinstall Linux (Last Resort):** If the VM cannot be recovered, go to **Settings > Advanced > Developers > Linux development environment** and Remove it, then re-enable it. Note: This deletes all data in the Linux files folder. 
 
 
 #### II. Backup and Restore 
+Once Crostini is up and running, you can make backup in: 
+
+![alt linux-backup-restore](img/linux-backup-restore.png)
+
+This will create a `chromeos-linux-yyyy-mm-dd.img.zst` [zst](https://peazip.github.io/zst-compressed-file-format.html) file of your Crostini. Later on, you can restore with this file. 
 
 
 #### III. Snapshot 
+Backup/Restore is a time-consuming process, an alternative is to use snapshot. To begin with, press `Ctrl` + `Alt` + `T` to enter Crosh (ChromiumOS shell), to create a snapshot with: 
+```
+vmc list 
+vmc start termina 
+
+lxc list 
+lxc snapshot penguin fresh_installed 
+```
+
+![alt lxc-take-snapshot.png](img/lxc-take-snapshot.png)
+
+To restore from snapshot with: 
+```
+lxc list 
+lxc info penguin 
+
+lxc restore penguin fresh_installed 
+```
+
+To delete the snapshot with: 
+```
+lxc delete penguin/fresh_installed
+```
 
 
 #### IV. More Utilities 
