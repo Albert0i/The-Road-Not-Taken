@@ -256,7 +256,7 @@ config_lxc.sh
 ![alt config_lxc.sh.png](img/config_lxc.sh.png)
 
 
-#### VII. Lost in Space 
+#### VII. [Lost in Space](https://en.wikipedia.org/wiki/Lost_in_Space) 
 ![alt Storage-management](img/Storage-management.png)
 
 Clear Google Drive Offline Files 
