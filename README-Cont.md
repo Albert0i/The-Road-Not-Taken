@@ -302,7 +302,7 @@ Keep it clean and tidy.
 
 
 #### VII. Summary 
-- Chromebook is optimized for lightweight web-based applications,  Crostini is a bonus. While Chrome OS need no maintenance cost, Crostini has fragility somehow. After all, it is only a Debian 12 container inside a Virtual Machine in Chrome OS. 
+- Chromebook is optimized for lightweight web-based applications,  Crostini is a bonus. While Chrome OS need no maintenance cost, Crostini has fragility somehow. After all, it is only a Debian container inside a Virtual Machine in Chrome OS. 
 
 - Regarding to the size of **Linux Development Environment**, my rule of thumb is: not *exceed* half of total available space. In my case, my Chromebook has 64G SSD, around 35.5G is available at my disposal. That means at most 15G can be allocated for **Linux Development Environment**, 10~12G is a safer bet... Otherwise you run the risk of unable to restore your backup. 
 
