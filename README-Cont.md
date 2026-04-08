@@ -127,7 +127,7 @@ lxc launch ubuntu:24.04 --vm
 
 ![alt lxc-launch-vm-failure](img/lxc-launch-vm-failure.png)
 
-To Configure `lxd` in `Termina`: 
+To configure `lxc` in `Termina`: 
 ```
 lxc config set core.https_address :8443
 
