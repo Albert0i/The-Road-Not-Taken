@@ -123,7 +123,8 @@ To start another VM from `Termina`:
 lxc launch ubuntu:24.04 --vm
 ```
 
-![alt lxc-launch-vm-failure](img.lxc-launch-vm-failure.png)
+![alt lxc-launch-vm-failure](img/lxc-launch-vm-failure.png)
+
 
 
 ![alt ubuntu-24.04-lts](img/ubuntu-24.04-lts.png)
