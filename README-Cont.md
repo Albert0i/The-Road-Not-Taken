@@ -138,12 +138,14 @@ sudo ln -s /usr/bin/lxc /usr/local/bin/lxc
 To configure `lxc` in `Terminal`: 
 ```
 ip -4 route show
-# 100.115.92.193
-lxc remote add chronos 100.115.92.193
-lxc remote set-default chronos
 ```
 
 ![alt show-gateway-ip](img/show-gateway-ip.png)
+
+```
+lxc remote add chronos 100.115.92.193
+lxc remote set-default chronos
+```
 
 ![alt lxc-client-configure](img/lxc-client-configure.png)
 
