@@ -245,7 +245,7 @@ echo "設定完成！目前的遠端清單："
 lxc list
 ```
 
-Put `config_lxc.sh` on `/usr/local/bin` and make it executable. Next time, press `Ctrl` + `Alt` + `T` to enter Crosh (ChromiumOS shell): 
+Put `config_lxc.sh` in `/usr/local/bin` and make it executable. On next restart, press `Ctrl` + `Alt` + `T` to enter Crosh (ChromiumOS shell): 
 ```
 vmc start termina
 /mnt/stateful/lxd_conf/config_lxd.sh
