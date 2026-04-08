@@ -164,6 +164,19 @@ The bad news is: **Changes we made in `Termina` is NOT persistent!!!**
 
 ![alt lxc-list-connection-refused](img/lxc-list-connection-refused.png)
 
+--- 
+
+Suggestions from AI: 
+
+**使用 ChromeOS Flags (終極方案)**
+1. 瀏覽器開啟 `chrome://flags/#crostini-container-install-lxd`
+2. 將其設為 `Disabled`。
+3. 重啟 Chromebook。
+
+這會讓系統嘗試在容器初始化時自動配置橋接。
+
+But that is an experimental feature and I don't want mesh up the container. 
+
 
 #### VII. Lost in Space 
 
