@@ -250,7 +250,7 @@ config_lxc.sh
 
 
 #### VII. [Lost in Space](https://en.wikipedia.org/wiki/Lost_in_Space) 
-Chrome OS buffers files and you may find space lost sometimes, use the `Cleanup Storage` to remove `Offline Storage`.
+Chrome OS buffers files and you may find space lost sometimes, use the `Clean up storage` to remove `Offline Storage`.
 
 ![alt Storage-management](img/Storage-management.png)
 
@@ -261,9 +261,9 @@ chrome://drive-internals/
 
 ![alt Clear-local-data](img/Clear-local-data.png)
 
-and Press `Clear Local Data`.
+and Press `Clear local data`.
 
-As of Debian container: 
+As of Debian our container: 
 
 1. Remove all cached package files:
 ```
@@ -284,6 +284,8 @@ sudo apt autoremove
 Removes packages that were automatically installed and are no longer needed. 
 
 ![alt clean-up](img/clean-up.png)
+
+Keep it clean and tidy.
 
 
 #### VII. Summary 
