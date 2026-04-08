@@ -250,30 +250,34 @@ config_lxc.sh
 
 
 #### VII. [Lost in Space](https://en.wikipedia.org/wiki/Lost_in_Space) 
+Chrome OS buffers files and you may find space lost sometimes, use the `Cleanup Storage` to remove `Offline Storage`.
+
 ![alt Storage-management](img/Storage-management.png)
 
-Clear Google Drive Offline Files 
+To Clear Google Drive Offline Files, go to:  
 ```
 chrome://drive-internals/
 ```
 
-[Clear Local Data]
-
 ![alt Clear-local-data](img/Clear-local-data.png)
 
-- Remove all cached package files:
+and Press `Clear Local Data`.
+
+As of Debian container: 
+
+1. Remove all cached package files:
 ```
 sudo apt clean
 ```
 This clears `/var/cache/apt/archives/` and `/var/cache/apt/archives/partial/`.
 
-- Remove obsolete package files:
+2. Remove obsolete package files:
 ```
 sudo apt autoclean
 ```
 Removes cached packages that can no longer be downloaded.
 
-- Remove unused dependencies:
+3. Remove unused dependencies:
 ```
 sudo apt autoremove
 ```
