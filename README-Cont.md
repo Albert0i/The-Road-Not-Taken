@@ -107,7 +107,7 @@ sudo dpkg -i ./drawio-amd64-29.6.6.deb
 
 > LXD (pronounced lex-dee) is a powerful, open-source next-generation system container and virtual machine manager developed by Canonical. It allows users to manage full Linux systems in lightweight containers or VMs, offering a cloud-like experience on local machines or clusters. LXD provides advanced features like live migration, snapshots, and image-based workflows.
 
-[alt ChromeOS-Terminal-LXC-LXD-guide](img/ChromeOS-Terminal-LXC-LXD-guide.png)
+![alt ChromeOS-Terminal-LXC-LXD-guide](img/ChromeOS-Terminal-LXC-LXD-guide.png)
 
 To start another container from `Termina`: 
 ```
