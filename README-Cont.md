@@ -1,4 +1,6 @@
-### 
+### 一個人的戰爭 <br />── Sequel to “[The Feather of Chromebook](https://github.com/Albert0i/The-Road-Not-Taken/blob/main/README.md#iv-the-feather-of-chromebook)” 
+
+![alt 本故事純屬虛構-如有雷同實屬老作](img/本故事純屬虛構-如有雷同實屬老作.png)
 
 > "If there’s one thing I hate, it’s a reformer. A reformer is a man who
 sees the world’s superficial ills and sets out to cure them by
@@ -21,19 +23,31 @@ Two trivial questions dawns upon me:
 2. How to run multiple VMs?
 
 
-#### I. 
+#### I. When things won't go smoothly 
 
 
-#### II. 
+#### II. Backup and Restore 
 
 
-#### III. 
+#### III. Snapshot 
 
 
-#### IV. 
+#### IV. More Utilities 
 
 
-#### V. Bibliography 
+#### V. Lxc and Lxd 
+
+
+#### VI. lxc and Lxd (Cont.)
+
+
+#### VII. Lost in Space 
+
+
+#### VII. Summary 
+
+
+#### IX. Bibliography 
 1. [Set up Linux on your Chromebook](https://support.google.com/chromebook/answer/9145439)
 2. [Crostini developer guide](https://www.chromium.org/chromium-os/developer-library/guides/containers/crostini-developer-guide/)
 3. [Running Custom Containers Under ChromeOS](https://www.chromium.org/chromium-os/developer-library/guides/containers/containers-and-vms/)
@@ -46,6 +60,8 @@ Two trivial questions dawns upon me:
 
 
 #### Epilogue 
+
+![alt This-Is-Not-Over](img/This-Is-Not-Over.png)
 
 
 ### EOF (2026/04/xx)
