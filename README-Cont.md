@@ -95,7 +95,6 @@ curl -fsS https://dl.brave.com/install.sh | sh
 - [drawio](https://www.drawio.com/)
 
 If you need to draw [Flowchart](https://en.wikipedia.org/wiki/Flowchart), [Entity–relationship model](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model), [Data-flow diagram](https://en.wikipedia.org/wiki/Data-flow_diagram) etc... 
-
 ```
 sudo dpkg -i ./drawio-amd64-29.6.6.deb
 ```
@@ -108,10 +107,21 @@ sudo dpkg -i ./drawio-amd64-29.6.6.deb
 
 > LXD (pronounced lex-dee) is a powerful, open-source next-generation system container and virtual machine manager developed by Canonical. It allows users to manage full Linux systems in lightweight containers or VMs, offering a cloud-like experience on local machines or clusters. LXD provides advanced features like live migration, snapshots, and image-based workflows.
 
+To start another container from `Termina`: 
+```
+lxc launch ubuntu:24.04 ubuntu
+
+lxc list 
+```
+
+![alt lxc-launch-ubuntu](img/lxc-launch-ubuntu.png)
+
+![alt ubuntu-24.04-lts](img/ubuntu-24.04-lts.png)
+
+![alt lxc-delete-ubuntu](img/lxc-delete-ubuntu.png)
 
 
-
-#### VI. lxc and Lxd (Cont.)
+#### VI. [LXC](https://linuxcontainers.org/lxc/introduction/) and LXD (Cont.)
 
 
 #### VII. Lost in Space 
