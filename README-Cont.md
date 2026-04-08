@@ -257,6 +257,8 @@ config_lxc.sh
 
 
 #### VII. Lost in Space 
+![alt Storage-management](img/Storage-management.png)
+
 Clear Google Drive Offline Files 
 ```
 chrome://drive-internals/
@@ -264,7 +266,7 @@ chrome://drive-internals/
 
 [Clear Local Data]
 
-![alt Storage-management](img/Storage-management.png)
+![alt Clear-local-data](img/Clear-local-data.png)
 
 - Remove all cached package files:
 ```
@@ -284,9 +286,6 @@ sudo apt autoremove
 ```
 Removes packages that were automatically installed and are no longer needed. 
 
-![alt Clear-local-data](img/Clear-local-data.png)
-
-Clear-local-data
 ![alt clean-up](img/clean-up.png)
 
 
