@@ -83,15 +83,22 @@ lxc delete penguin/fresh_installed
 #### IV. More Utilities 
 - [Brave Browser](https://brave.com/linux/)
 
-For some unknown reason, you don't want to use [Google Chrome](https://www.google.com/chrome/) nor [Microsoft Edge](https://www.microsoft.com/en-us/edge/download?form=MA13FJ), you can give it a shot!
+For some unknown reason, you don't want to use [Google Chrome](https://www.google.com/chrome/) nor [Microsoft Edge](https://www.microsoft.com/en-us/edge/download?form=MA13FJ), then give it a shot!
 ```
 curl -fsS https://dl.brave.com/install.sh | sh
 ```
 
+![alt Brave-Browser-on-chromebook](img/Brave-Browser-on-chromebook.png)
+
 - [drawio](https://www.drawio.com/)
+
+If you need to draw [Flowchart](https://en.wikipedia.org/wiki/Flowchart), [Entity–relationship model](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model), [Data-flow diagram](https://en.wikipedia.org/wiki/Data-flow_diagram) etc... 
+
 ```
 sudo dpkg -i ./drawio-amd64-29.6.6.deb
 ```
+
+![alt drawio-on-chromebook](img/drawio-on-chromebook.png)
 
 
 #### V. Lxc and Lxd 
