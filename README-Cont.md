@@ -160,7 +160,7 @@ By dint of LXD, we can now start an `ubuntu:24.04` container from our `penguin` 
 
 
 #### VI. [LXC](https://linuxcontainers.org/lxc/introduction/) and LXD (Cont.)
-The bad news is: **Changes we made in `Termina` is NO* persistent! **
+The bad news is: **Changes we made in `Termina` is NOT persistent**
 
 ![alt lxc-list-connection-refused](img/lxc-list-connection-refused.png)
 
