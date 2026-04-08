@@ -154,6 +154,8 @@ lxc remote set-default chronos
 
 ![alt ubuntu-24.04-lts](img/ubuntu-24.04-lts.png)
 
+By dint of LXD, We can now start an `ubuntu:24.04` container from our `penguin` container. As you can see, two containers are running side by side. 
+
 
 #### VI. [LXC](https://linuxcontainers.org/lxc/introduction/) and LXD (Cont.)
 
