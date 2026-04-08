@@ -166,7 +166,7 @@ The bad news is: **Changes we made in `Termina` is NOT persistent!!!**
 
 --- 
 
-Suggestions from AI: 
+Suggestion from AI: 
 
 **使用 ChromeOS Flags (終極方案)**
 1. 瀏覽器開啟 `chrome://flags/#crostini-container-install-lxd`
@@ -175,25 +175,13 @@ Suggestions from AI:
 
 這會讓系統嘗試在容器初始化時自動配置橋接。
 
-But that is an experimental feature and I don't want mesh up the container. My only option left is find a way to automate the configure process: 
+That is an *experimental* feature and I can't risk screwing it up... My only option left is to find a way to easily do the re-configure. 
 
-`config_lxc.sh`
+Press `Ctrl` + `Alt` + `T` to enter Crosh (ChromiumOS shell): 
 ```
-cd /usr/local/bin
-nano config_lxc.sh
-
-chmod +x config_lxc.sh
-```
-
-`config_lxd.txt`
-
-**切換到有權限寫入的目錄**
-```
+vmc start termina 
 cd /mnt/stateful/lxd_conf
-```
 
-**再次執行建立腳本的指令**
-```
 cat << 'EOF' > config_lxd.sh
 #!/bin/bash
 lxc config set core.https_address :8443
@@ -202,18 +190,114 @@ echo "LXC 核心設定已完成。"
 EOF
 ```
 
-**賦予執行權限並執行**
+Make it executable: 
 ```
 chmod +x config_lxd.sh
+```
 
+And run it: 
+```
 ./config_lxd.sh
 ```
 
+`config_lxc.sh`
+```
+#!/bin/bash
+
+# 1. 自動獲取 Google 內部網路的 IP 位址 (通常是 100.115.92.xxx)
+LXC_IP=$(ip -4 route show | grep -oP '100\.115\.92\.\d+' | head -n 1)
+PASSWORD=somepassword
+
+if [ -z "$LXC_IP" ]; then
+    echo "錯誤：找不到符合 100.115.92.x 的 IP 位址。請確認是否在 Chromebook 的 Debian 環境中。"
+    exit 1
+fi
+
+echo "偵測到 LXC IP: $LXC_IP"
+
+# 2. 將預設遠端切換回 local (確保刪除 chronos 時不會報錯)
+echo "正在切換預設遠端至 local..."
+lxc remote switch local
+
+# 3. 移除現有的 chronos 設定 (如果存在)
+if lxc remote list | grep -q "chronos"; then
+    echo "正在移除舊的 chronos 遠端設定..."
+    lxc remote remove chronos
+fi
+
+# 4. 重新加入遠端
+echo "正在重新加入 chronos 遠端 ($LXC_IP)..."
+#lxc remote add chronos 100.115.92.193
+lxc remote add chronos "$LXC_IP" --accept-certificate --password "$PASSWORD"
+
+# 5. 設定為預設遠端
+echo "將 chronos 設為預設遠端..."
+lxc remote set-default chronos
+
+echo "--------------------------------------"
+echo "設定完成！目前的遠端清單："
+lxc list
+```
+
+Put `config_lxc.sh` on `/usr/local/bin` and make it executable. Next time, press `Ctrl` + `Alt` + `T` to enter Crosh (ChromiumOS shell): 
+```
+vmc start termina
+/mnt/stateful/lxd_conf/config_lxd.sh
+lxc config show
+```
+
+![alt config_lxd.sh.png](img/config_lxd.sh.png)
+
+In `Terminal`: 
+```
+config_lxc.sh
+```
+
+![alt config_lxc.sh.png](img/config_lxc.sh.png)
+
 
 #### VII. Lost in Space 
+Clear Google Drive Offline Files 
+```
+chrome://drive-internals/
+```
+
+[Clear Local Data]
+
+![alt Storage-management](img/Storage-management.png)
+
+- Remove all cached package files:
+```
+sudo apt clean
+```
+This clears `/var/cache/apt/archives/` and `/var/cache/apt/archives/partial/`.
+
+- Remove obsolete package files:
+```
+sudo apt autoclean
+```
+Removes cached packages that can no longer be downloaded.
+
+- Remove unused dependencies:
+```
+sudo apt autoremove
+```
+Removes packages that were automatically installed and are no longer needed. 
+
+![alt Clear-local-data](img/Clear-local-data.png)
+
+Clear-local-data
+![alt clean-up](img/clean-up.png)
 
 
 #### VII. Summary 
+- To run **Ubuntu 24.04** in a Docker container on **Debian 12**, use the following command:
+```
+docker run -it ubuntu:24.04 /bin/bash
+
+```
+
+![alt docker-run-ubuntu24.04](img/docker-run-ubuntu24.04.png)
 
 
 #### IX. Bibliography 
