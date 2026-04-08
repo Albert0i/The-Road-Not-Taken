@@ -72,7 +72,7 @@ To delete the snapshot with:
 lxc delete penguin/fresh_installed
 ```
 
-Creating a snapshot is placing another layer on top of your Crostini and thus will degrade performance a little bit. You should use it with care.
+Creating a snapshot is placing another layer on top of your container and thus slightly degrades performance. Use it with care.
 
 
 #### IV. More Utilities 
@@ -290,7 +290,9 @@ Keep it clean and tidy.
 
 #### VII. Summary 
 - Chromebook is optimized for lightweight web-based applications,  Crostini is a bonus. While Chrome OS need no maintenance cost, Crostini has fragility somehow. After all, it is only a Debian 12 container inside a Virtual Machine in Chrome OS. 
+
 - Regarding to the size of **Linux Development Environment**, my rule of thumb is: not *exceed* half of total available space. In my case, my Chromebook has 64G SSD, around 35.5G is available at my disposal. That means at most 15G can be allocated for **Linux Development Environment**, 10~12G is a safer bet... Otherwise you run the risk of unable to restore your backup. 
+
 - To run an **Ubuntu 24.04** container, the easier way is: 
 ```
 docker run -it ubuntu:24.04 /bin/bash
