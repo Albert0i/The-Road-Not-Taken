@@ -345,13 +345,3 @@ Is it not?
 
 ### EOF (2026/04/17)
 
-**Command to install QEMU:**
-```
-sudo apt install qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils virtinst libvirt-daemon virt-manager -y 
-```
-See also: 
-
-[Set Up a Virtual Machine on Your Chromebook & Fix CDROM Not Found Error](https://youtu.be/716T5iwmzxI)
-[Full Guide how to install Windows XP in Chromebook](https://youtu.be/rTgG9u5FkV0)
-[How to Install WineHQ 10 on Debian 12 Bookworm | Step-by-Step Guide](https://youtu.be/_GWMwyPwGmI)
-
