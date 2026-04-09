@@ -304,7 +304,7 @@ Removes packages that were automatically installed and are no longer needed.
 Keep it clean and tidy.
 
 
-#### IX. Windows Apps 
+#### VIII. Windows Apps 
 1. [Setting Up Virtual Machines with QEMU, KVM, and Virt-Manager on Debian/Ubuntu](https://linuxconfig.org/setting-up-virtual-machines-with-qemu-kvm-and-virt-manager-on-debian-ubuntu)
 2. [Set Up a Virtual Machine on Your Chromebook & Fix CDROM Not Found Error](https://youtu.be/716T5iwmzxI)
 3. [Full Guide how to install Windows XP in Chromebook](https://youtu.be/rTgG9u5FkV0)
