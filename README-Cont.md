@@ -306,12 +306,16 @@ Keep it clean and tidy.
 
 #### VIII. Windows Apps 
 > Wine (originally an acronym for "Wine Is Not an Emulator") is a compatibility layer capable of running Windows applications on several POSIX-compliant operating systems, such as Linux, macOS, & BSD. Instead of simulating internal Windows logic like a virtual machine or emulator, Wine translates Windows API calls into POSIX calls on-the-fly, eliminating the performance and memory penalties of other methods and allowing you to cleanly integrate Windows applications into your desktop.
+[Debian 12 (Bookworm)](https://gitlab.winehq.org/wine/wine/-/wikis/Debian-Ubuntu#bookworm)
 
 > QEMU is an open-source machine emulator and virtualizer that allows you to run operating systems and software designed for a different architecture. 
 
 > KVM is a virtualization module in the Linux kernel that allows the kernel to function as a hypervisor. 
 
 > Virt-Manager is a graphical interface for managing virtual machines through libvirt.
+```
+sudo apt install qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils virtinst libvirt-daemon virt-manager -y 
+```
 
 1. [Setting Up Virtual Machines with QEMU, KVM, and Virt-Manager on Debian/Ubuntu](https://linuxconfig.org/setting-up-virtual-machines-with-qemu-kvm-and-virt-manager-on-debian-ubuntu)
 2. [Set Up a Virtual Machine on Your Chromebook & Fix CDROM Not Found Error](https://youtu.be/716T5iwmzxI)
