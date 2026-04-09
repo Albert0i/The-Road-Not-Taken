@@ -304,7 +304,14 @@ Removes packages that were automatically installed and are no longer needed.
 Keep it clean and tidy.
 
 
-#### VII. Summary 
+#### IX. Windows Apps 
+1. [Setting Up Virtual Machines with QEMU, KVM, and Virt-Manager on Debian/Ubuntu](https://linuxconfig.org/setting-up-virtual-machines-with-qemu-kvm-and-virt-manager-on-debian-ubuntu)
+2. [Set Up a Virtual Machine on Your Chromebook & Fix CDROM Not Found Error](https://youtu.be/716T5iwmzxI)
+3. [Full Guide how to install Windows XP in Chromebook](https://youtu.be/rTgG9u5FkV0)
+4. [How to Install WineHQ 10 on Debian 12 Bookworm | Step-by-Step Guide](https://youtu.be/_GWMwyPwGmI)
+
+
+#### IX. Summary 
 - Chromebook is optimized for lightweight web-based applications,  Crostini is a bonus. While Chrome OS need no maintenance cost, Crostini has fragility somehow. After all, it is only a Debian container inside a Virtual Machine in Chrome OS. 
 
 - Regarding to the size of **Linux Development Environment**, my rule of thumb is: not *exceed* half of total available space. In my case, my Chromebook has 64G SSD, around 35.5G is available at my disposal. That means at most 15G can be allocated for **Linux Development Environment**, 10~12G is a safer bet... Otherwise you run the risk of unable to restore your backup. 
@@ -318,14 +325,17 @@ docker run -it ubuntu:24.04 /bin/bash
 Is it not? 
 
 
-#### IX. Bibliography 
+#### X. Bibliography 
 1. [Set up Linux on your Chromebook](https://support.google.com/chromebook/answer/9145439)
 2. [Crostini developer guide](https://www.chromium.org/chromium-os/developer-library/guides/containers/crostini-developer-guide/)
 3. [Running Custom Containers Under ChromeOS](https://www.chromium.org/chromium-os/developer-library/guides/containers/containers-and-vms/)
 4. [Linux for Chromebooks: Secure Development (Google I/O ’19)](https://youtu.be/pRlh8LX4kQI)
 5. [Using other containers in ChromeOS (crostini) Terminal](https://github.com/edeloya/ChromeOS-Terminal-LXC-LXD)
 6. [Container and virtualization tools](https://linuxcontainers.org/)
-7. [The Book of Disquiet by Fernando Pessoa](https://dn720004.ca.archive.org/0/items/english-collections-1/Book%20of%20Disquiet%2C%20The%20-%20Fernando%20Pessoa.pdf)
+7. [Wine](https://www.winehq.org/)
+8. [QEMU](https://www.qemu.org/)
+9. [KVM](https://linux-kvm.org/page/Main_Page)
+10. [The Book of Disquiet by Fernando Pessoa](https://dn720004.ca.archive.org/0/items/english-collections-1/Book%20of%20Disquiet%2C%20The%20-%20Fernando%20Pessoa.pdf)
 
 
 #### Epilogue 
@@ -334,3 +344,14 @@ Is it not?
 
 
 ### EOF (2026/04/17)
+
+**Command to install QEMU:**
+```
+sudo apt install qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils virtinst libvirt-daemon virt-manager -y 
+```
+See also: 
+
+[Set Up a Virtual Machine on Your Chromebook & Fix CDROM Not Found Error](https://youtu.be/716T5iwmzxI)
+[Full Guide how to install Windows XP in Chromebook](https://youtu.be/rTgG9u5FkV0)
+[How to Install WineHQ 10 on Debian 12 Bookworm | Step-by-Step Guide](https://youtu.be/_GWMwyPwGmI)
+
