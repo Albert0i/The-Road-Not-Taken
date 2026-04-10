@@ -1,5 +1,7 @@
-## 📘 The Ultimate Weekend Guide: Migrating Physical Windows 11 to VirtualBox 7.2.6 on Zorin OS 18## Table of Contents
+## 📘 The Ultimate Guide: Migrating Physical Windows 11 to VirtualBox 7.2.6 on Zorin OS 18
 
+
+## Table of Contents
    1. Introduction: Understanding the P2V Migration
    2. Phase 1: The "Physical" Clean-Up (Windows 11 Side)
    3. Phase 2: Data Encapsulation (Disk2vhd Mastery)
