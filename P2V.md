@@ -1,4 +1,3 @@
-
 ## 📘 The Ultimate Weekend Guide: Migrating Physical Windows 11 to VirtualBox 7.2.6 on Zorin OS 18## Table of Contents
 
    1. Introduction: Understanding the P2V Migration
@@ -11,13 +10,16 @@
    8. Phase 7: Future-Proofing (Cleaning up the SSD)
 
 ------------------------------
-## 1. Introduction: Understanding the P2V Migration
 
+
+## 1. Introduction: Understanding the P2V Migration
 You are performing a Physical-to-Virtual (P2V) migration. Instead of running Windows 11 directly on your laptop's hardware, you are creating a "Digital Twin" of your hard drive.
 In a dual-boot setup, your SSD is shared. By moving Partition 1 (Windows) into a virtual disk file inside Partition 2 (Zorin OS), you gain the ability to run Windows apps without rebooting. This guide ensures that the EFI Bootloader—the most fragile part of the process—is captured correctly so your VM can start independently.
-------------------------------
-## 2. Phase 1: The "Physical" Clean-Up (Windows 11 Side)
 
+------------------------------
+
+
+## 2. Phase 1: The "Physical" Clean-Up (Windows 11 Side)
 Before capturing your disk image, you must ensure the filesystem is in a "quiescent" (rest) state. If Windows is in a "Fast Startup" or "Hibernated" state, the NTFS filesystem is "locked," and Disk2vhd will capture a corrupt image.
 ## Step 1.1: Disable Fast Startup & Hibernation
 Windows "Fast Startup" is actually a partial hibernation. To truly shut down the disk:
@@ -41,8 +43,9 @@ Every Gigabyte of data on your C: drive increases the time it takes to create an
    3. Empty the Recycle Bin.
 
 ------------------------------
-## 3. Phase 2: Data Encapsulation (Disk2vhd Mastery)
 
+
+## 3. Phase 2: Data Encapsulation (Disk2vhd Mastery)
 Disk2vhd is a Sysinternals tool that uses the Volume Shadow Copy Service (VSS) to create a snapshot of the disk.
 ## Step 2.1: Configuring the Tool
 
@@ -63,8 +66,9 @@ Save the .vhd file to an External USB Hard Drive formatted as NTFS or exFAT.
 * Why? Because a 128GB partition will result in a file roughly the size of the used space on that partition. If you have 60GB of data, the file will be 60GB. You cannot save a 60GB file onto the same drive you are copying from without risking a crash.
 
 ------------------------------
-## 4. Phase 3: Host Preparation (Zorin OS 18 Environment)
 
+
+## 4. Phase 3: Host Preparation (Zorin OS 18 Environment)
 Once your .vhd is on your external drive, it is time to switch to Zorin OS.
 
    1. Boot Zorin OS 18.
@@ -73,8 +77,9 @@ Once your .vhd is on your external drive, it is time to switch to Zorin OS.
    3. Check Permissions: Ensure your user has read/write access to the file.
 
 ------------------------------
-## 5. Phase 4: VirtualBox Configuration (The Perfect Settings)
 
+
+## 5. Phase 4: VirtualBox Configuration (The Perfect Settings)
 VirtualBox 7.2.6 has specific requirements for Windows 11, including a Virtual TPM and Secure Boot.
 ## Step 5.1: Create the Virtual Machine
 
@@ -105,8 +110,9 @@ Go to Settings for your new VM:
       * Enable 3D Acceleration: Check this to prevent the "flickering" you saw in Debian.
    
 ------------------------------
-## 6. Phase 5: Post-Migration Drivers & Performance Tuning
 
+
+## 6. Phase 5: Post-Migration Drivers & Performance Tuning
 The first time you start the VM, Windows will be confused because the "Motherboard" suddenly changed from a real laptop to a VirtualBox motherboard.
 ## Step 6.1: The First Boot
 
@@ -130,8 +136,9 @@ Your VM still has the "ghost" drivers of your physical laptop (WiFi, GPU, Audio)
    2. Look for any items with yellow exclamation marks and uninstall them. Windows will replace them with VirtualBox drivers.
 
 ------------------------------
-## 7. Phase 6: Troubleshooting & Common Pitfalls## Issue: "No Bootable Medium Found"
 
+
+## 7. Phase 6: Troubleshooting & Common Pitfalls## Issue: "No Bootable Medium Found"
 * Cause: You forgot to include the EFI partition in Disk2vhd, or "Enable EFI" is unchecked in VirtualBox settings.
 * Fix: Ensure Settings > System > Enable EFI is ON. If it still fails, you may need to recreate the .vhd including the system reserved partition.
 
@@ -145,8 +152,9 @@ Your VM still has the "ghost" drivers of your physical laptop (WiFi, GPU, Audio)
 * Fix: Ensure 3D Acceleration is on. Also, check if your host (Zorin) is using the "Performance" power profile.
 
 ------------------------------
-## 8. Phase 7: Future-Proofing (Cleaning up the SSD)
 
+
+## 8. Phase 7: Future-Proofing (Cleaning up the SSD)
 Once your VM is running perfectly for a few days:
 
    1. The Physical Partition: You still have that 128GB partition at the start of your SSD.
