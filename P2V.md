@@ -1,4 +1,4 @@
-## 📘 The Ultimate Guide: Migrating Physical Windows 11 to VirtualBox 7.2.6 on Zorin OS 18
+## 📘 The Ultimate Weekend Guide: Migrating Physical Windows 11 to VirtualBox 7.2.6 on Zorin OS 18
 
 
 ## Table of Contents
@@ -98,7 +98,7 @@ VirtualBox 7.2.6 has specific requirements for Windows 11, including a Virtual T
 ## Step 5.3: Attaching the Virtual Disk
 
    1. On the "Virtual Hard Disk" screen, select "Use an Existing Virtual Hard Disk File".
-   2. Click the Folder icon, then Add. Navigate to your .vhd file.
+   2. Click the Folder icon, then Add. Navigate to your .vhdx file.
 
 ## Step 5.4: Essential System Settings (The "Boot" Fix)
 Go to Settings for your new VM:
