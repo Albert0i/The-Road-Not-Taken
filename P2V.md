@@ -52,7 +52,7 @@ Disk2vhd is a Sysinternals tool that uses the Volume Shadow Copy Service (VSS) t
 ## Step 2.1: Configuring the Tool
 
    1. Run disk2vhd64.exe as Administrator.
-   2. Uncheck "Use VHDX": VirtualBox supports VHDX, but the older .vhd format is more "stable" for legacy P2V migrations.
+   2. Check "Use VHDX": VirtualBox supports VHDX, the older .vhd format is more "stable" for legacy P2V migrations.
    3. Check "Use Volume Shadow Copy": This is essential for capturing a consistent state of the system files.
 
 ## Step 2.2: Selecting the "Secret" Partitions
