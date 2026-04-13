@@ -3,7 +3,7 @@
 
 ---
 
-## Part I: Introduction (≈400 words)
+## Part I: Introduction 
 
 Zorin OS 18, built on Ubuntu 24.04, is designed to be user‑friendly, elegant, and accessible to those migrating from Windows or macOS. Yet beneath its polished surface lies the full power of Linux. One of the most useful capabilities for system administrators, developers, and remote workers is the ability to access the desktop environment remotely.  
 
@@ -20,7 +20,7 @@ By the end, you’ll have a resilient, lightweight, and ceremonial setup — a g
 
 ---
 
-## Part II: Installing VNC Server (≈500 words)
+## Part II: Installing VNC Server 
 
 ### Step 1: Update Packages
 ```bash
@@ -79,7 +79,7 @@ vncserver :1
 
 ---
 
-## Part IV: Securing VNC with SSH (≈300 words)
+## Part IV: Securing VNC with SSH 
 
 VNC traffic is not encrypted. To secure it, tunnel through SSH:
 
@@ -92,7 +92,7 @@ Then connect your VNC viewer to `localhost:5901`. This ensures all traffic is en
 
 ---
 
-## Part V: Configuring AutoStart with systemd (≈600 words)
+## Part V: Configuring AutoStart with systemd 
 
 ### Step 1: Create Service File
 ```bash
@@ -140,7 +140,7 @@ systemctl status vncserver@1.service
 
 ---
 
-## Part VI: Troubleshooting & Optimization (≈200 words)
+## Part VI: Troubleshooting & Optimization 
 
 - **Black screen**: Ensure `xstartup` points to a valid desktop environment.  
 - **Connection refused**: Check firewall (`ufw allow 5901`).  
@@ -149,7 +149,7 @@ systemctl status vncserver@1.service
 
 ---
 
-## Part VII: Symbolic Closure (≈100 words)
+## Part VII: Symbolic Closure 
 
 Your VNC server is now installed, configured, and set to awaken automatically with Zorin OS 18. Like a ritual guardian, it opens a window into your system at every boot, secured by SSH and shaped by your chosen desktop environment.  
 
