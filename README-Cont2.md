@@ -57,7 +57,7 @@ BY STENDHAL](https://www.gutenberg.org/files/44747/44747-h/44747-h.htm#:~:text=A
 
 #### Epilogue 
 
-[![alt StendhalRedandBlack](img/StendhalRedandBlack04.jpg)](https://en.wikipedia.org/wiki/The_Red_and_the_Black)
+![alt StendhalRedandBlack](img/StendhalRedandBlack04.jpg)
 
 > At last they sat down, Madame de Rênal beside Julien, and Madame Derville near her friend. Engrossed as he was by the attempt which he was going to make, Julien could think of nothing to say. The conversation languished.
 
