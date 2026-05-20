@@ -1,5 +1,7 @@
 ### 726 Investigation Report <br />── Sequel to “[The Touch of Vintage](https://github.com/Albert0i/The-Road-Not-Taken/blob/main/README.md#v-the-touch-of-vintage)” 
 
+![alt Windows-Lifecycle_Timeline](img/Copilot_Windows-Lifecycle_Timeline.png)
+
 > "Dogs and men, cats and heroes, fleas and geniuses – we all play at existing without thinking about it (the most advanced of us thinking only about thinking) under the vast stillness of the stars."<br />
 "Cães e homens, gatos e heróis, pulgas e génios, brincamos a existir, sem pensar nisso (que os melhores pensam só em pensar) sob o grande sossego das estrelas."<br />
 ── [The Book of Disquiet by Fernando Pessoa](https://dn720004.ca.archive.org/0/items/english-collections-1/Book%20of%20Disquiet%2C%20The%20-%20Fernando%20Pessoa.pdf)
@@ -7,12 +9,9 @@
 > "After a final moment of expectation and anxiety, during which Julien was rendered almost beside himself by his excessive emotion, ten o’clock struck from the clock over his head. Each stroke of the fatal clock reverberated in his bosom, and caused an almost physical pang."<br />── [THE RED AND THE BLACK, A Chronicle of 1830
 BY STENDHAL](https://www.gutenberg.org/files/44747/44747-h/44747-h.htm#:~:text=After%20a%20final%20moment%20of%20expectation%20and%20anxiety%2C%20during%20which%20Julien%20was%20rendered%20almost%20beside%20himself%20by%20his%20excessive%20emotion%2C%20ten%20o%E2%80%99clock%20struck%20from%20the%20clock%20over%20his%20head.%20Each%20stroke%20of%20the%20fatal%20clock%20reverberated%20in%20his%20bosom%2C%20and%20caused%20an%20almost%20physical%20pang.)
 
-![alt Windows-Lifecycle_Timeline](img/Copilot_Windows-Lifecycle_Timeline.png)
-
 
 #### Prologue
 In the year of 2026, it is unwise and unsafe to use an unsupported operating system; it is... 
-
 
 #### I. 
 
