@@ -13,6 +13,10 @@ BY STENDHAL](https://www.gutenberg.org/files/44747/44747-h/44747-h.htm#:~:text=A
 #### Prologue
 In the year of 2026, it is unwise and unsafe to use an unsupported operating system; you paid for it but can't upgrade so much the worse. Microsoft has deliberately devised a strict time frame to nudge you forward. It is not possible to escape if you happened to be on the track. 
 
+> A "Windows refugee" is a term for a user transitioning from Microsoft Windows to an alternative operating system—most commonly Linux or macOS due to frustration with Windows updates, telemetry, or system requirements.
+
+To leave or not is a painful decision especially for those with decades of Windows experience. Nostalgic sensation and remembrance to the past make you endure until you can't. 
+
 
 #### I. 
 
