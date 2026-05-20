@@ -11,21 +11,21 @@ BY STENDHAL](https://www.gutenberg.org/files/44747/44747-h/44747-h.htm#:~:text=A
 
 
 #### Prologue
+In the year of 2026, it is unwise and unsafe to use an unsupported operating system; it is... 
+
 
 #### I. 
 
+
 #### II.
 
+
 #### III.
+
 
 #### IV. 
 
 #### V. Bibliography
-
-
-
-
-
 1. [Windows 7 Full Setup With All Updates and Apps in 2024](https://youtu.be/X1R399OIC1A)
 2. [How To Install Windows 7 Updates in 2025 - Fix Error 80072EFE](https://youtu.be/g1e9ZXTlGDQ)
 1. []()
