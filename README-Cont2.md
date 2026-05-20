@@ -11,7 +11,8 @@ BY STENDHAL](https://www.gutenberg.org/files/44747/44747-h/44747-h.htm#:~:text=A
 
 
 #### Prologue
-In the year of 2026, it is unwise and unsafe to use an unsupported operating system; it is... 
+In the year of 2026, it is unwise and unsafe to use an unsupported operating system; you paid for it but can't upgrade so much the worse. 
+
 
 #### I. 
 
