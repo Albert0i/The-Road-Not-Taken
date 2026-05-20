@@ -19,6 +19,11 @@ To leave or not is a painful decision especially for those with decades of Windo
 
 
 #### I. 
+I used [Windows 7](https://en.wikipedia.org/wiki/Windows_7) for quite a long time until I move to [Windows 10](https://en.wikipedia.org/wiki/Windows_10). I use [Windows 11](https://en.wikipedia.org/wiki/Windows_11) now, I install [Open-Shell](https://github.com/Open-Shell/Open-Shell-Menu) and choose theme which makes it looks like Windows 7. 
+
+Instead of moving to Windows 12, how about moving backward? 
+
+I realize that it is dangerous to use unsupported operating system, sometimes we need a kind of Win64 Subsystem to run legacy applications which have no compatible alternative on Linux. 
 
 
 #### II.
