@@ -11,7 +11,7 @@ BY STENDHAL](https://www.gutenberg.org/files/44747/44747-h/44747-h.htm#:~:text=A
 
 
 #### Prologue
-In the year of 2026, it is unwise and unsafe to use an unsupported operating system; you paid for it but can't upgrade so much the worse. 
+In the year of 2026, it is unwise and unsafe to use an unsupported operating system; you paid for it but can't upgrade so much the worse. Microsoft has deliberately devised a strict time frame to nudge you forward. It is not possible to escape if you happened to be on the track. 
 
 
 #### I. 
