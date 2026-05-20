@@ -7,6 +7,8 @@
 > "After a final moment of expectation and anxiety, during which Julien was rendered almost beside himself by his excessive emotion, ten o’clock struck from the clock over his head. Each stroke of the fatal clock reverberated in his bosom, and caused an almost physical pang."<br />── [THE RED AND THE BLACK, A Chronicle of 1830
 BY STENDHAL](https://www.gutenberg.org/files/44747/44747-h/44747-h.htm#:~:text=After%20a%20final%20moment%20of%20expectation%20and%20anxiety%2C%20during%20which%20Julien%20was%20rendered%20almost%20beside%20himself%20by%20his%20excessive%20emotion%2C%20ten%20o%E2%80%99clock%20struck%20from%20the%20clock%20over%20his%20head.%20Each%20stroke%20of%20the%20fatal%20clock%20reverberated%20in%20his%20bosom%2C%20and%20caused%20an%20almost%20physical%20pang.)
 
+![alt Windows-Lifecycle_Timeline](img/Copilot_Windows-Lifecycle_Timeline.png)
+
 
 #### Prologue
 
