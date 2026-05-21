@@ -15,7 +15,7 @@ In the year of 2026, it is unwise and unsafe to use an unsupported operating sys
 
 > A "Windows refugee" is a term for a user transitioning from Microsoft Windows to an alternative operating system—most commonly Linux or macOS due to frustration with Windows updates, telemetry, or system requirements.
 
-It is said that Windows 8 died from tablet ambition, Windows 10 died from Cloud Integration and Windows 11 died from of AI... Three consecutive failures erode the castle from ground up. To leave is painful, to stay is harmful, nostalgic sensation and remembrance to the past makes you endure until you can't. 
+It is said that Windows 8 died from tablet ambition, Windows 10 died from Cloud Integration and Windows 11 died from of AI... Three consecutive failures erode the castle from ground up. Currently, Windows 11 acts as Advertising Platform, Cloud Service Gateway and AI Agent on higher priority than serving users. To leave is painful, to stay is harmful, nostalgic sensation and remembrance to the past make you endure until you can't. 
 
 
 #### I. 
