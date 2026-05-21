@@ -25,6 +25,8 @@ Instead of moving to Windows 12, how about moving backward?
 
 I realize that it is dangerous to use unsupported operating system, sometimes we need a kind of Win64 Subsystem to run legacy applications which have no compatible alternative on Linux. 
 
+It is said that Windows 8 die from tablet ambition, Windows 10 from Cloud Integration and Windows 11 from of AI. Three consecutive failures erode the castle from ground up. 
+
 
 #### II.
 
