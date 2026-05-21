@@ -15,7 +15,7 @@ In the year of 2026, it is unwise and unsafe to use an unsupported operating sys
 
 > A "Windows refugee" is a term for a user transitioning from Microsoft Windows to an alternative operating system—most commonly Linux or macOS due to frustration with Windows updates, telemetry, or system requirements.
 
-To leave or not is a painful decision especially for those with decades of Windows experience. Nostalgic sensation and remembrance to the past make you endure until you can't. 
+It is said that Windows 8 died from tablet ambition, Windows 10 died from Cloud Integration and Windows 11 died from of AI... Three consecutive failures erode the castle from ground up. To leave is painful, to stay is harmful, nostalgic sensation and remembrance to the past makes you endure until you can't. 
 
 
 #### I. 
@@ -24,8 +24,6 @@ I used [Windows 7](https://en.wikipedia.org/wiki/Windows_7) for quite a long tim
 Instead of moving to Windows 12, how about moving backward? 
 
 I realize that it is dangerous to use unsupported operating system, sometimes we need a kind of Win64 Subsystem to run legacy applications which have no compatible alternative on Linux. 
-
-It is said that Windows 8 die from tablet ambition, Windows 10 from Cloud Integration and Windows 11 from of AI. Three consecutive failures erode the castle from ground up. 
 
 
 #### II.
