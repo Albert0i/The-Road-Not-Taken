@@ -18,13 +18,20 @@ It is said that Windows 8 died from tablet ambition, Windows 10 died from Cloud 
 > A "Windows refugee" is a term for a user transitioning from Microsoft Windows to an alternative operating system—most commonly Linux or macOS due to frustration with Windows updates, telemetry, or system requirements.
 
 
-#### I. 
-Instead of moving to Windows 12, how about moving backward? 
+#### I. Back to the Origin
+Instead of upgrading to Windows 12, what if I downgrade to Windows 7?
+I have no Windows 7 activation key on hand and it’s no longer possible to obtain one through official channels and there are many second‑hand touts selling dubious keys.
 
-It is not possible to obtain a Windows 7 key from official channel. 
+IMHO, Windows 7 can be used for a little while but not for long... and let alone forever. It is insecure to stay on outdated operating system... Chances are you need a kind of [Win64](https://en.wikipedia.org/?title=Win64&redirect=no)/[Win32](https://en.wikipedia.org/?title=Win32&redirect=no) Subsystem to run legacy Windows apps on Linux and you don't have or don't want to dedicate too much resources on it. In this case, Windows 7 is the ideal candidate. The bottom line is: 
 
-I realize that it is dangerous to use unsupported operating system, sometimes we need a kind of Win64 Subsystem to run legacy applications which have no compatible alternative on Linux. 
+1. Windows 7 64 bits is a must - It may not be able to run the latest version of your software, but it's always possible to find a slightly stale version of it; 
+2. Apply all updates till January 14, 2020 - To minimize the risk of being compromised; 
+3. Antivirus - A payed version of Antivirus and Firewall is hightly recommended if financial resource permits. 
 
+In addition, decent modern browsers are available: 
+- [Brave](https://brave.com/)
+- [Supermium](https://win32subsystem.live/supermium/)
+- [LibreWolf](https://librewolf.net/)
 
 
 #### II.
@@ -92,4 +99,4 @@ I realize that it is dangerous to use unsupported operating system, sometimes we
 
 ### EOF (2026/05/xx)
 
-I used [Windows 7](https://en.wikipedia.org/wiki/Windows_7) for quite a long time then move to [Windows 10](https://en.wikipedia.org/wiki/Windows_10). I use [Windows 11](https://en.wikipedia.org/wiki/Windows_11) now, [Open-Shell](https://github.com/Open-Shell/Open-Shell-Menu) is installed and classic theme is chosen to make it looks like Windows 7. 
+I used [Windows 7](https://en.wikipedia.org/wiki/Windows_7) for quite a long time then move to [Windows 10](https://en.wikipedia.org/wiki/Windows_10). And now I am on [Windows 11](https://en.wikipedia.org/wiki/Windows_11), [Open-Shell](https://github.com/Open-Shell/Open-Shell-Menu) is installed and classic theme is chosen to make it looks like Windows 7. 
