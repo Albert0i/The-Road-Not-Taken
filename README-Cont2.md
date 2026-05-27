@@ -11,19 +11,20 @@ BY STENDHAL](https://www.gutenberg.org/files/44747/44747-h/44747-h.htm#:~:text=A
 
 
 #### Prologue
-In the year of 2026, it is unwise and unsafe to use an unsupported operating system; you paid for it but can't upgrade so much the worse. Microsoft has deliberately devised a strict time frame to nudge you forward. It is not possible to escape if you happened to be on the track. 
+In the year of 2026, it is unwise and unsafe to use an unsupported operating system; you paid for it and yet can't upgrade so much the worse. Microsoft has deliberately devised a strict time frame to nudge you forward. It is not possible to escape if you happened to be on the track. 
 
-It is said that Windows 8 died from tablet ambition, Windows 10 died from Cloud Integration and Windows 11 died from of AI... Three consecutive failures erode the empire from ground up. Currently, Windows 11 acts as Advertising Platform, Cloud Service Gateway and AI Agent on higher priority than serving users. To leave is painful, to stay is harmful, nostalgic sensation and remembrance to the past make you endure until you can't. 
+It is said that Windows 8 died from tablet ambition, Windows 10 died from Cloud Integration and Windows 11 died from of AI... Three consecutive failures erode the empire from ground up. Windows 11 plays the role of **Advertising Platform**, **Cloud Service Gateway** and **AI Agent** than serving you. To leave is painful, to stay is harmful, nostalgic sensation and remembrance to the past make you endure until you can't. 
 
 > A "Windows refugee" is a term for a user transitioning from Microsoft Windows to an alternative operating system—most commonly Linux or macOS due to frustration with Windows updates, telemetry, or system requirements.
 
 
 #### I. 
-I used [Windows 7](https://en.wikipedia.org/wiki/Windows_7) for quite a long time then move to [Windows 10](https://en.wikipedia.org/wiki/Windows_10). I use [Windows 11](https://en.wikipedia.org/wiki/Windows_11) now, [Open-Shell](https://github.com/Open-Shell/Open-Shell-Menu) is installed and classic theme is chosen to make it looks like Windows 7. 
-
 Instead of moving to Windows 12, how about moving backward? 
 
+It is not possible to obtain a Windows 7 key from official channel. 
+
 I realize that it is dangerous to use unsupported operating system, sometimes we need a kind of Win64 Subsystem to run legacy applications which have no compatible alternative on Linux. 
+
 
 
 #### II.
@@ -90,3 +91,5 @@ I realize that it is dangerous to use unsupported operating system, sometimes we
 
 
 ### EOF (2026/05/xx)
+
+I used [Windows 7](https://en.wikipedia.org/wiki/Windows_7) for quite a long time then move to [Windows 10](https://en.wikipedia.org/wiki/Windows_10). I use [Windows 11](https://en.wikipedia.org/wiki/Windows_11) now, [Open-Shell](https://github.com/Open-Shell/Open-Shell-Menu) is installed and classic theme is chosen to make it looks like Windows 7. 
