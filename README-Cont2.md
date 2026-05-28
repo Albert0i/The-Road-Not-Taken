@@ -81,7 +81,7 @@ Run the `.exe` to update, the problem of this approach is too tedious;
 #### IV. Summary 
 ![alt Desktop-2026-05-18](img/Desktop-2026-05-18.png)
 
-My wallpaper is [here](img/Copilot_Windows_7.png), which is a version retouched by Copilot. Enjoy! 
+My wallpaper is available in [here](img/Copilot_Windows_7.png), which is a version retouched by Copilot. Enjoy! 
 
 
 #### V. Bibliography
