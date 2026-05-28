@@ -52,6 +52,7 @@ As Windows 7 officially reached end of support on January 14, 2020. The bu
 
 
 #### IV. Summary 
+My wallpaper is [here](img/Copilot_Windows_7.png), which is retouched by Copilot. Enjoy! 
 
 
 #### V. Bibliography
