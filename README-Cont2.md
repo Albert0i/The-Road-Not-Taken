@@ -117,7 +117,7 @@ My wallpaper is available in [here](img/Copilot_Windows_7.png), which is a versi
 > These words confirmed Julien’s happiness, which at the present moment was extreme; he spoke, he forgot to pose, and appeared the most charming man in the world to the two friends who were listening to him. Nevertheless, there was a slight lack of courage in all this eloquence which had suddenly come upon him. He was mortally afraid that Madame Derville would get tired of the wind before the storm, which was beginning to rise, and want to go back alone into the salon. He would then have remained tête-à-tête with Madame de Rênal. He had had, almost by accident that blind courage which is sufficient for action; but he felt that it was out of his power to speak the simplest word to Madame de Rênal. He was certain that, however slight her reproaches might be, he would nevertheless be worsted, and that the advantage he had just won would be destroyed.
 
 
-### EOF (2026/05/xx)
+### EOF (2026/05/28)
 
 I used [Windows 7](https://en.wikipedia.org/wiki/Windows_7) for quite a long time then move to [Windows 10](https://en.wikipedia.org/wiki/Windows_10). And now I am on [Windows 11](https://en.wikipedia.org/wiki/Windows_11), [Open-Shell](https://github.com/Open-Shell/Open-Shell-Menu) is installed and classic theme is chosen to make it looks like Windows 7. 
 
