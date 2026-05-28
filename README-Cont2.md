@@ -69,6 +69,14 @@ Run the `.exe` to update, the problem of this approach is too tedious;
 - Black background 
 - USB 2.0 
 
+![alt After-30-days-unactivated-1](img/After-30-days-unactivated-1.png)
+
+![alt After-30-days-unactivated-2](img/After-30-days-unactivated-2.png)
+
+![alt After-30-days-unactivated-3](img/After-30-days-unactivated-3.png)
+
+![alt After-30-days-unactivated-You-may-be-a-victim-of-software-counterfeiting](img/After-30-days-unactivated-You-may-be-a-victim-of-software-counterfeiting.png)
+
 
 #### IV. Summary 
 ![alt Desktop-2026-05-18](img/Desktop-2026-05-18.png)
