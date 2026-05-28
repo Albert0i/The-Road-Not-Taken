@@ -75,6 +75,8 @@ Run the `.exe` accordingly, the problem of this approach is too TEDIOUS;
 
 ![alt After-30-days-unactivated-You-may-be-a-victim-of-software-counterfeiting](img/After-30-days-unactivated-You-may-be-a-victim-of-software-counterfeiting.png)
 
+Every time when Windows 7 starts, you are requested to activate or else the wallpaper turns into black and `This copy of Windows is not genuine` appears on the right corner. You can set your wallpaper back but one hour later, it happens again. Rumors say that you will suffer from unexpected shutdown so and so but it *just* doesn't happen in my installation. 
+
 - Windows 7 supports USB 2.0 natively. It also supports USB 3.0, but only if you install the proper drivers — they’re not built into the OS. Without those drivers, USB 3.0 ports behave like USB 2.0.  To use USB 3.0 ports, you need to install the chipset/host controller drivers provided by the hardware vendor (Intel, AMD, Renesas, etc.). Once those drivers are installed, Windows 7 can fully use USB 3.0 speeds.
 
 
