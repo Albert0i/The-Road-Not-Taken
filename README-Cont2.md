@@ -13,67 +13,55 @@ BY STENDHAL](https://www.gutenberg.org/files/44747/44747-h/44747-h.htm#:~:text=A
 #### Prologue
 In the year of 2026, it is unwise and unsafe to use an unsupported operating system; you paid for it and yet can't upgrade so much the worse. Microsoft has deliberately devised a strict time frame to nudge you forward. It is not possible to escape if you happened to be on the track. 
 
-It is said that Windows 8 died from tablet ambition, Windows 10 died from Cloud Integration and Windows 11 died from of AI... Three consecutive failures erode the empire from ground up. Windows 11 plays the role of **Advertising Platform**, **Cloud Service Gateway** and **AI Agent** than serving you. To leave is painful, to stay is harmful, nostalgic sensation and remembrance to the past make you endure until you can't. 
+It is said that Windows 8 died from tablet ambition, Windows 10 died from Cloud Integration and Windows 11 died from of AI... Three consecutive failures erode the empire from ground up. Windows 11 plays the role of **Advertising Platform**, **Cloud Service Gateway** and **AI Agent** instead of serving you. To leave is painful, to stay is harmful, nostalgic sensation and remembrance to the past make you endure until you can't. 
 
 > A "Windows refugee" is a term for a user transitioning from Microsoft Windows to an alternative operating system—most commonly Linux or macOS due to frustration with Windows updates, telemetry, or system requirements.
 
 
 #### I. Back to the Origin
 Instead of upgrading to Windows 12, what if I downgrade to Windows 7?
-I have no Windows 7 activation key on hand and it’s no longer possible to obtain one through official channels and there are many second‑hand touts selling dubious keys.
+I have no Windows 7 activation key on hand and it’s no longer possible to obtain one through *official* channels and there are many second‑hand touts selling dubious keys.
 
-IMHO, Windows 7 can be used for a little while but not for long... and let alone forever. It is insecure to stay on outdated operating system... Chances are you need a kind of [Win64](https://en.wikipedia.org/?title=Win64&redirect=no)/[Win32](https://en.wikipedia.org/?title=Win32&redirect=no) Subsystem to run legacy Windows apps on Linux and you don't have or don't want to dedicate too much resources on it. In this case, Windows 7 is the ideal candidate. The bottom line is: 
+IMHO, Windows 7 can be used for a while but not for long and let alone forever... Chances are you need a kind of [Win64](https://en.wikipedia.org/?title=Win64&redirect=no)/[Win32](https://en.wikipedia.org/?title=Win32&redirect=no) Subsystem to run legacy Windows apps on Linux host and you don't want to dedicate too much resources on it. In this scenario, Windows 7 is of great help to you. The bottom line is: 
 
-1. Windows 7 64 bits is a must - It may not be able to run the latest version of your software, but it's always possible to find a slightly stale version of it; 
-2. Apply all updates till January 14, 2020 - To minimize the risk of being compromised; 
-3. Antivirus - A payed version of Antivirus and Firewall is hightly recommended if financial resource permits. 
+1. Windows 7 64 bits is a *must* - It may not be able to run the latest software, it's always possible to find a slightly stale version of it; 
+2. Apply all updates till January 14, 2020 - In order to minimize the risk of being compromised; 
+3. Antivirus - A paid Antivirus comes with Firewall Support is hightly recommended if financial resource permits. 
 
-In addition, decent modern browsers are available: 
+In addition to [Microsoft Edge](https://www.microsoft.com/en-us/edge/download?ep=2053&es=356&cs=3457492030&form=MA13FJ), more decent web browsers are available: 
 - [Brave](https://brave.com/)
 - [Supermium](https://win32subsystem.live/supermium/)
 - [LibreWolf](https://librewolf.net/)
 
 
-#### II.
+#### II. Windows Update 
+First things first, You can’t directly download a Windows 7 SP1 ISO from Microsoft’s official site but it's easy to grab it from [Internet Archive](https://archive.org/), the size is around 3G. Use it on your own risk! 
+
+As Windows 7 officially reached end of support on January 14, 2020. The built-in Windows Update won't work but you have three ways to apply all aforementioned updates. 
+
+1. Offline update - Navigate to [Updates: Microsoft Windows 7 Multilingual (flersproget)](https://archive.org/details/windows7updates24), download `windows7updates24.zip` which contains 
+`wou-w61-x86 [2023-v1].iso` and `wou-w61-x64 [2023-v1].iso`.  Mount the .iso on target machine and run `UpdateInstaller.exe` to let it go... It run for hours and reboot several times until finish. 
+2. Manual update - Navigate to [MicrosoftRUpdate Catalog](https://catalog.update.microsoft.com/Home.aspx), type the **KB** number and go ahead to download the individual update. You can choose `.exe` and `.msi` to run. If one or two updates have failed, you can apply them manually, the problem of this approach is tedious; 
+3. Automatic update via third part software - Navigate to [Legacy Update](https://legacyupdate.net/), download `LegacyUpdate-1.13.exe` and install it. Legacy Update perform the same task as Windows Update. The problem of this approach is *SLOW*.
 
 
-#### III.
+#### III. The Major issues 
+
+- Black background 
+- USB 2.0 
 
 
-#### IV. 
+#### IV. Summary 
+
 
 #### V. Bibliography
 1. [Windows 7 Full Setup With All Updates and Apps in 2024](https://youtu.be/X1R399OIC1A)
 2. [How To Install Windows 7 Updates in 2025 - Fix Error 80072EFE](https://youtu.be/g1e9ZXTlGDQ)
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. [Updates: Microsoft Windows 7 Multilingual (flersproget)](https://archive.org/details/windows7updates24)
-1. [Legacy Update](https://legacyupdate.net/)
-12. [The Book of Disquiet by Fernando Pessoa](https://dn720004.ca.archive.org/0/items/english-collections-1/Book%20of%20Disquiet%2C%20The%20-%20Fernando%20Pessoa.pdf)
+3. [Updates: Microsoft Windows 7 Multilingual (flersproget)](https://archive.org/details/windows7updates24)
+4. [Legacy Update](https://legacyupdate.net/)
+5. [The Book of Disquiet by Fernando Pessoa](https://dn720004.ca.archive.org/0/items/english-collections-1/Book%20of%20Disquiet%2C%20The%20-%20Fernando%20Pessoa.pdf)
 
-
-
-[Windows 7 x64 to January 2026 with ESU ISO (English only)](https://www.threads.com/@thebobpony/post/DTrLVphkcK1/a-fully-updated-windows-x-to-january-with-esu-iso-english-only-that-fully-fills)
-[Windows Tiny 7](https://archive.org/details/windows-tiny-7_202204)
-[Windows XP 最終紀念版](https://apk.tw/thread-695987-1-1.html)
-[Internet Archive](https://archive.org/)
-
-
-[Updates: Microsoft Windows 7 Multilingual (flersproget)](https://archive.org/details/windows7updates24)
-[MicrosoftRUpdate Catalog](https://catalog.update.microsoft.com/Home.aspx)
-[LegacyUpdate](https://legacyupdate.net/)
-
-
-[Brave](https://brave.com/)
-[Supermium](https://win32subsystem.live/supermium/)
-[LibreWolf](https://librewolf.net/)
-
+[
 #### Epilogue 
 
 [![alt StendhalRedandBlack](img/StendhalRedandBlack04.jpg)](https://en.wikipedia.org/wiki/The_Red_and_the_Black)
@@ -100,3 +88,16 @@ In addition, decent modern browsers are available:
 ### EOF (2026/05/xx)
 
 I used [Windows 7](https://en.wikipedia.org/wiki/Windows_7) for quite a long time then move to [Windows 10](https://en.wikipedia.org/wiki/Windows_10). And now I am on [Windows 11](https://en.wikipedia.org/wiki/Windows_11), [Open-Shell](https://github.com/Open-Shell/Open-Shell-Menu) is installed and classic theme is chosen to make it looks like Windows 7. 
+
+Windows 7 x64 to January 2026 with ESU ISO (English only)](https://www.threads.com/@thebobpony/post/DTrLVphkcK1/a-fully-updated-windows-x-to-january-with-esu-iso-english-only-that-fully-fills)
+[Windows Tiny 7](https://archive.org/details/windows-tiny-7_202204)
+[Windows XP 最終紀念版](https://apk.tw/thread-695987-1-1.html)
+[Internet Archive](https://archive.org/)
+
+[Updates: Microsoft Windows 7 Multilingual (flersproget)](https://archive.org/details/windows7updates24)
+[MicrosoftRUpdate Catalog](https://catalog.update.microsoft.com/Home.aspx)
+[LegacyUpdate](https://legacyupdate.net/)
+
+[Brave](https://brave.com/)
+[Supermium](https://win32subsystem.live/supermium/)
+[LibreWolf](https://librewolf.net/)
