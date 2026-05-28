@@ -66,12 +66,13 @@ Run the `.exe` to update, the problem of this approach is too tedious;
 
 
 #### III. The Major issues 
-
 - Black background 
 - USB 2.0 
 
 
 #### IV. Summary 
+![alt Desktop-2026-05-18](img/Desktop-2026-05-18.png)
+
 My wallpaper is [here](img/Copilot_Windows_7.png), which is a version retouched by Copilot. Enjoy! 
 
 
