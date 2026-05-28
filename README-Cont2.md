@@ -41,21 +41,25 @@ As Windows 7 officially reached end of support on January 14, 2020. The bu
 
 1. Offline update - Navigate to [Updates: Microsoft Windows 7 Multilingual (flersproget)](https://archive.org/details/windows7updates24), download `windows7updates24.zip` which contains 
 `wou-w61-x86 [2023-v1].iso` and `wou-w61-x64 [2023-v1].iso`.  Mount the .iso on target machine and run `UpdateInstaller.exe`. 
+
 ![alt InstallWindowsUpdate](img/InstallWindowsUpdate.png)
 
 It runs for hours and reboots several times until finish. 
 
 2. Manual update - In any case a update may fail. Navigate to [MicrosoftRUpdate Catalog](https://catalog.update.microsoft.com/Home.aspx), type `KB2676562` and press `Search`.
+
 ![alt KB2676562-0](img/KB2676562-0.png)
 ![alt KB2676562-1](img/KB2676562-1.png)
 
 Choose the one match your platform and press `Download.` 
+
 ![alt KB2676562-2](img/KB2676562-2.png)
 ![alt KB2676562-3](img/KB2676562-3.png)
 
 Run the `.exe` to update, the problem of this approach is too tedious; 
 
 3. Automatic update via third part software - Navigate to [Legacy Update](https://legacyupdate.net/), download `LegacyUpdate-1.13.exe` and install it. Legacy Update perform the same task as Windows Update. The problem of this approach is *SLOW*.
+
 ![alt LegacyUpdate-1](img/LegacyUpdate-1.png)
 
 ![alt LegacyUpdate-2](img/LegacyUpdate-2.png)
