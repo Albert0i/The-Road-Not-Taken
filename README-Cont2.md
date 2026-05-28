@@ -37,16 +37,16 @@ In addition to [Microsoft Edge](https://www.microsoft.com/en-us/edge/download?ep
 #### II. Windows Update 
 First things first, You can’t directly download a Windows 7 SP1 ISO from Microsoft’s official site but it's easy to grab it from [Internet Archive](https://archive.org/), the size is around 3G. Use it on your own risk! 
 
-As Windows 7 officially reached end of support on January 14, 2020. The built-in Windows Update won't work but you have three ways to apply all aforementioned updates. 
+As Windows 7 officially reached end of support on January 14, 2020. The built-in Windows Update won't work anymore but you have three ways to apply all aforementioned updates. 
 
-1. Offline update - Navigate to [Updates: Microsoft Windows 7 Multilingual (flersproget)](https://archive.org/details/windows7updates24), download `windows7updates24.zip` which contains 
+1. **Offline update** - Navigate to [Updates: Microsoft Windows 7 Multilingual (flersproget)](https://archive.org/details/windows7updates24), download `windows7updates24.zip` which contains 
 `wou-w61-x86 [2023-v1].iso` and `wou-w61-x64 [2023-v1].iso`.  Mount the .iso on target machine and run `UpdateInstaller.exe`. 
 
 ![alt InstallWindowsUpdate](img/InstallWindowsUpdate.png)
 
 It runs for hours and reboots several times until finish. 
 
-2. Manual update - In any case a update may fail. Navigate to [MicrosoftRUpdate Catalog](https://catalog.update.microsoft.com/Home.aspx), type `KB2676562` and press `Search`.
+2. **Manual update** - In case of update failures, navigate to [MicrosoftRUpdate Catalog](https://catalog.update.microsoft.com/Home.aspx), type `KB2676562`, for example, and press `Search`.
 
 ![alt KB2676562-0](img/KB2676562-0.png)
 ![alt KB2676562-1](img/KB2676562-1.png)
@@ -56,9 +56,9 @@ Choose the one match your platform and press `Download.`
 ![alt KB2676562-2](img/KB2676562-2.png)
 ![alt KB2676562-3](img/KB2676562-3.png)
 
-Run the `.exe` to update, the problem of this approach is too tedious; 
+Run the `.exe` accordingly, the problem of this approach is too TEDIOUS; 
 
-3. Automatic update via third part software - Navigate to [Legacy Update](https://legacyupdate.net/), download `LegacyUpdate-1.13.exe` and install it. Legacy Update perform the same task as Windows Update. The problem of this approach is *SLOW*.
+3. **Automatic update** via third part software - Navigate to [Legacy Update](https://legacyupdate.net/), download `LegacyUpdate-1.13.exe` and install it. Legacy Update perform the same task as Windows Update. The problem of this approach is too SLOW.
 
 ![alt LegacyUpdate-1](img/LegacyUpdate-1.png)
 
@@ -66,9 +66,7 @@ Run the `.exe` to update, the problem of this approach is too tedious;
 
 
 #### III. The Major issues 
-- Black background 
-- USB 2.0 
-
+Using Windows 7 unactivated more than 30 days: 
 ![alt After-30-days-unactivated-1](img/After-30-days-unactivated-1.png)
 
 ![alt After-30-days-unactivated-2](img/After-30-days-unactivated-2.png)
@@ -76,6 +74,8 @@ Run the `.exe` to update, the problem of this approach is too tedious;
 ![alt After-30-days-unactivated-3](img/After-30-days-unactivated-3.png)
 
 ![alt After-30-days-unactivated-You-may-be-a-victim-of-software-counterfeiting](img/After-30-days-unactivated-You-may-be-a-victim-of-software-counterfeiting.png)
+
+- USB 2.0 
 
 
 #### IV. Summary 
