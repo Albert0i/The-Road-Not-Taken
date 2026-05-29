@@ -122,19 +122,4 @@ My wallpaper is available in [here](img/Copilot_Windows_7.png), which is a versi
 > These words confirmed Julien’s happiness, which at the present moment was extreme; he spoke, he forgot to pose, and appeared the most charming man in the world to the two friends who were listening to him. Nevertheless, there was a slight lack of courage in all this eloquence which had suddenly come upon him. He was mortally afraid that Madame Derville would get tired of the wind before the storm, which was beginning to rise, and want to go back alone into the salon. He would then have remained tête-à-tête with Madame de Rênal. He had had, almost by accident that blind courage which is sufficient for action; but he felt that it was out of his power to speak the simplest word to Madame de Rênal. He was certain that, however slight her reproaches might be, he would nevertheless be worsted, and that the advantage he had just won would be destroyed.
 
 
-### EOF (2026/05/28)
-
-I used [Windows 7](https://en.wikipedia.org/wiki/Windows_7) for quite a long time then move to [Windows 10](https://en.wikipedia.org/wiki/Windows_10). And now I am on [Windows 11](https://en.wikipedia.org/wiki/Windows_11), [Open-Shell](https://github.com/Open-Shell/Open-Shell-Menu) is installed and classic theme is chosen to make it looks like Windows 7. 
-
-Windows 7 x64 to January 2026 with ESU ISO (English only)](https://www.threads.com/@thebobpony/post/DTrLVphkcK1/a-fully-updated-windows-x-to-january-with-esu-iso-english-only-that-fully-fills)
-[Windows Tiny 7](https://archive.org/details/windows-tiny-7_202204)
-[Windows XP 最終紀念版](https://apk.tw/thread-695987-1-1.html)
-[Internet Archive](https://archive.org/)
-
-[Updates: Microsoft Windows 7 Multilingual (flersproget)](https://archive.org/details/windows7updates24)
-[MicrosoftRUpdate Catalog](https://catalog.update.microsoft.com/Home.aspx)
-[LegacyUpdate](https://legacyupdate.net/)
-
-[Brave](https://brave.com/)
-[Supermium](https://win32subsystem.live/supermium/)
-[LibreWolf](https://librewolf.net/)
+### EOF (2026/05/29)
