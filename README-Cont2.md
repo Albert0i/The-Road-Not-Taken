@@ -39,8 +39,11 @@ First things first, You can’t directly download a Windows 7 SP1 ISO from Mic
 
 As Windows 7 officially reached end of support on January 14, 2020. The built-in Windows Update won't work anymore but you have three ways to apply all aforementioned updates. 
 
-1. **Offline update** - Navigate to [Updates: Microsoft Windows 7 Multilingual (flersproget)](https://archive.org/details/windows7updates24), download `windows7updates24.zip` which contains 
-`wou-w61-x86 [2023-v1].iso` and `wou-w61-x64 [2023-v1].iso`.  Mount the .iso on target machine and run `UpdateInstaller.exe`. 
+1. **Offline update** - Navigate to [Updates: Microsoft Windows 7 Multilingual (flersproget)](https://archive.org/details/windows7updates24): 
+
+![alt Updates_Microsoft_Windows_7_Multilingual_(flersproget)](img/Updates_Microsoft_Windows_7_Multilingual_(flersproget).JPG)
+
+`wou-w61-x64 [2026-v2].iso` and `Gwou-w61-x86 [2026-v2].iso` are available and you need the x64 one.  Mount the .iso on target machine and run `UpdateInstaller.exe`. 
 
 ![alt InstallWindowsUpdate](img/InstallWindowsUpdate.png)
 
@@ -81,6 +84,8 @@ Every time when Windows 7 starts, you are requested to activate or else the wall
 
 
 #### IV. Summary 
+Memory is recollection, we all live in the past in strict sense...
+
 ![alt Desktop-2026-05-18](img/Desktop-2026-05-18.png)
 
 My wallpaper is available in [here](img/Copilot_Windows_7.png), which is a version retouched by Copilot. Enjoy! 
