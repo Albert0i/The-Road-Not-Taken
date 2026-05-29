@@ -84,7 +84,7 @@ Every time when Windows 7 starts, you are requested to activate or else the wall
 
 
 #### IV. Summary 
-Memory is recollection, we all live in the past in strict sense...
+Memory is recollection, we all live in the past in strict sense so to speak...
 
 ![alt Desktop-2026-05-18](img/Desktop-2026-05-18.png)
 
