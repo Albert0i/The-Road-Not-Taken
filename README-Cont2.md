@@ -98,10 +98,10 @@ My wallpaper is available in [here](img/Copilot_Windows_7.png), which is a versi
 4. [Legacy Update](https://legacyupdate.net/)
 5. [The Book of Disquiet by Fernando Pessoa](https://dn720004.ca.archive.org/0/items/english-collections-1/Book%20of%20Disquiet%2C%20The%20-%20Fernando%20Pessoa.pdf)
 
-[
+
 #### Epilogue 
 
-![alt StendhalRedandBlack](img/StendhalRedandBlack04.jpg)](https://en.wikipedia.org/wiki/The_Red_and_the_Black)
+[![alt StendhalRedandBlack](img/StendhalRedandBlack04.jpg)](https://en.wikipedia.org/wiki/The_Red_and_the_Black)
 
 > At last they sat down, Madame de Rênal beside Julien, and Madame Derville near her friend. Engrossed as he was by the attempt which he was going to make, Julien could think of nothing to say. The conversation languished.
 
