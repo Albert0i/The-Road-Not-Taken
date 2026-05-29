@@ -43,7 +43,7 @@ As Windows 7 officially reached end of support on January 14, 2020. The bu
 
 ![alt Updates_Microsoft_Windows_7_Multilingual_(flersproget)](img/Updates_Microsoft_Windows_7_Multilingual_(flersproget).JPG)
 
-`wou-w61-x64 [2026-v2].iso` and `Gwou-w61-x86 [2026-v2].iso` are available and you need the x64 one.  Mount the .iso on target machine and run `UpdateInstaller.exe`. 
+`wou-w61-x64 [2026-v2].iso` and `Gwou-w61-x86 [2026-v2].iso` are available and you need the x64 one. Download and mount the .iso on target machine and run `UpdateInstaller.exe`. 
 
 ![alt InstallWindowsUpdate](img/InstallWindowsUpdate.png)
 
