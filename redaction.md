@@ -32,23 +32,22 @@ CREATE TABLE SENSITIVE_COLUMNS (
 CREATE TABLE SENSITIVE_COLUMNS (
   id            NUMBER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   schema_name   VARCHAR2(30) DEFAULT 'DCDEVDTA',
-  table_name    VARCHAR2(30) NOT NULL,
-  column_name   VARCHAR2(30) NOT NULL,
+  file_name     VARCHAR2(30) NOT NULL,
+  field_name    VARCHAR2(30) NOT NULL,
   policy_name   VARCHAR2(100),
-  mask_type     VARCHAR2(20),   -- FULL, PARTIAL, REGEXP, NULLIFY
-  mask_params   VARCHAR2(200),  -- optional parameters
+  mask_type     VARCHAR2(20),
+  mask_params   VARCHAR2(200),
   create_date   TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-  CONSTRAINT uq_sensitive UNIQUE (schema_name, table_name, column_name)
+  CONSTRAINT uq_sensitive UNIQUE (schema_name, file_name, field_name)
 );
 
 CREATE OR REPLACE TRIGGER trg_sensitive_columns_policy
 BEFORE INSERT OR UPDATE ON SENSITIVE_COLUMNS
 FOR EACH ROW
 BEGIN
-  :NEW.policy_name := :NEW.schema_name || '_' || :NEW.table_name || '_' || :NEW.column_name;
+  :NEW.policy_name := :NEW.schema_name || '_' || :NEW.file_name || '_' || :NEW.field_name || '_POLICY';
   :NEW.create_date := CURRENT_TIMESTAMP;
 END;
-/
 ```
 
 Populate it with entries for each sensitive field:
@@ -62,19 +61,19 @@ INSERT INTO SENSITIVE_COLUMNS VALUES ('HR','EMPLOYEE','NATIONAL_ID','NID_MASK_PO
 
 -- V2
 -- Insert NAME column
-INSERT INTO SENSITIVE_COLUMNS (schema_name, table_name, column_name, mask_type, mask_params)
+INSERT INTO SENSITIVE_COLUMNS (schema_name, file_name, field_name, mask_type, mask_params)
 VALUES ('HR','EMPLOYEE','NAME','FULL',NULL);
 
 -- Insert ADDRESS column
-INSERT INTO SENSITIVE_COLUMNS (schema_name, table_name, column_name, mask_type, mask_params)
+INSERT INTO SENSITIVE_COLUMNS (schema_name, file_name, field_name, mask_type, mask_params)
 VALUES ('HR','EMPLOYEE','ADDRESS','REGEXP','''[一-龥0-9]'',''#''');
 
 -- Insert DOB column
-INSERT INTO SENSITIVE_COLUMNS (schema_name, table_name, column_name, mask_type, mask_params)
+INSERT INTO SENSITIVE_COLUMNS (schema_name, file_name, field_name, mask_type, mask_params)
 VALUES ('HR','EMPLOYEE','DOB','PARTIAL','0,10,''XXXX-XX-XX''');
 
 -- Insert NATIONAL_ID column
-INSERT INTO SENSITIVE_COLUMNS (schema_name, table_name, column_name, mask_type, mask_params)
+INSERT INTO SENSITIVE_COLUMNS (schema_name, file_name, field_name, mask_type, mask_params)
 VALUES ('HR','EMPLOYEE','NATIONAL_ID','PARTIAL','0,12,''XXXXXXXXXXXX''');
 ```
 
@@ -93,7 +92,7 @@ BEGIN
     BEGIN
       DBMS_REDACT.DROP_POLICY(
         object_schema => rec.schema_name,
-        object_name   => rec.table_name,
+        object_name   => rec.file_name,
         policy_name   => rec.policy_name
       );
     EXCEPTION WHEN OTHERS THEN NULL;
@@ -102,8 +101,8 @@ BEGIN
     -- Add policy based on mask_type
     DBMS_REDACT.ADD_POLICY(
       object_schema => rec.schema_name,
-      object_name   => rec.table_name,
-      column_name   => rec.column_name,
+      object_name   => rec.file_name,
+      column_name   => rec.field_name,
       policy_name   => rec.policy_name,
       function_type => CASE rec.mask_type
                          WHEN 'FULL'    THEN DBMS_REDACT.FULL
@@ -116,7 +115,6 @@ BEGIN
     );
   END LOOP;
 END;
-/
 ```
 
 ---
@@ -134,7 +132,6 @@ or in DBeaver:
 BEGIN
   APPLY_MASK_POLICIES;
 END;
-/
 ```
 
 Each run will:
