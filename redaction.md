@@ -18,6 +18,7 @@ This tutorial shows you how to build a **metadata‑driven, re‑run safe proced
 This table acts as a catalog of sensitive columns. Each row defines the schema, table, column, policy name, mask type, and optional parameters.
 
 ```sql
+-- V1 
 CREATE TABLE SENSITIVE_COLUMNS (
   schema_name   VARCHAR2(30),
   table_name    VARCHAR2(30),
@@ -26,15 +27,55 @@ CREATE TABLE SENSITIVE_COLUMNS (
   mask_type     VARCHAR2(20),   -- FULL, PARTIAL, REGEXP, NULLIFY
   mask_params   VARCHAR2(200)   -- optional parameters
 );
+
+-- V2 
+CREATE TABLE SENSITIVE_COLUMNS (
+  id            NUMBER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  schema_name   VARCHAR2(30) DEFAULT 'DCDEVDTA',
+  table_name    VARCHAR2(30) NOT NULL,
+  column_name   VARCHAR2(30) NOT NULL,
+  policy_name   VARCHAR2(100),
+  mask_type     VARCHAR2(20),   -- FULL, PARTIAL, REGEXP, NULLIFY
+  mask_params   VARCHAR2(200),  -- optional parameters
+  create_date   TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  CONSTRAINT uq_sensitive UNIQUE (schema_name, table_name, column_name)
+);
+
+CREATE OR REPLACE TRIGGER trg_sensitive_columns_policy
+BEFORE INSERT OR UPDATE ON SENSITIVE_COLUMNS
+FOR EACH ROW
+BEGIN
+  :NEW.policy_name := :NEW.schema_name || '_' || :NEW.table_name || '_' || :NEW.column_name;
+  :NEW.create_date := CURRENT_TIMESTAMP;
+END;
+/
 ```
 
 Populate it with entries for each sensitive field:
 
 ```sql
+-- V1 
 INSERT INTO SENSITIVE_COLUMNS VALUES ('HR','EMPLOYEE','NAME','NAME_MASK_POLICY','FULL',NULL);
 INSERT INTO SENSITIVE_COLUMNS VALUES ('HR','EMPLOYEE','ADDRESS','ADDR_MASK_POLICY','REGEXP','''[一-龥0-9]'',''#''');
 INSERT INTO SENSITIVE_COLUMNS VALUES ('HR','EMPLOYEE','DOB','DOB_MASK_POLICY','PARTIAL','0,10,''XXXX-XX-XX''');
 INSERT INTO SENSITIVE_COLUMNS VALUES ('HR','EMPLOYEE','NATIONAL_ID','NID_MASK_POLICY','PARTIAL','0,12,''XXXXXXXXXXXX''');
+
+-- V2
+-- Insert NAME column
+INSERT INTO SENSITIVE_COLUMNS (schema_name, table_name, column_name, mask_type, mask_params)
+VALUES ('HR','EMPLOYEE','NAME','FULL',NULL);
+
+-- Insert ADDRESS column
+INSERT INTO SENSITIVE_COLUMNS (schema_name, table_name, column_name, mask_type, mask_params)
+VALUES ('HR','EMPLOYEE','ADDRESS','REGEXP','''[一-龥0-9]'',''#''');
+
+-- Insert DOB column
+INSERT INTO SENSITIVE_COLUMNS (schema_name, table_name, column_name, mask_type, mask_params)
+VALUES ('HR','EMPLOYEE','DOB','PARTIAL','0,10,''XXXX-XX-XX''');
+
+-- Insert NATIONAL_ID column
+INSERT INTO SENSITIVE_COLUMNS (schema_name, table_name, column_name, mask_type, mask_params)
+VALUES ('HR','EMPLOYEE','NATIONAL_ID','PARTIAL','0,12,''XXXXXXXXXXXX''');
 ```
 
 This table becomes your **single source of truth** for masking definitions.
